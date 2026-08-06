@@ -1,0 +1,15 @@
+# virtual environment
+.venv/
+venv/
+# python
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+# app / run artefacts
+runs.jsonl
+synth_out/
+synth_eval/
+*.tmp
+# never commit real client data
+data/real/

@@ -1,0 +1,8 @@
+# Python dependencies (installed automatically by `pip install -e .`).
+pypdf>=4.0
+reportlab>=4.0
+img2pdf>=0.5
+pillow>=10.0
+flask>=3.0
+# Optional — only for the Anthropic NLI backend:
+# anthropic>=0.34

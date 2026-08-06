@@ -1,0 +1,19 @@
+{
+  "address": "18 Elm Close, Northgate",
+  "postcode": "NG1 4LB",
+  "seller": "Grace Sharma",
+  "property_type": "End-terrace house",
+  "tenure": "Freehold",
+  "works": "Single-storey rear extension completed in 2016.",
+  "explanation": "The works were exempt from Building Regulations.",
+  "disputes_answer": "Yes",
+  "disputes_details": "",
+  "guarantees": [
+    "Damp-proofing guarantee",
+    "Double-glazing (FENSA) certificate"
+  ],
+  "flooding": "No",
+  "injected_faults": [
+    "missing_detail"
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "ground_truth": {
+    "header": {
+      "Property Address": "170 Elm Close, Bramfield",
+      "Postcode": "BR8 5XD",
+      "Seller 1": "Daniel Bennett"
+    },
+    "answers": {
+      "3": {
+        "answer": "Yes",
+        "details": ""
+      },
+      "4": {
+        "answer": "No",
+        "details": ""
+      },
+      "5": {
+        "answer": "No",
+        "details": ""
+      }
+    }
+  },
+  "extracted": {
+    "route": "acroform_digital",
+    "header": {
+      "Property Address": "170 Elm Close, Bramfield",
+      "Postcode": "BR8 5XD",
+      "Seller 1": "Daniel Bennett"
+    },
+    "answers": [
+      {
+        "q": 1,
+        "question": "If yes, give details such as when this took place and who was involved",
+        "answer": "blank",
+        "details": ""
+      },
+      {
+        "q": 2,
+        "question": "If yes, please give details:",
+        "answer": "blank",
+        "details": ""
+      },
+      {
+        "q": 3,
+        "question": "neighbour taking over or building on any part of your property?",
+        "answer": "Yes",
+        "details": ""
+      },
+      {
+        "q": 4,
+        "question": "covered walkways.",
+        "answer": "No",
+        "details": ""
+      },
+      {
+        "q": 5,
+        "question": "shared/party walls or boundaries?",
+        "answer": "No",
+        "details": ""
+      }
+    ]
+  }
+}

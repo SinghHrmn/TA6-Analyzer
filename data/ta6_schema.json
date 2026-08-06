@@ -1,0 +1,3180 @@
+[
+  {
+    "field_id": "Postcode",
+    "type": "text",
+    "page": 1,
+    "section": "1. Property and seller details",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Property Address",
+    "type": "text",
+    "page": 1,
+    "section": "1. Property and seller details",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Property Date",
+    "type": "text",
+    "page": 1,
+    "section": "1. Property and seller details",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Role Seller",
+    "type": "checkbox",
+    "page": 1,
+    "section": "1. Property and seller details",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Seller 1",
+    "type": "text",
+    "page": 1,
+    "section": "1. Property and seller details",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Seller 2",
+    "type": "text",
+    "page": 1,
+    "section": "1. Property and seller details",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Seller 3",
+    "type": "text",
+    "page": 1,
+    "section": "1. Property and seller details",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Seller 4",
+    "type": "text",
+    "page": 1,
+    "section": "1. Property and seller details",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Seller Attorney",
+    "type": "checkbox",
+    "page": 1,
+    "section": "1. Property and seller details",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Seller Company Country",
+    "type": "text",
+    "page": 1,
+    "section": "1. Property and seller details",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Seller Company Number",
+    "type": "text",
+    "page": 1,
+    "section": "1. Property and seller details",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Seller Director",
+    "type": "text",
+    "page": 1,
+    "section": "1. Property and seller details",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Seller Executor",
+    "type": "checkbox",
+    "page": 1,
+    "section": "1. Property and seller details",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Seller Trustee",
+    "type": "checkbox",
+    "page": 1,
+    "section": "1. Property and seller details",
+    "edition": "6th"
+  },
+  {
+    "field_id": "UPRN",
+    "type": "text",
+    "page": 1,
+    "section": "1. Property and seller details",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Quill Reference",
+    "type": "text",
+    "page": 2,
+    "section": "page 2",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Solicitor",
+    "type": "text",
+    "page": 2,
+    "section": "page 2",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Solicitor Email",
+    "type": "text",
+    "page": 2,
+    "section": "page 2",
+    "edition": "6th"
+  },
+  {
+    "field_id": "2",
+    "type": "None",
+    "page": 6,
+    "section": "4. Notices",
+    "edition": "6th"
+  },
+  {
+    "field_id": "3",
+    "type": "None",
+    "page": 6,
+    "section": "4. Notices",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box46",
+    "type": "checkbox",
+    "page": 6,
+    "section": "4. Notices",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box47",
+    "type": "checkbox",
+    "page": 6,
+    "section": "4. Notices",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box48",
+    "type": "checkbox",
+    "page": 6,
+    "section": "4. Notices",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box49",
+    "type": "checkbox",
+    "page": 6,
+    "section": "4. Notices",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box50",
+    "type": "checkbox",
+    "page": 6,
+    "section": "4. Notices",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box51",
+    "type": "checkbox",
+    "page": 6,
+    "section": "4. Notices",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box52",
+    "type": "checkbox",
+    "page": 6,
+    "section": "4. Notices",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box53",
+    "type": "checkbox",
+    "page": 6,
+    "section": "4. Notices",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box54",
+    "type": "checkbox",
+    "page": 6,
+    "section": "4. Notices",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box55",
+    "type": "checkbox",
+    "page": 6,
+    "section": "4. Notices",
+    "edition": "6th"
+  },
+  {
+    "field_id": "9",
+    "type": "None",
+    "page": 9,
+    "section": "page 9",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box103",
+    "type": "checkbox",
+    "page": 9,
+    "section": "page 9",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box104",
+    "type": "checkbox",
+    "page": 9,
+    "section": "page 9",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box105",
+    "type": "checkbox",
+    "page": 9,
+    "section": "page 9",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box106",
+    "type": "checkbox",
+    "page": 9,
+    "section": "page 9",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box107",
+    "type": "checkbox",
+    "page": 9,
+    "section": "page 9",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box108",
+    "type": "checkbox",
+    "page": 9,
+    "section": "page 9",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box109",
+    "type": "checkbox",
+    "page": 9,
+    "section": "page 9",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box110",
+    "type": "checkbox",
+    "page": 9,
+    "section": "page 9",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box111",
+    "type": "checkbox",
+    "page": 9,
+    "section": "page 9",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box112",
+    "type": "checkbox",
+    "page": 9,
+    "section": "page 9",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box113",
+    "type": "checkbox",
+    "page": 9,
+    "section": "page 9",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box114",
+    "type": "checkbox",
+    "page": 9,
+    "section": "page 9",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box115",
+    "type": "checkbox",
+    "page": 9,
+    "section": "page 9",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box116",
+    "type": "checkbox",
+    "page": 9,
+    "section": "page 9",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box117",
+    "type": "checkbox",
+    "page": 9,
+    "section": "page 9",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box118",
+    "type": "checkbox",
+    "page": 9,
+    "section": "page 9",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box119",
+    "type": "checkbox",
+    "page": 9,
+    "section": "page 9",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box120",
+    "type": "checkbox",
+    "page": 9,
+    "section": "page 9",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box121",
+    "type": "checkbox",
+    "page": 9,
+    "section": "page 9",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box122",
+    "type": "checkbox",
+    "page": 9,
+    "section": "page 9",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box123",
+    "type": "checkbox",
+    "page": 9,
+    "section": "page 9",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box124",
+    "type": "checkbox",
+    "page": 9,
+    "section": "page 9",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box125",
+    "type": "checkbox",
+    "page": 9,
+    "section": "page 9",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box126",
+    "type": "checkbox",
+    "page": 9,
+    "section": "page 9",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box127",
+    "type": "checkbox",
+    "page": 9,
+    "section": "page 9",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box128",
+    "type": "checkbox",
+    "page": 9,
+    "section": "page 9",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box129",
+    "type": "checkbox",
+    "page": 9,
+    "section": "page 9",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box130",
+    "type": "checkbox",
+    "page": 10,
+    "section": "6. Guarantees and warranties",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box131",
+    "type": "checkbox",
+    "page": 10,
+    "section": "6. Guarantees and warranties",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box132",
+    "type": "checkbox",
+    "page": 10,
+    "section": "6. Guarantees and warranties",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box133",
+    "type": "checkbox",
+    "page": 10,
+    "section": "6. Guarantees and warranties",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box134",
+    "type": "checkbox",
+    "page": 10,
+    "section": "6. Guarantees and warranties",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box135",
+    "type": "checkbox",
+    "page": 10,
+    "section": "6. Guarantees and warranties",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box136",
+    "type": "checkbox",
+    "page": 10,
+    "section": "6. Guarantees and warranties",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box137",
+    "type": "checkbox",
+    "page": 10,
+    "section": "6. Guarantees and warranties",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box138",
+    "type": "checkbox",
+    "page": 10,
+    "section": "6. Guarantees and warranties",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box139",
+    "type": "checkbox",
+    "page": 10,
+    "section": "6. Guarantees and warranties",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box140",
+    "type": "checkbox",
+    "page": 10,
+    "section": "6. Guarantees and warranties",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box141",
+    "type": "checkbox",
+    "page": 10,
+    "section": "6. Guarantees and warranties",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box142",
+    "type": "checkbox",
+    "page": 10,
+    "section": "6. Guarantees and warranties",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box143",
+    "type": "checkbox",
+    "page": 10,
+    "section": "6. Guarantees and warranties",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box144",
+    "type": "checkbox",
+    "page": 10,
+    "section": "6. Guarantees and warranties",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box145",
+    "type": "checkbox",
+    "page": 10,
+    "section": "6. Guarantees and warranties",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box146",
+    "type": "checkbox",
+    "page": 10,
+    "section": "6. Guarantees and warranties",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box147",
+    "type": "checkbox",
+    "page": 10,
+    "section": "6. Guarantees and warranties",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box148",
+    "type": "checkbox",
+    "page": 10,
+    "section": "6. Guarantees and warranties",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box149",
+    "type": "checkbox",
+    "page": 10,
+    "section": "6. Guarantees and warranties",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box150",
+    "type": "checkbox",
+    "page": 10,
+    "section": "6. Guarantees and warranties",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box151",
+    "type": "checkbox",
+    "page": 10,
+    "section": "6. Guarantees and warranties",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box152",
+    "type": "checkbox",
+    "page": 10,
+    "section": "6. Guarantees and warranties",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box153",
+    "type": "checkbox",
+    "page": 10,
+    "section": "6. Guarantees and warranties",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box154",
+    "type": "checkbox",
+    "page": 10,
+    "section": "6. Guarantees and warranties",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box155",
+    "type": "checkbox",
+    "page": 10,
+    "section": "6. Guarantees and warranties",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box156",
+    "type": "checkbox",
+    "page": 10,
+    "section": "6. Guarantees and warranties",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box157",
+    "type": "checkbox",
+    "page": 10,
+    "section": "6. Guarantees and warranties",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box158",
+    "type": "checkbox",
+    "page": 10,
+    "section": "6. Guarantees and warranties",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box159",
+    "type": "checkbox",
+    "page": 10,
+    "section": "6. Guarantees and warranties",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box160",
+    "type": "checkbox",
+    "page": 10,
+    "section": "6. Guarantees and warranties",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box161",
+    "type": "checkbox",
+    "page": 10,
+    "section": "6. Guarantees and warranties",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box162",
+    "type": "checkbox",
+    "page": 10,
+    "section": "6. Guarantees and warranties",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box163",
+    "type": "checkbox",
+    "page": 10,
+    "section": "6. Guarantees and warranties",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box164",
+    "type": "checkbox",
+    "page": 10,
+    "section": "6. Guarantees and warranties",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box165",
+    "type": "checkbox",
+    "page": 10,
+    "section": "6. Guarantees and warranties",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box166",
+    "type": "checkbox",
+    "page": 10,
+    "section": "6. Guarantees and warranties",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box167",
+    "type": "checkbox",
+    "page": 10,
+    "section": "6. Guarantees and warranties",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box168",
+    "type": "checkbox",
+    "page": 10,
+    "section": "6. Guarantees and warranties",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box169",
+    "type": "checkbox",
+    "page": 10,
+    "section": "6. Guarantees and warranties",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box170",
+    "type": "checkbox",
+    "page": 11,
+    "section": "8. Environmental matters",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box171",
+    "type": "checkbox",
+    "page": 11,
+    "section": "8. Environmental matters",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box172",
+    "type": "checkbox",
+    "page": 11,
+    "section": "8. Environmental matters",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box173",
+    "type": "checkbox",
+    "page": 11,
+    "section": "8. Environmental matters",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box174",
+    "type": "checkbox",
+    "page": 11,
+    "section": "8. Environmental matters",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box175",
+    "type": "checkbox",
+    "page": 11,
+    "section": "8. Environmental matters",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box176",
+    "type": "checkbox",
+    "page": 11,
+    "section": "8. Environmental matters",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box177",
+    "type": "checkbox",
+    "page": 11,
+    "section": "8. Environmental matters",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box178",
+    "type": "checkbox",
+    "page": 11,
+    "section": "8. Environmental matters",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box179",
+    "type": "checkbox",
+    "page": 11,
+    "section": "8. Environmental matters",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box180",
+    "type": "checkbox",
+    "page": 11,
+    "section": "8. Environmental matters",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box181",
+    "type": "checkbox",
+    "page": 11,
+    "section": "8. Environmental matters",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box182",
+    "type": "checkbox",
+    "page": 11,
+    "section": "8. Environmental matters",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box183",
+    "type": "checkbox",
+    "page": 11,
+    "section": "8. Environmental matters",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box184",
+    "type": "checkbox",
+    "page": 11,
+    "section": "8. Environmental matters",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box185",
+    "type": "checkbox",
+    "page": 11,
+    "section": "8. Environmental matters",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box186",
+    "type": "checkbox",
+    "page": 11,
+    "section": "8. Environmental matters",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box187",
+    "type": "checkbox",
+    "page": 11,
+    "section": "8. Environmental matters",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box188",
+    "type": "checkbox",
+    "page": 11,
+    "section": "8. Environmental matters",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box189",
+    "type": "checkbox",
+    "page": 11,
+    "section": "8. Environmental matters",
+    "edition": "6th"
+  },
+  {
+    "field_id": "5",
+    "type": "None",
+    "page": 12,
+    "section": "page 12",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box1",
+    "type": "checkbox",
+    "page": 12,
+    "section": "page 12",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box10",
+    "type": "checkbox",
+    "page": 12,
+    "section": "page 12",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box11",
+    "type": "checkbox",
+    "page": 12,
+    "section": "page 12",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box12",
+    "type": "checkbox",
+    "page": 12,
+    "section": "page 12",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box13",
+    "type": "checkbox",
+    "page": 12,
+    "section": "page 12",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box14",
+    "type": "checkbox",
+    "page": 12,
+    "section": "page 12",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box15",
+    "type": "checkbox",
+    "page": 12,
+    "section": "page 12",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box16",
+    "type": "checkbox",
+    "page": 12,
+    "section": "page 12",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box17",
+    "type": "checkbox",
+    "page": 12,
+    "section": "page 12",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box18",
+    "type": "checkbox",
+    "page": 12,
+    "section": "page 12",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box19",
+    "type": "checkbox",
+    "page": 12,
+    "section": "page 12",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box2",
+    "type": "checkbox",
+    "page": 12,
+    "section": "page 12",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box20",
+    "type": "checkbox",
+    "page": 12,
+    "section": "page 12",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box21",
+    "type": "checkbox",
+    "page": 12,
+    "section": "page 12",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box22",
+    "type": "checkbox",
+    "page": 12,
+    "section": "page 12",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box23",
+    "type": "checkbox",
+    "page": 12,
+    "section": "page 12",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box24",
+    "type": "checkbox",
+    "page": 12,
+    "section": "page 12",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box25",
+    "type": "checkbox",
+    "page": 12,
+    "section": "page 12",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box26",
+    "type": "checkbox",
+    "page": 12,
+    "section": "page 12",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box27",
+    "type": "checkbox",
+    "page": 12,
+    "section": "page 12",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box28",
+    "type": "checkbox",
+    "page": 12,
+    "section": "page 12",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box29",
+    "type": "checkbox",
+    "page": 12,
+    "section": "page 12",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box3",
+    "type": "checkbox",
+    "page": 12,
+    "section": "page 12",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box30",
+    "type": "checkbox",
+    "page": 12,
+    "section": "page 12",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box31",
+    "type": "checkbox",
+    "page": 12,
+    "section": "page 12",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box5",
+    "type": "checkbox",
+    "page": 12,
+    "section": "page 12",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box6",
+    "type": "checkbox",
+    "page": 12,
+    "section": "page 12",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box7",
+    "type": "checkbox",
+    "page": 12,
+    "section": "page 12",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box8",
+    "type": "checkbox",
+    "page": 12,
+    "section": "page 12",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box9",
+    "type": "checkbox",
+    "page": 12,
+    "section": "page 12",
+    "edition": "6th"
+  },
+  {
+    "field_id": "4",
+    "type": "None",
+    "page": 13,
+    "section": "9. Rights and informal arrangements",
+    "edition": "6th"
+  },
+  {
+    "field_id": "6",
+    "type": "None",
+    "page": 13,
+    "section": "9. Rights and informal arrangements",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box32",
+    "type": "checkbox",
+    "page": 13,
+    "section": "9. Rights and informal arrangements",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box33",
+    "type": "checkbox",
+    "page": 13,
+    "section": "9. Rights and informal arrangements",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box34",
+    "type": "checkbox",
+    "page": 13,
+    "section": "9. Rights and informal arrangements",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box35",
+    "type": "checkbox",
+    "page": 13,
+    "section": "9. Rights and informal arrangements",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box36",
+    "type": "checkbox",
+    "page": 13,
+    "section": "9. Rights and informal arrangements",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box37",
+    "type": "checkbox",
+    "page": 13,
+    "section": "9. Rights and informal arrangements",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box38",
+    "type": "checkbox",
+    "page": 13,
+    "section": "9. Rights and informal arrangements",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box39",
+    "type": "checkbox",
+    "page": 13,
+    "section": "9. Rights and informal arrangements",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box40",
+    "type": "checkbox",
+    "page": 13,
+    "section": "9. Rights and informal arrangements",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box41",
+    "type": "checkbox",
+    "page": 13,
+    "section": "9. Rights and informal arrangements",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box43",
+    "type": "checkbox",
+    "page": 13,
+    "section": "9. Rights and informal arrangements",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box44",
+    "type": "checkbox",
+    "page": 13,
+    "section": "9. Rights and informal arrangements",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box45",
+    "type": "checkbox",
+    "page": 13,
+    "section": "9. Rights and informal arrangements",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box56",
+    "type": "checkbox",
+    "page": 13,
+    "section": "9. Rights and informal arrangements",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box57",
+    "type": "checkbox",
+    "page": 13,
+    "section": "9. Rights and informal arrangements",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box58",
+    "type": "checkbox",
+    "page": 13,
+    "section": "9. Rights and informal arrangements",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box60",
+    "type": "checkbox",
+    "page": 14,
+    "section": "10. Parking",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box61",
+    "type": "checkbox",
+    "page": 14,
+    "section": "10. Parking",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box62",
+    "type": "checkbox",
+    "page": 14,
+    "section": "10. Parking",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box63",
+    "type": "checkbox",
+    "page": 14,
+    "section": "10. Parking",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box64",
+    "type": "checkbox",
+    "page": 14,
+    "section": "10. Parking",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box65",
+    "type": "checkbox",
+    "page": 14,
+    "section": "10. Parking",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box66",
+    "type": "checkbox",
+    "page": 14,
+    "section": "10. Parking",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box67",
+    "type": "checkbox",
+    "page": 14,
+    "section": "10. Parking",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box68",
+    "type": "checkbox",
+    "page": 14,
+    "section": "10. Parking",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box69",
+    "type": "checkbox",
+    "page": 14,
+    "section": "10. Parking",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box70",
+    "type": "checkbox",
+    "page": 14,
+    "section": "10. Parking",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box71",
+    "type": "checkbox",
+    "page": 14,
+    "section": "10. Parking",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box72",
+    "type": "checkbox",
+    "page": 14,
+    "section": "10. Parking",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box73",
+    "type": "checkbox",
+    "page": 14,
+    "section": "10. Parking",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box74",
+    "type": "checkbox",
+    "page": 14,
+    "section": "10. Parking",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box75",
+    "type": "checkbox",
+    "page": 14,
+    "section": "10. Parking",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box76",
+    "type": "checkbox",
+    "page": 14,
+    "section": "10. Parking",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box77",
+    "type": "checkbox",
+    "page": 14,
+    "section": "10. Parking",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box78",
+    "type": "checkbox",
+    "page": 14,
+    "section": "10. Parking",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box100",
+    "type": "checkbox",
+    "page": 15,
+    "section": "11. Services",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box101",
+    "type": "checkbox",
+    "page": 15,
+    "section": "11. Services",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box102",
+    "type": "checkbox",
+    "page": 15,
+    "section": "11. Services",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box190",
+    "type": "checkbox",
+    "page": 15,
+    "section": "11. Services",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box191",
+    "type": "checkbox",
+    "page": 15,
+    "section": "11. Services",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box192",
+    "type": "checkbox",
+    "page": 15,
+    "section": "11. Services",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box193",
+    "type": "checkbox",
+    "page": 15,
+    "section": "11. Services",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box194",
+    "type": "checkbox",
+    "page": 15,
+    "section": "11. Services",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box195",
+    "type": "checkbox",
+    "page": 15,
+    "section": "11. Services",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box196",
+    "type": "checkbox",
+    "page": 15,
+    "section": "11. Services",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box79",
+    "type": "checkbox",
+    "page": 15,
+    "section": "11. Services",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box80",
+    "type": "checkbox",
+    "page": 15,
+    "section": "11. Services",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box81",
+    "type": "checkbox",
+    "page": 15,
+    "section": "11. Services",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box82",
+    "type": "checkbox",
+    "page": 15,
+    "section": "11. Services",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box83",
+    "type": "checkbox",
+    "page": 15,
+    "section": "11. Services",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box84",
+    "type": "checkbox",
+    "page": 15,
+    "section": "11. Services",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box85",
+    "type": "checkbox",
+    "page": 15,
+    "section": "11. Services",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box86",
+    "type": "checkbox",
+    "page": 15,
+    "section": "11. Services",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box87",
+    "type": "checkbox",
+    "page": 15,
+    "section": "11. Services",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box88",
+    "type": "checkbox",
+    "page": 15,
+    "section": "11. Services",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box89",
+    "type": "checkbox",
+    "page": 15,
+    "section": "11. Services",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box90",
+    "type": "checkbox",
+    "page": 15,
+    "section": "11. Services",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box91",
+    "type": "checkbox",
+    "page": 15,
+    "section": "11. Services",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box92",
+    "type": "checkbox",
+    "page": 15,
+    "section": "11. Services",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box93",
+    "type": "checkbox",
+    "page": 15,
+    "section": "11. Services",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box94",
+    "type": "checkbox",
+    "page": 15,
+    "section": "11. Services",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box95",
+    "type": "checkbox",
+    "page": 15,
+    "section": "11. Services",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box96",
+    "type": "checkbox",
+    "page": 15,
+    "section": "11. Services",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box98",
+    "type": "checkbox",
+    "page": 15,
+    "section": "11. Services",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Date97_es_:date",
+    "type": "text",
+    "page": 15,
+    "section": "11. Services",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Date99_es_:date",
+    "type": "text",
+    "page": 15,
+    "section": "11. Services",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Text17",
+    "type": "text",
+    "page": 15,
+    "section": "11. Services",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box197",
+    "type": "checkbox",
+    "page": 16,
+    "section": "page 16",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box198",
+    "type": "checkbox",
+    "page": 16,
+    "section": "page 16",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box199",
+    "type": "checkbox",
+    "page": 16,
+    "section": "page 16",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box201",
+    "type": "checkbox",
+    "page": 16,
+    "section": "page 16",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box202",
+    "type": "checkbox",
+    "page": 16,
+    "section": "page 16",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box203",
+    "type": "checkbox",
+    "page": 16,
+    "section": "page 16",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box204",
+    "type": "checkbox",
+    "page": 16,
+    "section": "page 16",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box205",
+    "type": "checkbox",
+    "page": 16,
+    "section": "page 16",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box206",
+    "type": "checkbox",
+    "page": 16,
+    "section": "page 16",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box207",
+    "type": "checkbox",
+    "page": 16,
+    "section": "page 16",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box208",
+    "type": "checkbox",
+    "page": 16,
+    "section": "page 16",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box209",
+    "type": "checkbox",
+    "page": 16,
+    "section": "page 16",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box210",
+    "type": "checkbox",
+    "page": 16,
+    "section": "page 16",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box211",
+    "type": "checkbox",
+    "page": 16,
+    "section": "page 16",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box212",
+    "type": "checkbox",
+    "page": 16,
+    "section": "page 16",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box213",
+    "type": "checkbox",
+    "page": 16,
+    "section": "page 16",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box214",
+    "type": "checkbox",
+    "page": 16,
+    "section": "page 16",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box215",
+    "type": "checkbox",
+    "page": 16,
+    "section": "page 16",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box216",
+    "type": "checkbox",
+    "page": 16,
+    "section": "page 16",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box217",
+    "type": "checkbox",
+    "page": 16,
+    "section": "page 16",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box219",
+    "type": "checkbox",
+    "page": 16,
+    "section": "page 16",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Date200_es_:date",
+    "type": "text",
+    "page": 16,
+    "section": "page 16",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Date218_es_:date",
+    "type": "text",
+    "page": 16,
+    "section": "page 16",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Date220_es_:date",
+    "type": "text",
+    "page": 16,
+    "section": "page 16",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Date221_es_:date",
+    "type": "text",
+    "page": 16,
+    "section": "page 16",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Date222_es_:date",
+    "type": "text",
+    "page": 16,
+    "section": "page 16",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box224",
+    "type": "checkbox",
+    "page": 17,
+    "section": "12. Connection to services",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box225",
+    "type": "checkbox",
+    "page": 17,
+    "section": "12. Connection to services",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box226",
+    "type": "checkbox",
+    "page": 17,
+    "section": "12. Connection to services",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box227",
+    "type": "checkbox",
+    "page": 17,
+    "section": "12. Connection to services",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box228",
+    "type": "checkbox",
+    "page": 17,
+    "section": "12. Connection to services",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box229",
+    "type": "checkbox",
+    "page": 17,
+    "section": "12. Connection to services",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box230",
+    "type": "checkbox",
+    "page": 17,
+    "section": "12. Connection to services",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box231",
+    "type": "checkbox",
+    "page": 17,
+    "section": "12. Connection to services",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box232",
+    "type": "checkbox",
+    "page": 17,
+    "section": "12. Connection to services",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box233",
+    "type": "checkbox",
+    "page": 17,
+    "section": "12. Connection to services",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box234",
+    "type": "checkbox",
+    "page": 17,
+    "section": "12. Connection to services",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box235",
+    "type": "checkbox",
+    "page": 17,
+    "section": "12. Connection to services",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box236",
+    "type": "checkbox",
+    "page": 17,
+    "section": "12. Connection to services",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box237",
+    "type": "checkbox",
+    "page": 17,
+    "section": "12. Connection to services",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box238",
+    "type": "checkbox",
+    "page": 17,
+    "section": "12. Connection to services",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box244",
+    "type": "checkbox",
+    "page": 17,
+    "section": "12. Connection to services",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box245",
+    "type": "checkbox",
+    "page": 17,
+    "section": "12. Connection to services",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box249",
+    "type": "checkbox",
+    "page": 17,
+    "section": "12. Connection to services",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box250",
+    "type": "checkbox",
+    "page": 17,
+    "section": "12. Connection to services",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Date223_es_:date",
+    "type": "text",
+    "page": 17,
+    "section": "12. Connection to services",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Text240",
+    "type": "text",
+    "page": 17,
+    "section": "12. Connection to services",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Text242",
+    "type": "text",
+    "page": 17,
+    "section": "12. Connection to services",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Text243",
+    "type": "text",
+    "page": 17,
+    "section": "12. Connection to services",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Text246",
+    "type": "text",
+    "page": 17,
+    "section": "12. Connection to services",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Text247",
+    "type": "text",
+    "page": 17,
+    "section": "12. Connection to services",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Text248",
+    "type": "text",
+    "page": 17,
+    "section": "12. Connection to services",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Text251",
+    "type": "text",
+    "page": 17,
+    "section": "12. Connection to services",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Text252",
+    "type": "text",
+    "page": 17,
+    "section": "12. Connection to services",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Text253",
+    "type": "text",
+    "page": 17,
+    "section": "12. Connection to services",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box254",
+    "type": "checkbox",
+    "page": 18,
+    "section": "13. Transaction information",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box255",
+    "type": "checkbox",
+    "page": 18,
+    "section": "13. Transaction information",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box257",
+    "type": "checkbox",
+    "page": 18,
+    "section": "13. Transaction information",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box258",
+    "type": "checkbox",
+    "page": 18,
+    "section": "13. Transaction information",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box262",
+    "type": "checkbox",
+    "page": 18,
+    "section": "13. Transaction information",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box263",
+    "type": "checkbox",
+    "page": 18,
+    "section": "13. Transaction information",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box267",
+    "type": "checkbox",
+    "page": 18,
+    "section": "13. Transaction information",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box268",
+    "type": "checkbox",
+    "page": 18,
+    "section": "13. Transaction information",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box270",
+    "type": "checkbox",
+    "page": 18,
+    "section": "13. Transaction information",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box271",
+    "type": "checkbox",
+    "page": 18,
+    "section": "13. Transaction information",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box273",
+    "type": "checkbox",
+    "page": 18,
+    "section": "13. Transaction information",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box274",
+    "type": "checkbox",
+    "page": 18,
+    "section": "13. Transaction information",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box275",
+    "type": "checkbox",
+    "page": 18,
+    "section": "13. Transaction information",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box276",
+    "type": "checkbox",
+    "page": 18,
+    "section": "13. Transaction information",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box277",
+    "type": "checkbox",
+    "page": 18,
+    "section": "13. Transaction information",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box278",
+    "type": "checkbox",
+    "page": 18,
+    "section": "13. Transaction information",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Text19",
+    "type": "text",
+    "page": 18,
+    "section": "13. Transaction information",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Text256",
+    "type": "text",
+    "page": 18,
+    "section": "13. Transaction information",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Text259",
+    "type": "text",
+    "page": 18,
+    "section": "13. Transaction information",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Text260",
+    "type": "text",
+    "page": 18,
+    "section": "13. Transaction information",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Text261",
+    "type": "text",
+    "page": 18,
+    "section": "13. Transaction information",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Text264",
+    "type": "text",
+    "page": 18,
+    "section": "13. Transaction information",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Text265",
+    "type": "text",
+    "page": 18,
+    "section": "13. Transaction information",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Text266",
+    "type": "text",
+    "page": 18,
+    "section": "13. Transaction information",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Text269",
+    "type": "text",
+    "page": 18,
+    "section": "13. Transaction information",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Text272",
+    "type": "text",
+    "page": 18,
+    "section": "13. Transaction information",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box279",
+    "type": "checkbox",
+    "page": 19,
+    "section": "14. Completion",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box280",
+    "type": "checkbox",
+    "page": 19,
+    "section": "14. Completion",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box281",
+    "type": "checkbox",
+    "page": 19,
+    "section": "14. Completion",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box282",
+    "type": "checkbox",
+    "page": 19,
+    "section": "14. Completion",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box283",
+    "type": "checkbox",
+    "page": 19,
+    "section": "14. Completion",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box284",
+    "type": "checkbox",
+    "page": 19,
+    "section": "14. Completion",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box285",
+    "type": "checkbox",
+    "page": 19,
+    "section": "14. Completion",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box286",
+    "type": "checkbox",
+    "page": 19,
+    "section": "14. Completion",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box287",
+    "type": "checkbox",
+    "page": 19,
+    "section": "14. Completion",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box288",
+    "type": "checkbox",
+    "page": 19,
+    "section": "14. Completion",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box289",
+    "type": "checkbox",
+    "page": 19,
+    "section": "14. Completion",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box290",
+    "type": "checkbox",
+    "page": 19,
+    "section": "14. Completion",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box291",
+    "type": "checkbox",
+    "page": 19,
+    "section": "14. Completion",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box292",
+    "type": "checkbox",
+    "page": 19,
+    "section": "14. Completion",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box293",
+    "type": "checkbox",
+    "page": 19,
+    "section": "14. Completion",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box294",
+    "type": "checkbox",
+    "page": 19,
+    "section": "14. Completion",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box295",
+    "type": "checkbox",
+    "page": 19,
+    "section": "14. Completion",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box296",
+    "type": "checkbox",
+    "page": 19,
+    "section": "14. Completion",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box297",
+    "type": "checkbox",
+    "page": 19,
+    "section": "14. Completion",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box298",
+    "type": "checkbox",
+    "page": 19,
+    "section": "14. Completion",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box299",
+    "type": "checkbox",
+    "page": 19,
+    "section": "14. Completion",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box300",
+    "type": "checkbox",
+    "page": 20,
+    "section": "15. Additional information about your answers",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box301",
+    "type": "checkbox",
+    "page": 20,
+    "section": "15. Additional information about your answers",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box302",
+    "type": "checkbox",
+    "page": 20,
+    "section": "15. Additional information about your answers",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box303",
+    "type": "checkbox",
+    "page": 20,
+    "section": "15. Additional information about your answers",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box304",
+    "type": "checkbox",
+    "page": 20,
+    "section": "15. Additional information about your answers",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box305",
+    "type": "checkbox",
+    "page": 20,
+    "section": "15. Additional information about your answers",
+    "edition": "6th"
+  },
+  {
+    "field_id": "Check Box306",
+    "type": "checkbox",
+    "page": 20,
+    "section": "15. Additional information about your answers",
+    "edition": "6th"
+  },
+  {
+    "field_id": "10",
+    "type": "None",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "10.1",
+    "type": "text",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "10.3",
+    "type": "text",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "10.3b",
+    "type": "text",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "11",
+    "type": "None",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "11.1",
+    "type": "text",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "11.17h",
+    "type": "text",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "13",
+    "type": "None",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "13.2",
+    "type": "text",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "13.4a",
+    "type": "text",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "15",
+    "type": "None",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "15.1a",
+    "type": "text",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "15.1a tf",
+    "type": "text",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "15.1b",
+    "type": "text",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "15.2",
+    "type": "text",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "2.1 A NK_es_:date",
+    "type": "checkbox",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "2.1 A Neighbour",
+    "type": "checkbox",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "2.1 A Seller",
+    "type": "checkbox",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "2.1 A Shared_es_:date",
+    "type": "checkbox",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "2.1 B NK_es_:date",
+    "type": "checkbox",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "2.1 B Neighbour_es_:date",
+    "type": "checkbox",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "2.1 B Seller_es_:date",
+    "type": "checkbox",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "2.1 B Shared_es_:date",
+    "type": "checkbox",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "2.1 C NK_es_:date",
+    "type": "checkbox",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "2.1 C Neighbour_es_:date",
+    "type": "checkbox",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "2.1 C Seller_es_:date",
+    "type": "checkbox",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "2.1 C Shared_es_:date",
+    "type": "checkbox",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "2.1 D NK_es_:date",
+    "type": "checkbox",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "2.1 D Neighbour_es_:date",
+    "type": "checkbox",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "2.1 D Seller_es_:date",
+    "type": "checkbox",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "2.1 D Shared_es_:date",
+    "type": "checkbox",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "2.2 Plan_es_:date",
+    "type": "checkbox",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "2.2 TF_es_:date",
+    "type": "checkbox",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "2.2 Text",
+    "type": "text",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "2.3 No",
+    "type": "checkbox",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "2.3 Text",
+    "type": "text",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "2.3 Yes",
+    "type": "checkbox",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "2.4 NK",
+    "type": "checkbox",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "2.4 No",
+    "type": "checkbox",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "2.4 Text",
+    "type": "text",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "2.4 Yes",
+    "type": "checkbox",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "2.5 No",
+    "type": "checkbox",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "2.5 TF",
+    "type": "checkbox",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "2.5 Text",
+    "type": "text",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "2.5 Yes",
+    "type": "checkbox",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "2.5 attached",
+    "type": "checkbox",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "3.1 Text",
+    "type": "text",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "3.2",
+    "type": "text",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "4.1",
+    "type": "text",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "4.2",
+    "type": "text",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "4.3",
+    "type": "text",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "5.1 a n",
+    "type": "checkbox",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "5.1 a y",
+    "type": "checkbox",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "5.1 b n",
+    "type": "checkbox",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "5.1 b y",
+    "type": "checkbox",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "5.1 c n",
+    "type": "checkbox",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "5.1 c y",
+    "type": "checkbox",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "5.1 d n",
+    "type": "checkbox",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "5.1 d y",
+    "type": "checkbox",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "5.1 e n",
+    "type": "checkbox",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "5.1 e y",
+    "type": "checkbox",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "5.1 f y",
+    "type": "checkbox",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "5.1 fn",
+    "type": "checkbox",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "5.1 g n",
+    "type": "checkbox",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "5.1 g y",
+    "type": "checkbox",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "5.1 h n",
+    "type": "checkbox",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "5.1 h y",
+    "type": "checkbox",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "5.1 i n",
+    "type": "checkbox",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "5.1 i y",
+    "type": "checkbox",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "5.2 a text",
+    "type": "text",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "5.2 b n",
+    "type": "checkbox",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "5.2 b text",
+    "type": "text",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "5.2 b y",
+    "type": "checkbox",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "5.2 c att",
+    "type": "checkbox",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "5.2 c na",
+    "type": "checkbox",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "5.2 c tf",
+    "type": "checkbox",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "5.2 d i n",
+    "type": "checkbox",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "5.2 d i y",
+    "type": "checkbox",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "5.2 d ii",
+    "type": "text",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "5.3 att",
+    "type": "checkbox",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "5.3 n",
+    "type": "checkbox",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "5.3 text",
+    "type": "text",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "5.3 tf",
+    "type": "checkbox",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "5.3 y",
+    "type": "checkbox",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "5.4 Text",
+    "type": "text",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "5.4 n",
+    "type": "checkbox",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "5.4 y",
+    "type": "checkbox",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "5.5 Text",
+    "type": "text",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "5.5 n",
+    "type": "checkbox",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "5.5 y",
+    "type": "checkbox",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "5.6 a n",
+    "type": "checkbox",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "5.6 a y",
+    "type": "checkbox",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "5.6 b date_es_:date",
+    "type": "text",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "5.6 c n_es_:date",
+    "type": "checkbox",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "5.6 c y_es_:date",
+    "type": "checkbox",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "5.6 d att_es_:date",
+    "type": "checkbox",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "5.6 d n_es_:date",
+    "type": "checkbox",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "5.6 d tf_es_:date",
+    "type": "checkbox",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "5.6 d y_es_:date",
+    "type": "checkbox",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "5.6 e att_es_:date",
+    "type": "checkbox",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "5.6 e n_es_:date",
+    "type": "checkbox",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "5.6 e tf_es_:date",
+    "type": "checkbox",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "5.6 e y_es_:date",
+    "type": "checkbox",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "5.6 f n_es_:date",
+    "type": "checkbox",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "5.6 f y text",
+    "type": "text",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "5.6 f y_es_:date",
+    "type": "checkbox",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "5.6 n",
+    "type": "checkbox",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "5.6 y",
+    "type": "checkbox",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "5.9",
+    "type": "text",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "6.1 i",
+    "type": "text",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "6.2",
+    "type": "text",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "6.3",
+    "type": "text",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "7",
+    "type": "None",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "7.1",
+    "type": "text",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "7.2 Yes",
+    "type": "text",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "7.3 yes",
+    "type": "text",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "8",
+    "type": "None",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "8.1",
+    "type": "text",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "8.2",
+    "type": "text",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "8.5",
+    "type": "text",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "9.1",
+    "type": "text",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "9.2",
+    "type": "text",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "9.3",
+    "type": "text",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "9.4",
+    "type": "text",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "9.5",
+    "type": "text",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "9.6",
+    "type": "text",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  },
+  {
+    "field_id": "9.9",
+    "type": "text",
+    "page": null,
+    "section": "unknown",
+    "edition": "6th"
+  }
+]

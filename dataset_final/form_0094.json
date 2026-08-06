@@ -1,0 +1,75 @@
+{
+  "header": {
+    "Property Address": "167 Kestrel Way, Westbourne",
+    "Postcode": "WB8 1HX",
+    "Seller 1": "Daniel Bennett"
+  },
+  "answers": {
+    "3": {
+      "answer": "Yes",
+      "details": "Permission granted; certificate enclosed.",
+      "question": "neighbour taking over or building on any part of your proper"
+    },
+    "4": {
+      "answer": "Yes",
+      "details": "Permission granted; certificate enclosed.",
+      "question": "covered walkways."
+    },
+    "5": {
+      "answer": "No",
+      "details": "",
+      "question": "shared/party walls or boundaries?"
+    },
+    "1 a": {
+      "answer": "No",
+      "details": "",
+      "question": "glazed doors since 1 April 2002"
+    },
+    "1 b": {
+      "answer": "Yes",
+      "details": "",
+      "question": "(b) extension"
+    },
+    "1 c": {
+      "answer": "Yes",
+      "details": "",
+      "question": "(c) conservatory"
+    },
+    "1 d": {
+      "answer": "No",
+      "details": "",
+      "question": "(d) loft conversion"
+    },
+    "1 e": {
+      "answer": "Yes",
+      "details": "",
+      "question": "(e) garage conversion"
+    },
+    "1 g": {
+      "answer": "No",
+      "details": "",
+      "question": "(g) removal of chimney breast"
+    },
+    "1 h": {
+      "answer": "No",
+      "details": "",
+      "question": "(h) insulation"
+    },
+    "1 i": {
+      "answer": "Yes",
+      "details": "",
+      "question": "(i) other building works or changes to the property"
+    },
+    "2 b": {
+      "answer": "Yes",
+      "details": "",
+      "question": "(b)has all this work been completed?"
+    },
+    "6 a": {
+      "answer": "No",
+      "details": "",
+      "question": "(a) Is the system used only to provide hot water or heating"
+    }
+  },
+  "faults": []
+}

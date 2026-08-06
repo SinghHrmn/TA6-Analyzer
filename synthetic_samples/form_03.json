@@ -1,0 +1,16 @@
+{
+  "address": "170 Elm Close, Bramfield",
+  "postcode": "BR8 5XD",
+  "seller": "Daniel Bennett",
+  "property_type": "Semi-detached house",
+  "tenure": "Leasehold",
+  "works": "Garage converted into a habitable room in 2018.",
+  "explanation": "",
+  "disputes_answer": "No",
+  "disputes_details": "",
+  "guarantees": [],
+  "flooding": "No",
+  "injected_faults": [
+    "works_without_support"
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "header": {
+    "Property Address": "76 Elm Close, Cavendish",
+    "Postcode": "CV2 8TL",
+    "Seller 1": "Sofia Hartley"
+  },
+  "answers": {
+    "3": {
+      "answer": "No",
+      "details": "",
+      "question": "neighbour taking over or building on any part of your proper"
+    },
+    "4": {
+      "answer": "Yes",
+      "details": "",
+      "question": "covered walkways."
+    },
+    "5": {
+      "answer": "Yes",
+      "details": "Resolved amicably in 2021; see enclosed correspondence.",
+      "question": "shared/party walls or boundaries?"
+    },
+    "1 a": {
+      "answer": "No",
+      "details": "",
+      "question": "glazed doors since 1 April 2002"
+    },
+    "1 b": {
+      "answer": "No",
+      "details": "",
+      "question": "(b) extension"
+    },
+    "1 c": {
+      "answer": "No",
+      "details": "",
+      "question": "(c) conservatory"
+    },
+    "1 d": {
+      "answer": "No",
+      "details": "",
+      "question": "(d) loft conversion"
+    },
+    "1 e": {
+      "answer": "No",
+      "details": "",
+      "question": "(e) garage conversion"
+    },
+    "1 g": {
+      "answer": "No",
+      "details": "",
+      "question": "(g) removal of chimney breast"
+    },
+    "1 h": {
+      "answer": "No",
+      "details": "",
+      "question": "(h) insulation"
+    },
+    "1 i": {
+      "answer": "No",
+      "details": "",
+      "question": "(i) other building works or changes to the property"
+    },
+    "2 b": {
+      "answer": "Yes",
+      "details": "",
+      "question": "(b)has all this work been completed?"
+    },
+    "6 a": {
+      "answer": "No",
+      "details": "",
+      "question": "(a) Is the system used only to provide hot water or heating"
+    }
+  },
+  "faults": [
+    {
+      "q": "4",
+      "type": "missing_detail",
+      "question": "covered walkways."
+    }
+  ]
+}

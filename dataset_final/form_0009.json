@@ -1,0 +1,75 @@
+{
+  "header": {
+    "Property Address": "94 Priory Walk, Cavendish",
+    "Postcode": "CV9 3JL",
+    "Seller 1": "Sofia Nguyen"
+  },
+  "answers": {
+    "3": {
+      "answer": "No",
+      "details": "",
+      "question": "neighbour taking over or building on any part of your proper"
+    },
+    "4": {
+      "answer": "No",
+      "details": "",
+      "question": "covered walkways."
+    },
+    "5": {
+      "answer": "Yes",
+      "details": "Permission granted; certificate enclosed.",
+      "question": "shared/party walls or boundaries?"
+    },
+    "1 a": {
+      "answer": "No",
+      "details": "",
+      "question": "glazed doors since 1 April 2002"
+    },
+    "1 b": {
+      "answer": "Yes",
+      "details": "",
+      "question": "(b) extension"
+    },
+    "1 c": {
+      "answer": "No",
+      "details": "",
+      "question": "(c) conservatory"
+    },
+    "1 d": {
+      "answer": "Yes",
+      "details": "",
+      "question": "(d) loft conversion"
+    },
+    "1 e": {
+      "answer": "No",
+      "details": "",
+      "question": "(e) garage conversion"
+    },
+    "1 g": {
+      "answer": "Yes",
+      "details": "",
+      "question": "(g) removal of chimney breast"
+    },
+    "1 h": {
+      "answer": "Yes",
+      "details": "",
+      "question": "(h) insulation"
+    },
+    "1 i": {
+      "answer": "Yes",
+      "details": "",
+      "question": "(i) other building works or changes to the property"
+    },
+    "2 b": {
+      "answer": "Yes",
+      "details": "",
+      "question": "(b)has all this work been completed?"
+    },
+    "6 a": {
+      "answer": "No",
+      "details": "",
+      "question": "(a) Is the system used only to provide hot water or heating"
+    }
+  },
+  "faults": []
+}

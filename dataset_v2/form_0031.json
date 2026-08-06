@@ -1,0 +1,719 @@
+{
+  "form_id": "form_0031",
+  "header": {
+    "Property Address": "127 Kestrel Way, Westbourne",
+    "Postcode": "WB5 1LW",
+    "Seller 1": "Olivia Okafor",
+    "Property Date": "11/2024",
+    "UPRN": "73071292",
+    "Solicitor": "Robert Okafor",
+    "Solicitor Email": "robert.okafor@priory.co.uk",
+    "Quill Reference": "CNV-8473/LT",
+    "Role Seller": "/Yes",
+    "Seller Executor": "/Off",
+    "Seller Attorney": "/Off",
+    "Seller Trustee": "/Off"
+  },
+  "answers": {
+    "4:1 A": {
+      "question": "(a)on the left? Seller Neighbour Shared",
+      "kind": "radio",
+      "answer": "Not known"
+    },
+    "4:1 B": {
+      "question": "(b)on the right? Seller Neighbour Shared",
+      "kind": "radio",
+      "answer": "Seller"
+    },
+    "4:1 C": {
+      "question": "(c)at the rear? Seller Neighbour Shared",
+      "kind": "radio",
+      "answer": "Neighbour"
+    },
+    "4:1 D": {
+      "question": "(d)at the front? Seller Neighbour Shared",
+      "kind": "radio",
+      "answer": "Seller"
+    },
+    "4:3": {
+      "question": "Yes",
+      "kind": "radio",
+      "answer": "No"
+    },
+    "4:4": {
+      "question": "Yes No",
+      "kind": "radio",
+      "answer": "Yes"
+    },
+    "4:5": {
+      "question": "Yes",
+      "kind": "radio",
+      "answer": "Yes"
+    },
+    "6:1 a": {
+      "question": "glazed doors since 1 April 2002 Yes",
+      "kind": "radio",
+      "answer": "No"
+    },
+    "6:1 b": {
+      "question": "(b) extension Yes",
+      "kind": "radio",
+      "answer": "No"
+    },
+    "6:1 c": {
+      "question": "(c) conservatory Yes",
+      "kind": "radio",
+      "answer": "Yes"
+    },
+    "6:1 d": {
+      "question": "(d) loft conversion Yes",
+      "kind": "radio",
+      "answer": "No"
+    },
+    "6:1 f": {
+      "question": "(f) removal of internal walls",
+      "kind": "radio",
+      "answer": "No"
+    },
+    "6:1 e": {
+      "question": "(e) garage conversion Yes",
+      "kind": "radio",
+      "answer": "Yes"
+    },
+    "6:1 g": {
+      "question": "(g) removal of chimney breast Yes",
+      "kind": "radio",
+      "answer": "No"
+    },
+    "6:1 i": {
+      "question": "(i) other building works or changes to the property Yes",
+      "kind": "radio",
+      "answer": "No"
+    },
+    "6:1 h": {
+      "question": "(h) insulation Yes",
+      "kind": "radio",
+      "answer": "No"
+    },
+    "6:2 b": {
+      "question": "Yes",
+      "kind": "radio",
+      "answer": "No"
+    },
+    "6:2 c": {
+      "question": "competent person certificates for the work if you have them.",
+      "kind": "radio",
+      "answer": "Attached"
+    },
+    "6:2 d i": {
+      "question": "Yes",
+      "kind": "radio",
+      "answer": "No"
+    },
+    "7:3": {
+      "question": "If yes, give details and supply a copy of any relevant planning permission:",
+      "kind": "radio",
+      "answer": "Yes"
+    },
+    "7:4": {
+      "question": "Yes",
+      "kind": "radio",
+      "answer": "No"
+    },
+    "7:5": {
+      "question": "Yes",
+      "kind": "radio",
+      "answer": "No"
+    },
+    "7:6": {
+      "question": "Yes",
+      "kind": "radio",
+      "answer": "No"
+    },
+    "7:6 a": {
+      "question": "(a) Is the system used only to provide hot water or heating Yes",
+      "kind": "radio",
+      "answer": "Yes"
+    },
+    "7:6 c": {
+      "question": "(c)Do you own the system outright? Yes",
+      "kind": "radio",
+      "answer": "Yes"
+    },
+    "7:6 d": {
+      "question": "If yes, supply a copy of the lease.",
+      "kind": "radio",
+      "answer": "To follow"
+    },
+    "7:6 e": {
+      "question": "If yes, supply a copy of the agreement.",
+      "kind": "radio",
+      "answer": "To follow"
+    },
+    "7:6 f": {
+      "question": "(f)Is there a battery for storing solar power? Yes",
+      "kind": "radio",
+      "answer": "No"
+    },
+    "5:723": {
+      "question": "3.1 Are you aware of any disputes or complaints about the property or a property nearby?",
+      "kind": "yesno",
+      "answer": "No"
+    },
+    "5:607": {
+      "question": "ou aware of anything that might lead to a dispute about the property or a property nearby?",
+      "kind": "yesno",
+      "answer": "No"
+    },
+    "5:415": {
+      "question": "a property nearby? For example, from or to a neighbour, council or government department.",
+      "kind": "yesno",
+      "answer": "Yes"
+    },
+    "5:298": {
+      "question": "4.2 Are you aware of any plans or proposals to develop property or land nearby?",
+      "kind": "yesno",
+      "answer": "No"
+    },
+    "5:181": {
+      "question": "e you aware of any proposals to make alterations to or change the use of buildings nearby?",
+      "kind": "yesno",
+      "answer": "No"
+    },
+    "8:764": {
+      "question": "(g)Does the system feed into the National Grid?",
+      "kind": "yesno",
+      "answer": "No"
+    },
+    "8:699": {
+      "question": "(i)is there a Feed-in Tariff (FIT) or Smart Export Guarantee (SEG) in place?",
+      "kind": "yesno",
+      "answer": "No"
+    },
+    "8:Check Box113": {
+      "question": "Attached",
+      "kind": "multiselect",
+      "answer": "Off"
+    },
+    "8:Check Box114": {
+      "question": "To follow",
+      "kind": "multiselect",
+      "answer": "Off"
+    },
+    "8:Check Box115": {
+      "question": "Not available",
+      "kind": "multiselect",
+      "answer": "Off"
+    },
+    "8:397": {
+      "question": "5.7 Is the property (or any part of it) listed?",
+      "kind": "yesno_nk",
+      "answer": "No"
+    },
+    "8:328": {
+      "question": "5.8 Is the property (or any part of it) in a conservation area?",
+      "kind": "yesno_nk",
+      "answer": "No"
+    },
+    "8:261": {
+      "question": "9 Are any trees on or overhanging the property subject to a tree preservation order (TPO)?",
+      "kind": "yesno_nk",
+      "answer": "No"
+    },
+    "8:213": {
+      "question": "If yes, are you aware of any works carried out on those trees?",
+      "kind": "yesno_nk",
+      "answer": "Not known"
+    },
+    "9:711": {
+      "question": "(a)new home warranty (e.g. NHBC or similar)",
+      "kind": "yesno",
+      "answer": "Yes"
+    },
+    "9:669": {
+      "question": "(b)damp proofing",
+      "kind": "yesno",
+      "answer": "No"
+    },
+    "9:627": {
+      "question": "(c)timber treatment",
+      "kind": "yesno",
+      "answer": "No"
+    },
+    "9:584": {
+      "question": "(d)windows, roof lights, roof windows or glazed doors",
+      "kind": "yesno",
+      "answer": "Yes"
+    },
+    "9:542": {
+      "question": "(e)roofing",
+      "kind": "yesno",
+      "answer": "Yes"
+    },
+    "9:500": {
+      "question": "(f)boiler or heating systems",
+      "kind": "yesno",
+      "answer": "No"
+    },
+    "9:457": {
+      "question": "(g)underpinning",
+      "kind": "yesno",
+      "answer": "Yes"
+    },
+    "9:415": {
+      "question": "(h)insulation",
+      "kind": "yesno",
+      "answer": "No"
+    },
+    "9:372": {
+      "question": "(i)other (please state):",
+      "kind": "yesno",
+      "answer": "No"
+    },
+    "9:242": {
+      "question": "6.2 Are you aware of any claims under any of these guarantees or warranties?",
+      "kind": "yesno",
+      "answer": "No"
+    },
+    "9:127": {
+      "question": "nything that may breach the terms and conditions of any of these guarantees or warranties?",
+      "kind": "yesno",
+      "answer": "No"
+    },
+    "10:723": {
+      "question": "7.1 Do you insure the property?",
+      "kind": "yesno",
+      "answer": "Yes"
+    },
+    "10:615": {
+      "question": "of the property insurance ever being difficult to obtain or subject to special conditions?",
+      "kind": "yesno",
+      "answer": "No"
+    },
+    "10:507": {
+      "question": "7.3 Have you made any buildings insurance claims?",
+      "kind": "yesno",
+      "answer": "No"
+    },
+    "10:334": {
+      "question": "8.1 Are you aware of the property or any part of it ever being flooded?",
+      "kind": "yesno",
+      "answer": "No"
+    },
+    "10:290": {
+      "question": "Ground water",
+      "kind": "yesno",
+      "answer": "No"
+    },
+    "10:269": {
+      "question": "Sewer flooding",
+      "kind": "yesno",
+      "answer": "No"
+    },
+    "10:247": {
+      "question": "Surface water",
+      "kind": "yesno",
+      "answer": "No"
+    },
+    "10:226": {
+      "question": "Coastal flooding",
+      "kind": "yesno",
+      "answer": "No"
+    },
+    "10:205": {
+      "question": "River flooding",
+      "kind": "yesno",
+      "answer": "No"
+    },
+    "10:184": {
+      "question": "Other",
+      "kind": "yesno",
+      "answer": "No"
+    },
+    "4:2.2 Plan_es_:date": {
+      "question": "Plan attached",
+      "kind": "multiselect",
+      "answer": "Off"
+    },
+    "4:2.2 TF_es_:date": {
+      "question": "To follow",
+      "kind": "multiselect",
+      "answer": "On"
+    },
+    "11:765": {
+      "question": "8.2 Are you aware of any defences installed at the property to prevent flooding?",
+      "kind": "yesno_nk",
+      "answer": "No"
+    },
+    "11:632": {
+      "question": "8.3 Are you aware of any radon tests that have been carried out on the property?",
+      "kind": "yesno_nk",
+      "answer": "No"
+    },
+    "11:564": {
+      "question": "(b)was the test result below the \u2018recommended action level\u2019?",
+      "kind": "yesno",
+      "answer": "No"
+    },
+    "11:507": {
+      "question": "Measures could have been undertaken during construction or while adding an extension.",
+      "kind": "yesno_nk",
+      "answer": "No"
+    },
+    "11:438": {
+      "question": "8.5 Have any installations in the property been financed under the Green Deal scheme?",
+      "kind": "yesno",
+      "answer": "No"
+    },
+    "11:278": {
+      "question": "8.6 Is the property affected by Japanese knotweed?",
+      "kind": "yesno_nk",
+      "answer": "No"
+    },
+    "11:233": {
+      "question": "If yes, is there a Japanese knotweed management and treatment plan in place?",
+      "kind": "yesno_nk",
+      "answer": "No"
+    },
+    "11:133": {
+      "question": "8.7 Has a Japanese knotweed survey been carried out in relation to the property?",
+      "kind": "yesno_nk",
+      "answer": "No"
+    },
+    "12:709": {
+      "question": "9.1 Do you exercise any rights or arrangements over any other properties?",
+      "kind": "yesno",
+      "answer": "No"
+    },
+    "12:601": {
+      "question": "9.2 Have you been asked to contribute towards the cost of the jointly used facilities?",
+      "kind": "yesno_nk",
+      "answer": "No"
+    },
+    "12:493": {
+      "question": "9.3 Are you aware of any disagreement or complaint about any such right or arrangement?",
+      "kind": "yesno_nk",
+      "answer": "No"
+    },
+    "12:357": {
+      "question": " the owners of any other properties exercise any rights or arrangements over the property?",
+      "kind": "yesno",
+      "answer": "No"
+    },
+    "12:250": {
+      "question": "ner of any other properties to contribute towards the cost of the jointly used facilities?",
+      "kind": "yesno_nk",
+      "answer": "No"
+    },
+    "12:127": {
+      "question": "9.6 Are you aware of any disagreement or complaint about any such right or arrangement?",
+      "kind": "yesno_nk",
+      "answer": "No"
+    },
+    "13:745": {
+      "question": "ou aware of any drains, pipes or wires serving the property that cross any other property?",
+      "kind": "yesno_nk",
+      "answer": "No"
+    },
+    "13:698": {
+      "question": "aware of any drains, pipes or wires leading to any other property that cross the property?",
+      "kind": "yesno_nk",
+      "answer": "No"
+    },
+    "13:649": {
+      "question": "9.9 Is there any agreement or arrangement about drains, pipes or wires?",
+      "kind": "yesno_nk",
+      "answer": "No"
+    },
+    "13:370": {
+      "question": "10.2 Is a permit required for on-road parking?",
+      "kind": "yesno",
+      "answer": "No"
+    },
+    "13:328": {
+      "question": "10.3 Does the property have an electric vehicle (EV) charging point?",
+      "kind": "yesno",
+      "answer": "No"
+    },
+    "13:150": {
+      "question": "(b)does an EV charging cable have to cross the public pavement?",
+      "kind": "yesno",
+      "answer": "No"
+    },
+    "14:710": {
+      "question": "11.1 Are you aware of any electrical installation works carried out at the property?",
+      "kind": "yesno",
+      "answer": "Yes"
+    },
+    "14:601": {
+      "question": "11.2 Does the property have any certificates for electrical installation works?",
+      "kind": "yesno",
+      "answer": "Yes"
+    },
+    "14:517": {
+      "question": "11.3 Does the property have an Electrical Installation Condition Report (EICR)?",
+      "kind": "yesno",
+      "answer": "No"
+    },
+    "14:Check Box89": {
+      "question": "Mains gas",
+      "kind": "multiselect",
+      "answer": "On"
+    },
+    "14:Check Box90": {
+      "question": "Oil",
+      "kind": "multiselect",
+      "answer": "On"
+    },
+    "14:Check Box91": {
+      "question": "Heat pumps",
+      "kind": "multiselect",
+      "answer": "On"
+    },
+    "14:Check Box92": {
+      "question": "Liquid gas",
+      "kind": "multiselect",
+      "answer": "Off"
+    },
+    "14:Check Box93": {
+      "question": "Electricity",
+      "kind": "multiselect",
+      "answer": "Off"
+    },
+    "14:Check Box94": {
+      "question": "Underfloor",
+      "kind": "multiselect",
+      "answer": "Off"
+    },
+    "14:Check Box95": {
+      "question": "Woodburning /",
+      "kind": "multiselect",
+      "answer": "Off"
+    },
+    "14:Check Box96": {
+      "question": "Other",
+      "kind": "multiselect",
+      "answer": "Off"
+    },
+    "14:Check Box98": {
+      "question": "Not known",
+      "kind": "multiselect",
+      "answer": "Off"
+    },
+    "14:Check Box100": {
+      "question": "Not known",
+      "kind": "multiselect",
+      "answer": "Off"
+    },
+    "14:Check Box101": {
+      "question": "No",
+      "kind": "multiselect",
+      "answer": "Off"
+    },
+    "14:Check Box102": {
+      "question": "Not known",
+      "kind": "multiselect",
+      "answer": "Off"
+    },
+    "14:Check Box190": {
+      "question": "known",
+      "kind": "multiselect",
+      "answer": "Off"
+    },
+    "15:767": {
+      "question": "(f)Is the boiler and heating system working?",
+      "kind": "yesno_nk",
+      "answer": "Yes"
+    },
+    "15:Check Box201": {
+      "question": "Not known",
+      "kind": "multiselect",
+      "answer": "Off"
+    },
+    "15:543": {
+      "question": "(a)foul water drainage?",
+      "kind": "yesno_nk",
+      "answer": "Yes"
+    },
+    "15:496": {
+      "question": "(b)surface water drainage?",
+      "kind": "yesno_nk",
+      "answer": "Yes"
+    },
+    "15:430": {
+      "question": "(a)a septic tank?",
+      "kind": "yesno",
+      "answer": "No"
+    },
+    "15:384": {
+      "question": "(b)a sewage treatment plant?",
+      "kind": "yesno",
+      "answer": "No"
+    },
+    "15:339": {
+      "question": "(c)a cesspool?",
+      "kind": "yesno",
+      "answer": "Yes"
+    },
+    "15:Check Box219": {
+      "question": "Not known",
+      "kind": "multiselect",
+      "answer": "Off"
+    },
+    "16:Check Box224": {
+      "question": "Ground",
+      "kind": "multiselect",
+      "answer": "On"
+    },
+    "16:Check Box225": {
+      "question": "Surface water",
+      "kind": "multiselect",
+      "answer": "Off"
+    },
+    "16:669": {
+      "question": "(g)if the sewerage system discharges to the ground, does it have an infiltration system?",
+      "kind": "yesno",
+      "answer": "No"
+    },
+    "16:628": {
+      "question": "(h)is the use of the sewerage system shared with other properties?",
+      "kind": "yesno",
+      "answer": "No"
+    },
+    "16:502": {
+      "question": "ny part of the sewerage system, or the access to it, outside the boundary of the property?",
+      "kind": "yesno",
+      "answer": "No"
+    },
+    "16:307": {
+      "question": "Mains electricity",
+      "kind": "yesno",
+      "answer": "Yes"
+    },
+    "16:213": {
+      "question": "Mains gas",
+      "kind": "yesno",
+      "answer": "Yes"
+    },
+    "16:121": {
+      "question": "Mains water",
+      "kind": "yesno",
+      "answer": "Yes"
+    },
+    "17:785": {
+      "question": "Mains sewerage",
+      "kind": "yesno",
+      "answer": "Yes"
+    },
+    "17:735": {
+      "question": "Small sewage treatment plant",
+      "kind": "yesno",
+      "answer": "No"
+    },
+    "17:640": {
+      "question": "Shared ground / air source heat pumps",
+      "kind": "yesno",
+      "answer": "No"
+    },
+    "17:546": {
+      "question": "Telephone",
+      "kind": "yesno",
+      "answer": "Yes"
+    },
+    "17:496": {
+      "question": "Broadband",
+      "kind": "yesno",
+      "answer": "Yes"
+    },
+    "17:275": {
+      "question": " Does this sale depend on you completing the purchase of another property on the same day?",
+      "kind": "yesno",
+      "answer": "No"
+    },
+    "17:225": {
+      "question": "13.2 Do you have any special requirements about a moving date?",
+      "kind": "yesno",
+      "answer": "No"
+    },
+    "17:91": {
+      "question": "13.3 Do you live at the property?",
+      "kind": "yesno",
+      "answer": "Yes"
+    },
+    "18:765": {
+      "question": "13.4 Does anyone else, aged 17 or over, live at the property?",
+      "kind": "yesno",
+      "answer": "No"
+    },
+    "18:614": {
+      "question": "(b)are any of those occupiers who are aged 17 or over your tenants or lodgers?",
+      "kind": "yesno",
+      "answer": "No"
+    },
+    "18:559": {
+      "question": "not included in the sale)?",
+      "kind": "yesno",
+      "answer": "Yes"
+    },
+    "18:498": {
+      "question": "completion?",
+      "kind": "yesno",
+      "answer": "No"
+    },
+    "18:330": {
+      "question": " be sufficient to pay off on completion all mortgages and charges secured on the property?",
+      "kind": "yesno_nk",
+      "answer": "Yes"
+    },
+    "18:245": {
+      "question": "sheds) and that the property will be left in a clean and tidy condition?",
+      "kind": "yesno",
+      "answer": "Yes"
+    },
+    "18:Check Box294": {
+      "question": "No",
+      "kind": "multiselect",
+      "answer": "Off"
+    },
+    "18:Check Box295": {
+      "question": "Yes No",
+      "kind": "multiselect",
+      "answer": "Off"
+    },
+    "18:Check Box296": {
+      "question": "No",
+      "kind": "multiselect",
+      "answer": "Off"
+    },
+    "18:Check Box297": {
+      "question": "Yes No",
+      "kind": "multiselect",
+      "answer": "Off"
+    },
+    "18:86": {
+      "question": "the property or with the estate agent?",
+      "kind": "yesno",
+      "answer": "No"
+    },
+    "19:Check Box302": {
+      "question": "Not applicable",
+      "kind": "multiselect",
+      "answer": "Off"
+    },
+    "19:Check Box303": {
+      "question": "Not available",
+      "kind": "multiselect",
+      "answer": "Off"
+    }
+  },
+  "faults": [
+    {
+      "qid": "16:121",
+      "question": "Mains water",
+      "type": "missing_detail"
+    }
+  ],
+  "n_filled_orphan_extras": 11,
+  "n_orphan_extras_available": 25,
+  "completeness": 1.0
+}

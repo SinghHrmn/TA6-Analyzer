@@ -1,0 +1,5748 @@
+[
+  {
+    "field_id": "Postcode",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      102.0,
+      545.535,
+      315.72,
+      567.495
+    ],
+    "section": "1. Property and seller details",
+    "label": "Postcode:"
+  },
+  {
+    "field_id": "Property Address",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      57.0193,
+      573.564,
+      271.206,
+      626.404
+    ],
+    "section": "1. Property and seller details",
+    "label": "Address of the property"
+  },
+  {
+    "field_id": "Seller 1",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      52.8223,
+      451.512,
+      269.256,
+      465.016
+    ],
+    "section": "1. Property and seller details",
+    "label": "Full name(s) of the seller(s)"
+  },
+  {
+    "field_id": "Seller 2",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      53.5716,
+      435.778,
+      270.006,
+      449.282
+    ],
+    "section": "1. Property and seller details",
+    "label": "Full name(s) of the seller(s)"
+  },
+  {
+    "field_id": "Seller 3",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      53.5716,
+      419.294,
+      270.006,
+      432.798
+    ],
+    "section": "1. Property and seller details",
+    "label": "Full name(s) of the seller(s)"
+  },
+  {
+    "field_id": "Seller 4",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      53.5716,
+      402.811,
+      270.006,
+      416.315
+    ],
+    "section": "1. Property and seller details",
+    "label": "Full name(s) of the seller(s)"
+  },
+  {
+    "field_id": "UPRN",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      139.125,
+      513.012,
+      355.559,
+      526.516
+    ],
+    "section": "1. Property and seller details",
+    "label": "UPRN (if known):"
+  },
+  {
+    "field_id": "Property Date",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      79.7954,
+      192.646,
+      296.229,
+      206.149
+    ],
+    "section": "1. Property and seller details",
+    "label": "Date:"
+  },
+  {
+    "field_id": "Seller Company Number",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      180.195,
+      125.962,
+      396.629,
+      139.466
+    ],
+    "section": "1. Property and seller details",
+    "label": "Company number:"
+  },
+  {
+    "field_id": "Seller Director",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      180.945,
+      100.114,
+      397.379,
+      113.617
+    ],
+    "section": "1. Property and seller details",
+    "label": "Director/authorised person:"
+  },
+  {
+    "field_id": "Seller Company Country",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      180.944,
+      75.0128,
+      397.379,
+      88.5165
+    ],
+    "section": "1. Property and seller details",
+    "label": "Country of incorporation:"
+  },
+  {
+    "field_id": "Role Seller",
+    "type": "checkbox",
+    "page": 1,
+    "rect": [
+      44.5805,
+      330.51,
+      59.7055,
+      345.51
+    ],
+    "section": "1. Property and seller details",
+    "label": "What is your role in the sale?"
+  },
+  {
+    "field_id": "Seller Executor",
+    "type": "checkbox",
+    "page": 1,
+    "rect": [
+      44.9552,
+      305.785,
+      60.0802,
+      320.785
+    ],
+    "section": "1. Property and seller details",
+    "label": "Seller(s)"
+  },
+  {
+    "field_id": "Seller Attorney",
+    "type": "checkbox",
+    "page": 1,
+    "rect": [
+      44.9552,
+      281.809,
+      60.0802,
+      296.809
+    ],
+    "section": "1. Property and seller details",
+    "label": "Executor(s)/Administrator(s)"
+  },
+  {
+    "field_id": "Seller Trustee",
+    "type": "checkbox",
+    "page": 1,
+    "rect": [
+      44.9552,
+      257.833,
+      60.0802,
+      272.833
+    ],
+    "section": "1. Property and seller details",
+    "label": "Attorney(s)"
+  },
+  {
+    "field_id": "Solicitor",
+    "type": "text",
+    "page": 2,
+    "rect": [
+      128.871,
+      584.803,
+      345.305,
+      598.307
+    ],
+    "section": "",
+    "label": "Contact name:"
+  },
+  {
+    "field_id": "Solicitor Email",
+    "type": "text",
+    "page": 2,
+    "rect": [
+      128.871,
+      559.405,
+      345.305,
+      572.908
+    ],
+    "section": "",
+    "label": "Email:"
+  },
+  {
+    "field_id": "Quill Reference",
+    "type": "text",
+    "page": 2,
+    "rect": [
+      147.228,
+      532.432,
+      363.662,
+      545.935
+    ],
+    "section": "",
+    "label": "Reference number:"
+  },
+  {
+    "field_id": "2.1 A Neighbour",
+    "type": "checkbox",
+    "page": 5,
+    "rect": [
+      242.383,
+      661.555,
+      257.508,
+      676.305
+    ],
+    "section": "2. Boundaries Rear",
+    "label": "(a)on the left? Seller"
+  },
+  {
+    "field_id": "2.1 A Seller",
+    "type": "checkbox",
+    "page": 5,
+    "rect": [
+      147.228,
+      661.805,
+      162.353,
+      676.805
+    ],
+    "section": "2. Boundaries Rear",
+    "label": "(a)on the left?"
+  },
+  {
+    "field_id": "2.1 A Shared_es_:date",
+    "type": "checkbox",
+    "page": 5,
+    "rect": [
+      350.401,
+      661.305,
+      365.526,
+      676.305
+    ],
+    "section": "2. Boundaries Rear",
+    "label": "(a)on the left? Seller Neighbour"
+  },
+  {
+    "field_id": "2.1 A NK_es_:date",
+    "type": "checkbox",
+    "page": 5,
+    "rect": [
+      463.413,
+      661.68,
+      478.538,
+      676.68
+    ],
+    "section": "2. Boundaries Rear",
+    "label": "(a)on the left? Seller Neighbour Shared"
+  },
+  {
+    "field_id": "2.1 B Seller_es_:date",
+    "type": "checkbox",
+    "page": 5,
+    "rect": [
+      147.603,
+      638.828,
+      162.728,
+      653.828
+    ],
+    "section": "2. Boundaries Rear",
+    "label": "(b)on the right?"
+  },
+  {
+    "field_id": "2.1 C Seller_es_:date",
+    "type": "checkbox",
+    "page": 5,
+    "rect": [
+      147.977,
+      615.226,
+      163.102,
+      630.226
+    ],
+    "section": "2. Boundaries Rear",
+    "label": "(c)at the rear?"
+  },
+  {
+    "field_id": "2.1 D Seller_es_:date",
+    "type": "checkbox",
+    "page": 5,
+    "rect": [
+      148.352,
+      593.498,
+      163.477,
+      608.498
+    ],
+    "section": "2. Boundaries Rear",
+    "label": "(d)at the front?"
+  },
+  {
+    "field_id": "2.1 D Neighbour_es_:date",
+    "type": "checkbox",
+    "page": 5,
+    "rect": [
+      242.631,
+      592.625,
+      257.756,
+      607.625
+    ],
+    "section": "2. Boundaries Rear",
+    "label": "(d)at the front? Seller"
+  },
+  {
+    "field_id": "2.1 C Neighbour_es_:date",
+    "type": "checkbox",
+    "page": 5,
+    "rect": [
+      242.383,
+      614.852,
+      257.508,
+      629.852
+    ],
+    "section": "2. Boundaries Rear",
+    "label": "(c)at the rear? Seller"
+  },
+  {
+    "field_id": "2.1 B Neighbour_es_:date",
+    "type": "checkbox",
+    "page": 5,
+    "rect": [
+      242.758,
+      638.078,
+      257.883,
+      653.078
+    ],
+    "section": "2. Boundaries Rear",
+    "label": "(b)on the right? Seller"
+  },
+  {
+    "field_id": "2.1 B Shared_es_:date",
+    "type": "checkbox",
+    "page": 5,
+    "rect": [
+      349.901,
+      638.078,
+      365.026,
+      653.078
+    ],
+    "section": "2. Boundaries Rear",
+    "label": "(b)on the right? Seller Neighbour"
+  },
+  {
+    "field_id": "2.1 C Shared_es_:date",
+    "type": "checkbox",
+    "page": 5,
+    "rect": [
+      350.276,
+      614.852,
+      365.401,
+      629.852
+    ],
+    "section": "2. Boundaries Rear",
+    "label": "(c)at the rear? Seller Neighbour"
+  },
+  {
+    "field_id": "2.1 D Shared_es_:date",
+    "type": "checkbox",
+    "page": 5,
+    "rect": [
+      350.65,
+      593.123,
+      365.775,
+      608.123
+    ],
+    "section": "2. Boundaries Rear",
+    "label": "(d)at the front? Seller Neighbour"
+  },
+  {
+    "field_id": "2.1 B NK_es_:date",
+    "type": "checkbox",
+    "page": 5,
+    "rect": [
+      463.038,
+      638.828,
+      478.163,
+      653.828
+    ],
+    "section": "2. Boundaries Rear",
+    "label": "(b)on the right? Seller Neighbour Shared"
+  },
+  {
+    "field_id": "2.1 C NK_es_:date",
+    "type": "checkbox",
+    "page": 5,
+    "rect": [
+      463.038,
+      615.226,
+      478.163,
+      630.226
+    ],
+    "section": "2. Boundaries Rear",
+    "label": "(c)at the rear? Seller Neighbour Shared"
+  },
+  {
+    "field_id": "2.1 D NK_es_:date",
+    "type": "checkbox",
+    "page": 5,
+    "rect": [
+      462.663,
+      592.749,
+      477.788,
+      607.749
+    ],
+    "section": "2. Boundaries Rear",
+    "label": "(d)at the front? Seller Neighbour Shared"
+  },
+  {
+    "field_id": "2.2 Plan_es_:date",
+    "type": "checkbox",
+    "page": 5,
+    "rect": [
+      65.5596,
+      540.675,
+      80.6846,
+      555.675
+    ],
+    "section": "2. Boundaries Rear",
+    "label": "operty are irregular, indicate ownership by written description or by reference to a plan:"
+  },
+  {
+    "field_id": "2.2 TF_es_:date",
+    "type": "checkbox",
+    "page": 5,
+    "rect": [
+      170.455,
+      540.301,
+      185.58,
+      555.301
+    ],
+    "section": "2. Boundaries Rear",
+    "label": "Plan attached"
+  },
+  {
+    "field_id": "2.2 Text",
+    "type": "text",
+    "page": 5,
+    "rect": [
+      67.8074,
+      485.978,
+      538.987,
+      530.576
+    ],
+    "section": "2. Boundaries Rear",
+    "label": "Plan attached To follow"
+  },
+  {
+    "field_id": "2.3 Yes",
+    "type": "checkbox",
+    "page": 5,
+    "rect": [
+      65.185,
+      426.414,
+      80.31,
+      441.414
+    ],
+    "section": "2. Boundaries Rear",
+    "label": "neighbour taking over or building on any part of your property?"
+  },
+  {
+    "field_id": "2.3 No",
+    "type": "checkbox",
+    "page": 5,
+    "rect": [
+      168.956,
+      426.789,
+      184.081,
+      441.789
+    ],
+    "section": "2. Boundaries Rear",
+    "label": "Yes"
+  },
+  {
+    "field_id": "2.4 Yes",
+    "type": "checkbox",
+    "page": 5,
+    "rect": [
+      65.5596,
+      287.428,
+      80.6846,
+      302.428
+    ],
+    "section": "2. Boundaries Rear",
+    "label": "covered walkways."
+  },
+  {
+    "field_id": "2.4 No",
+    "type": "checkbox",
+    "page": 5,
+    "rect": [
+      170.08,
+      287.053,
+      185.205,
+      302.053
+    ],
+    "section": "2. Boundaries Rear",
+    "label": "Yes"
+  },
+  {
+    "field_id": "2.4 NK",
+    "type": "checkbox",
+    "page": 5,
+    "rect": [
+      252.873,
+      286.679,
+      267.998,
+      301.679
+    ],
+    "section": "2. Boundaries Rear",
+    "label": "Yes No"
+  },
+  {
+    "field_id": "2.5 Yes",
+    "type": "checkbox",
+    "page": 5,
+    "rect": [
+      64.8103,
+      157.807,
+      79.9353,
+      172.807
+    ],
+    "section": "2. Boundaries Rear",
+    "label": "shared/party walls or boundaries?"
+  },
+  {
+    "field_id": "2.5 No",
+    "type": "checkbox",
+    "page": 5,
+    "rect": [
+      170.83,
+      158.182,
+      185.955,
+      173.182
+    ],
+    "section": "2. Boundaries Rear",
+    "label": "Yes"
+  },
+  {
+    "field_id": "2.5 attached",
+    "type": "checkbox",
+    "page": 5,
+    "rect": [
+      66.3089,
+      62.2777,
+      81.4339,
+      77.2777
+    ],
+    "section": "2. Boundaries Rear",
+    "label": "If yes, supply a copy and give details of any works carried out or agreed:"
+  },
+  {
+    "field_id": "2.5 TF",
+    "type": "checkbox",
+    "page": 5,
+    "rect": [
+      170.455,
+      61.9031,
+      185.58,
+      76.9031
+    ],
+    "section": "2. Boundaries Rear",
+    "label": "Attached"
+  },
+  {
+    "field_id": "2.3 Text",
+    "type": "text",
+    "page": 5,
+    "rect": [
+      69.2305,
+      353.305,
+      540.41,
+      397.902
+    ],
+    "section": "2. Boundaries Rear",
+    "label": "If yes, please give details:"
+  },
+  {
+    "field_id": "2.4 Text",
+    "type": "text",
+    "page": 5,
+    "rect": [
+      69.3558,
+      215.694,
+      540.536,
+      260.291
+    ],
+    "section": "2. Boundaries Rear",
+    "label": "If yes, please give details:"
+  },
+  {
+    "field_id": "2.5 Text",
+    "type": "text",
+    "page": 5,
+    "rect": [
+      69.9962,
+      85.9945,
+      541.176,
+      130.592
+    ],
+    "section": "2. Boundaries Rear",
+    "label": "If yes, supply a copy and give details of any works carried out or agreed:"
+  },
+  {
+    "field_id": "Check Box46",
+    "type": "checkbox",
+    "page": 6,
+    "rect": [
+      64.8103,
+      723.118,
+      79.9353,
+      738.118
+    ],
+    "section": "3. Disputes",
+    "label": "3.1 Are you aware of any disputes or complaints about the property or a property nearby?"
+  },
+  {
+    "field_id": "Check Box47",
+    "type": "checkbox",
+    "page": 6,
+    "rect": [
+      169.331,
+      723.493,
+      184.456,
+      738.493
+    ],
+    "section": "3. Disputes",
+    "label": "Yes"
+  },
+  {
+    "field_id": "Check Box48",
+    "type": "checkbox",
+    "page": 6,
+    "rect": [
+      65.9342,
+      606.61,
+      81.0592,
+      621.61
+    ],
+    "section": "3. Disputes",
+    "label": "ou aware of anything that might lead to a dispute about the property or a property nearby?"
+  },
+  {
+    "field_id": "Check Box49",
+    "type": "checkbox",
+    "page": 6,
+    "rect": [
+      168.956,
+      606.235,
+      184.081,
+      621.235
+    ],
+    "section": "3. Disputes",
+    "label": "Yes"
+  },
+  {
+    "field_id": "Check Box50",
+    "type": "checkbox",
+    "page": 6,
+    "rect": [
+      65.9342,
+      414.801,
+      81.0592,
+      429.801
+    ],
+    "section": "3. Disputes",
+    "label": "a property nearby? For example, from or to a neighbour, council or government department."
+  },
+  {
+    "field_id": "Check Box51",
+    "type": "checkbox",
+    "page": 6,
+    "rect": [
+      169.706,
+      414.801,
+      184.831,
+      429.801
+    ],
+    "section": "3. Disputes",
+    "label": "Yes"
+  },
+  {
+    "field_id": "Check Box52",
+    "type": "checkbox",
+    "page": 6,
+    "rect": [
+      65.5596,
+      297.918,
+      80.6846,
+      312.918
+    ],
+    "section": "3. Disputes",
+    "label": "4.2 Are you aware of any plans or proposals to develop property or land nearby?"
+  },
+  {
+    "field_id": "Check Box53",
+    "type": "checkbox",
+    "page": 6,
+    "rect": [
+      168.582,
+      297.918,
+      183.707,
+      312.918
+    ],
+    "section": "3. Disputes",
+    "label": "Yes"
+  },
+  {
+    "field_id": "Check Box54",
+    "type": "checkbox",
+    "page": 6,
+    "rect": [
+      64.4357,
+      181.034,
+      79.5607,
+      196.034
+    ],
+    "section": "3. Disputes",
+    "label": "e you aware of any proposals to make alterations to or change the use of buildings nearby?"
+  },
+  {
+    "field_id": "Check Box55",
+    "type": "checkbox",
+    "page": 6,
+    "rect": [
+      168.956,
+      181.409,
+      184.081,
+      196.409
+    ],
+    "section": "3. Disputes",
+    "label": "Yes"
+  },
+  {
+    "field_id": "3.1 Text",
+    "type": "text",
+    "page": 6,
+    "rect": [
+      68.014,
+      651.04,
+      539.194,
+      695.638
+    ],
+    "section": "3. Disputes",
+    "label": "If yes, give details such as when this took place and who was involved:"
+  },
+  {
+    "field_id": "3.2",
+    "type": "text",
+    "page": 6,
+    "rect": [
+      68.5566,
+      540.298,
+      539.736,
+      584.896
+    ],
+    "section": "3. Disputes",
+    "label": "If yes, please give details:"
+  },
+  {
+    "field_id": "4.1",
+    "type": "text",
+    "page": 6,
+    "rect": [
+      69.3059,
+      342.87,
+      540.486,
+      387.468
+    ],
+    "section": "3. Disputes",
+    "label": "If yes, please give details:"
+  },
+  {
+    "field_id": "4.2",
+    "type": "text",
+    "page": 6,
+    "rect": [
+      68.182,
+      230.857,
+      539.362,
+      275.455
+    ],
+    "section": "3. Disputes",
+    "label": "If yes, please give details:"
+  },
+  {
+    "field_id": "4.3",
+    "type": "text",
+    "page": 6,
+    "rect": [
+      67.0581,
+      108.729,
+      538.238,
+      153.327
+    ],
+    "section": "3. Disputes",
+    "label": "If yes, please give details:"
+  },
+  {
+    "field_id": "5.1 a y",
+    "type": "checkbox",
+    "page": 7,
+    "rect": [
+      302.5,
+      710.14,
+      317.625,
+      725.14
+    ],
+    "section": "5. Alterations",
+    "label": "glazed doors since 1 April 2002"
+  },
+  {
+    "field_id": "5.1 a n",
+    "type": "checkbox",
+    "page": 7,
+    "rect": [
+      381.25,
+      710.14,
+      396.375,
+      725.14
+    ],
+    "section": "5. Alterations",
+    "label": "glazed doors since 1 April 2002 Yes"
+  },
+  {
+    "field_id": "5.1 b y",
+    "type": "checkbox",
+    "page": 7,
+    "rect": [
+      302.5,
+      688.89,
+      317.625,
+      703.89
+    ],
+    "section": "5. Alterations",
+    "label": "(b) extension"
+  },
+  {
+    "field_id": "5.1 b n",
+    "type": "checkbox",
+    "page": 7,
+    "rect": [
+      381.75,
+      688.89,
+      396.875,
+      703.89
+    ],
+    "section": "5. Alterations",
+    "label": "(b) extension Yes"
+  },
+  {
+    "field_id": "5.1 c y",
+    "type": "checkbox",
+    "page": 7,
+    "rect": [
+      302.25,
+      667.89,
+      317.375,
+      682.89
+    ],
+    "section": "5. Alterations",
+    "label": "(c) conservatory"
+  },
+  {
+    "field_id": "5.1 c n",
+    "type": "checkbox",
+    "page": 7,
+    "rect": [
+      382.0,
+      667.516,
+      397.125,
+      682.516
+    ],
+    "section": "5. Alterations",
+    "label": "(c) conservatory Yes"
+  },
+  {
+    "field_id": "5.1 d y",
+    "type": "checkbox",
+    "page": 7,
+    "rect": [
+      302.25,
+      645.39,
+      317.375,
+      660.39
+    ],
+    "section": "5. Alterations",
+    "label": "(d) loft conversion"
+  },
+  {
+    "field_id": "5.1 d n",
+    "type": "checkbox",
+    "page": 7,
+    "rect": [
+      381.25,
+      645.89,
+      396.375,
+      660.89
+    ],
+    "section": "5. Alterations",
+    "label": "(d) loft conversion Yes"
+  },
+  {
+    "field_id": "5.1 f y",
+    "type": "checkbox",
+    "page": 7,
+    "rect": [
+      302.5,
+      603.64,
+      317.625,
+      618.64
+    ],
+    "section": "5. Alterations",
+    "label": "(f) removal of internal walls"
+  },
+  {
+    "field_id": "5.1 e y",
+    "type": "checkbox",
+    "page": 7,
+    "rect": [
+      302.75,
+      623.39,
+      317.875,
+      638.39
+    ],
+    "section": "5. Alterations",
+    "label": "(e) garage conversion"
+  },
+  {
+    "field_id": "5.1 g y",
+    "type": "checkbox",
+    "page": 7,
+    "rect": [
+      302.5,
+      581.39,
+      317.625,
+      596.39
+    ],
+    "section": "5. Alterations",
+    "label": "(g) removal of chimney breast"
+  },
+  {
+    "field_id": "5.1 i y",
+    "type": "checkbox",
+    "page": 7,
+    "rect": [
+      302.5,
+      537.89,
+      317.625,
+      552.89
+    ],
+    "section": "5. Alterations",
+    "label": "(i) other building works or changes to the property"
+  },
+  {
+    "field_id": "5.1 i n",
+    "type": "checkbox",
+    "page": 7,
+    "rect": [
+      381.75,
+      538.14,
+      396.875,
+      553.14
+    ],
+    "section": "5. Alterations",
+    "label": "(i) other building works or changes to the property Yes"
+  },
+  {
+    "field_id": "5.2 b text",
+    "type": "text",
+    "page": 7,
+    "rect": [
+      70.5275,
+      300.686,
+      541.708,
+      341.912
+    ],
+    "section": "5. Alterations",
+    "label": "Yes No"
+  },
+  {
+    "field_id": "5.2 d ii",
+    "type": "text",
+    "page": 7,
+    "rect": [
+      79.4708,
+      64.1572,
+      550.651,
+      118.496
+    ],
+    "section": "5. Alterations",
+    "label": "certificates were not required, explain why:"
+  },
+  {
+    "field_id": "5.2 a text",
+    "type": "text",
+    "page": 7,
+    "rect": [
+      71.3857,
+      409.593,
+      542.566,
+      460.185
+    ],
+    "section": "5. Alterations",
+    "label": "(a)give details of the work and the date it was carried out, or state not known:"
+  },
+  {
+    "field_id": "5.1 e n",
+    "type": "checkbox",
+    "page": 7,
+    "rect": [
+      381.5,
+      624.39,
+      396.625,
+      639.39
+    ],
+    "section": "5. Alterations",
+    "label": "(e) garage conversion Yes"
+  },
+  {
+    "field_id": "5.1 fn",
+    "type": "checkbox",
+    "page": 7,
+    "rect": [
+      381.75,
+      602.89,
+      396.875,
+      617.89
+    ],
+    "section": "5. Alterations",
+    "label": "(f) removal of internal walls Yes"
+  },
+  {
+    "field_id": "5.1 g n",
+    "type": "checkbox",
+    "page": 7,
+    "rect": [
+      381.75,
+      580.89,
+      396.875,
+      595.89
+    ],
+    "section": "5. Alterations",
+    "label": "(g) removal of chimney breast Yes"
+  },
+  {
+    "field_id": "5.1 h n",
+    "type": "checkbox",
+    "page": 7,
+    "rect": [
+      381.75,
+      559.64,
+      396.875,
+      574.64
+    ],
+    "section": "5. Alterations",
+    "label": "(h) insulation Yes"
+  },
+  {
+    "field_id": "5.2 b y",
+    "type": "checkbox",
+    "page": 7,
+    "rect": [
+      65.9999,
+      365.266,
+      81.1249,
+      380.266
+    ],
+    "section": "5. Alterations",
+    "label": "(b)has all this work been completed?"
+  },
+  {
+    "field_id": "5.2 b n",
+    "type": "checkbox",
+    "page": 7,
+    "rect": [
+      168.0,
+      364.516,
+      183.125,
+      379.516
+    ],
+    "section": "5. Alterations",
+    "label": "Yes"
+  },
+  {
+    "field_id": "5.2 c att",
+    "type": "checkbox",
+    "page": 7,
+    "rect": [
+      67.1249,
+      241.516,
+      82.2499,
+      256.516
+    ],
+    "section": "5. Alterations",
+    "label": "competent person certificates for the work if you have them."
+  },
+  {
+    "field_id": "5.2 c tf",
+    "type": "checkbox",
+    "page": 7,
+    "rect": [
+      169.125,
+      241.891,
+      184.25,
+      256.891
+    ],
+    "section": "5. Alterations",
+    "label": "Attached"
+  },
+  {
+    "field_id": "5.2 c na",
+    "type": "checkbox",
+    "page": 7,
+    "rect": [
+      254.25,
+      242.266,
+      269.375,
+      257.266
+    ],
+    "section": "5. Alterations",
+    "label": "Attached To follow"
+  },
+  {
+    "field_id": "5.2 d i y",
+    "type": "checkbox",
+    "page": 7,
+    "rect": [
+      80.6248,
+      162.016,
+      95.7498,
+      177.016
+    ],
+    "section": "5. Alterations",
+    "label": "person certificates when necessary?"
+  },
+  {
+    "field_id": "5.2 d i n",
+    "type": "checkbox",
+    "page": 7,
+    "rect": [
+      168.0,
+      162.391,
+      183.125,
+      177.391
+    ],
+    "section": "5. Alterations",
+    "label": "Yes"
+  },
+  {
+    "field_id": "5.1 h y",
+    "type": "checkbox",
+    "page": 7,
+    "rect": [
+      302.0,
+      559.39,
+      317.125,
+      574.39
+    ],
+    "section": "5. Alterations",
+    "label": "(h) insulation"
+  },
+  {
+    "field_id": "5.3 text",
+    "type": "text",
+    "page": 8,
+    "rect": [
+      69.7304,
+      698.773,
+      540.91,
+      743.37
+    ],
+    "section": "",
+    "label": "If yes, give details and supply a copy of any relevant planning permission:"
+  },
+  {
+    "field_id": "5.4 Text",
+    "type": "text",
+    "page": 8,
+    "rect": [
+      69.6215,
+      556.712,
+      540.801,
+      601.31
+    ],
+    "section": "",
+    "label": "If yes, please give details:"
+  },
+  {
+    "field_id": "5.5 Text",
+    "type": "text",
+    "page": 8,
+    "rect": [
+      69.138,
+      448.929,
+      540.318,
+      493.527
+    ],
+    "section": "",
+    "label": "Yes No"
+  },
+  {
+    "field_id": "5.6 f y text",
+    "type": "text",
+    "page": 8,
+    "rect": [
+      80.6424,
+      70.6653,
+      551.822,
+      109.269
+    ],
+    "section": "",
+    "label": "If yes, provide the make, model and storage capacity in kWh of the battery:"
+  },
+  {
+    "field_id": "5.3 y",
+    "type": "checkbox",
+    "page": 8,
+    "rect": [
+      65.6249,
+      765.765,
+      80.7499,
+      780.765
+    ],
+    "section": "",
+    "label": "5.3 Is any part of the property used exclusively for non-residential purposes?"
+  },
+  {
+    "field_id": "5.3 n",
+    "type": "checkbox",
+    "page": 8,
+    "rect": [
+      169.5,
+      765.765,
+      184.625,
+      780.765
+    ],
+    "section": "",
+    "label": "Yes"
+  },
+  {
+    "field_id": "5.3 att",
+    "type": "checkbox",
+    "page": 8,
+    "rect": [
+      65.6249,
+      677.64,
+      80.7499,
+      692.64
+    ],
+    "section": "",
+    "label": "If yes, give details and supply a copy of any relevant planning permission:"
+  },
+  {
+    "field_id": "5.3 tf",
+    "type": "checkbox",
+    "page": 8,
+    "rect": [
+      169.875,
+      677.64,
+      185.0,
+      692.64
+    ],
+    "section": "",
+    "label": "Attached"
+  },
+  {
+    "field_id": "5.4 y",
+    "type": "checkbox",
+    "page": 8,
+    "rect": [
+      64.8749,
+      624.015,
+      79.9999,
+      639.015
+    ],
+    "section": "",
+    "label": "unfinished work or work that does not have all necessary consents?"
+  },
+  {
+    "field_id": "5.4 n",
+    "type": "checkbox",
+    "page": 8,
+    "rect": [
+      169.5,
+      623.64,
+      184.625,
+      638.64
+    ],
+    "section": "",
+    "label": "Yes"
+  },
+  {
+    "field_id": "5.5 y",
+    "type": "checkbox",
+    "page": 8,
+    "rect": [
+      64.8749,
+      515.641,
+      79.9999,
+      530.641
+    ],
+    "section": "",
+    "label": "5.5 Are you aware of any planning or building control issues that need to be resolved?"
+  },
+  {
+    "field_id": "5.5 n",
+    "type": "checkbox",
+    "page": 8,
+    "rect": [
+      169.125,
+      514.891,
+      184.25,
+      529.891
+    ],
+    "section": "",
+    "label": "Yes"
+  },
+  {
+    "field_id": "5.6 y",
+    "type": "checkbox",
+    "page": 8,
+    "rect": [
+      65.6249,
+      381.391,
+      80.7499,
+      396.391
+    ],
+    "section": "",
+    "label": "er system for generating electricity, hot water or heating been installed at the property?"
+  },
+  {
+    "field_id": "5.6 n",
+    "type": "checkbox",
+    "page": 8,
+    "rect": [
+      169.875,
+      381.016,
+      185.0,
+      396.016
+    ],
+    "section": "",
+    "label": "Yes"
+  },
+  {
+    "field_id": "5.6 a y",
+    "type": "checkbox",
+    "page": 8,
+    "rect": [
+      398.999,
+      336.391,
+      414.124,
+      351.391
+    ],
+    "section": "",
+    "label": "(a) Is the system used only to provide hot water or heating"
+  },
+  {
+    "field_id": "5.6 a n",
+    "type": "checkbox",
+    "page": 8,
+    "rect": [
+      456.749,
+      336.766,
+      471.874,
+      351.766
+    ],
+    "section": "",
+    "label": "(a) Is the system used only to provide hot water or heating Yes"
+  },
+  {
+    "field_id": "5.6 b date_es_:date",
+    "type": "text",
+    "page": 8,
+    "rect": [
+      399.596,
+      303.012,
+      505.124,
+      316.516
+    ],
+    "section": "",
+    "label": "(b)Which year was the system installed? (YYYY)"
+  },
+  {
+    "field_id": "5.6 c y_es_:date",
+    "type": "checkbox",
+    "page": 8,
+    "rect": [
+      398.25,
+      280.89,
+      413.375,
+      295.89
+    ],
+    "section": "",
+    "label": "(c)Do you own the system outright?"
+  },
+  {
+    "field_id": "5.6 c n_es_:date",
+    "type": "checkbox",
+    "page": 8,
+    "rect": [
+      456.0,
+      281.14,
+      471.125,
+      296.14
+    ],
+    "section": "",
+    "label": "(c)Do you own the system outright? Yes"
+  },
+  {
+    "field_id": "5.6 d y_es_:date",
+    "type": "checkbox",
+    "page": 8,
+    "rect": [
+      398.75,
+      259.14,
+      413.875,
+      274.14
+    ],
+    "section": "",
+    "label": "(d)Has a long lease of the roof or air space been granted to a solar"
+  },
+  {
+    "field_id": "5.6 d n_es_:date",
+    "type": "checkbox",
+    "page": 8,
+    "rect": [
+      455.75,
+      259.64,
+      470.875,
+      274.64
+    ],
+    "section": "",
+    "label": "(d)Has a long lease of the roof or air space been granted to a solar Yes"
+  },
+  {
+    "field_id": "5.6 e y_es_:date",
+    "type": "checkbox",
+    "page": 8,
+    "rect": [
+      398.5,
+      191.64,
+      413.625,
+      206.64
+    ],
+    "section": "",
+    "label": "(e)Do you have a maintenance agreement in place for the system?"
+  },
+  {
+    "field_id": "5.6 e n_es_:date",
+    "type": "checkbox",
+    "page": 8,
+    "rect": [
+      456.0,
+      190.89,
+      471.125,
+      205.89
+    ],
+    "section": "",
+    "label": "(e)Do you have a maintenance agreement in place for the system? Yes"
+  },
+  {
+    "field_id": "5.6 f y_es_:date",
+    "type": "checkbox",
+    "page": 8,
+    "rect": [
+      399.0,
+      136.64,
+      414.125,
+      151.64
+    ],
+    "section": "",
+    "label": "(f)Is there a battery for storing solar power?"
+  },
+  {
+    "field_id": "5.6 f n_es_:date",
+    "type": "checkbox",
+    "page": 8,
+    "rect": [
+      456.0,
+      136.14,
+      471.125,
+      151.14
+    ],
+    "section": "",
+    "label": "(f)Is there a battery for storing solar power? Yes"
+  },
+  {
+    "field_id": "5.6 d tf_es_:date",
+    "type": "checkbox",
+    "page": 8,
+    "rect": [
+      169.313,
+      210.389,
+      184.438,
+      225.389
+    ],
+    "section": "",
+    "label": "Attached"
+  },
+  {
+    "field_id": "5.6 e att_es_:date",
+    "type": "checkbox",
+    "page": 8,
+    "rect": [
+      78.7501,
+      156.202,
+      93.8751,
+      171.202
+    ],
+    "section": "",
+    "label": "If yes, supply a copy of the agreement."
+  },
+  {
+    "field_id": "5.6 e tf_es_:date",
+    "type": "checkbox",
+    "page": 8,
+    "rect": [
+      169.125,
+      156.389,
+      184.25,
+      171.389
+    ],
+    "section": "",
+    "label": "Attached"
+  },
+  {
+    "field_id": "5.6 d att_es_:date",
+    "type": "checkbox",
+    "page": 8,
+    "rect": [
+      78.5626,
+      210.014,
+      93.6876,
+      225.014
+    ],
+    "section": "",
+    "label": "If yes, supply a copy of the lease."
+  },
+  {
+    "field_id": "Check Box103",
+    "type": "checkbox",
+    "page": 9,
+    "rect": [
+      80.0,
+      764.14,
+      95.125,
+      779.14
+    ],
+    "section": "",
+    "label": "(g)Does the system feed into the National Grid?"
+  },
+  {
+    "field_id": "Check Box104",
+    "type": "checkbox",
+    "page": 9,
+    "rect": [
+      168.5,
+      763.64,
+      183.625,
+      778.64
+    ],
+    "section": "",
+    "label": "Yes"
+  },
+  {
+    "field_id": "Check Box105",
+    "type": "checkbox",
+    "page": 9,
+    "rect": [
+      99.0,
+      698.89,
+      114.125,
+      713.89
+    ],
+    "section": "",
+    "label": "(i)is there a Feed-in Tariff (FIT) or Smart Export Guarantee (SEG) in place?"
+  },
+  {
+    "field_id": "Check Box106",
+    "type": "checkbox",
+    "page": 9,
+    "rect": [
+      186.5,
+      698.39,
+      201.625,
+      713.39
+    ],
+    "section": "",
+    "label": "Yes"
+  },
+  {
+    "field_id": "Check Box107",
+    "type": "checkbox",
+    "page": 9,
+    "rect": [
+      99.75,
+      629.89,
+      114.875,
+      644.89
+    ],
+    "section": "",
+    "label": "(ii)supply a copy of the agreement."
+  },
+  {
+    "field_id": "Check Box108",
+    "type": "checkbox",
+    "page": 9,
+    "rect": [
+      186.0,
+      630.39,
+      201.125,
+      645.39
+    ],
+    "section": "",
+    "label": "Attached"
+  },
+  {
+    "field_id": "Check Box109",
+    "type": "checkbox",
+    "page": 9,
+    "rect": [
+      100.25,
+      584.64,
+      115.375,
+      599.64
+    ],
+    "section": "",
+    "label": "(iii) provide a copy of the electricity bill showing the credit paid for the generation."
+  },
+  {
+    "field_id": "Check Box110",
+    "type": "checkbox",
+    "page": 9,
+    "rect": [
+      186.5,
+      584.89,
+      201.625,
+      599.89
+    ],
+    "section": "",
+    "label": "Attached"
+  },
+  {
+    "field_id": "Check Box111",
+    "type": "checkbox",
+    "page": 9,
+    "rect": [
+      99.75,
+      526.89,
+      114.875,
+      541.89
+    ],
+    "section": "",
+    "label": "completion of the purchase to the buyer."
+  },
+  {
+    "field_id": "Check Box112",
+    "type": "checkbox",
+    "page": 9,
+    "rect": [
+      186.5,
+      526.14,
+      201.625,
+      541.14
+    ],
+    "section": "",
+    "label": "Attached"
+  },
+  {
+    "field_id": "Check Box113",
+    "type": "checkbox",
+    "page": 9,
+    "rect": [
+      79.75,
+      468.64,
+      94.875,
+      483.64
+    ],
+    "section": "",
+    "label": "(e.g. MCS) for the installation of the system."
+  },
+  {
+    "field_id": "Check Box114",
+    "type": "checkbox",
+    "page": 9,
+    "rect": [
+      170.0,
+      468.64,
+      185.125,
+      483.64
+    ],
+    "section": "",
+    "label": "Attached"
+  },
+  {
+    "field_id": "Check Box115",
+    "type": "checkbox",
+    "page": 9,
+    "rect": [
+      253.25,
+      468.89,
+      268.375,
+      483.89
+    ],
+    "section": "",
+    "label": "Attached To follow"
+  },
+  {
+    "field_id": "Check Box116",
+    "type": "checkbox",
+    "page": 9,
+    "rect": [
+      66.0,
+      396.89,
+      81.125,
+      411.89
+    ],
+    "section": "",
+    "label": "5.7 Is the property (or any part of it) listed?"
+  },
+  {
+    "field_id": "Check Box117",
+    "type": "checkbox",
+    "page": 9,
+    "rect": [
+      168.25,
+      397.39,
+      183.375,
+      412.39
+    ],
+    "section": "",
+    "label": "Yes"
+  },
+  {
+    "field_id": "Check Box118",
+    "type": "checkbox",
+    "page": 9,
+    "rect": [
+      252.75,
+      397.64,
+      267.875,
+      412.64
+    ],
+    "section": "",
+    "label": "Yes No"
+  },
+  {
+    "field_id": "Check Box119",
+    "type": "checkbox",
+    "page": 9,
+    "rect": [
+      66.0,
+      328.39,
+      81.125,
+      343.39
+    ],
+    "section": "",
+    "label": "5.8 Is the property (or any part of it) in a conservation area?"
+  },
+  {
+    "field_id": "Check Box120",
+    "type": "checkbox",
+    "page": 9,
+    "rect": [
+      167.5,
+      328.89,
+      182.625,
+      343.89
+    ],
+    "section": "",
+    "label": "Yes"
+  },
+  {
+    "field_id": "Check Box121",
+    "type": "checkbox",
+    "page": 9,
+    "rect": [
+      253.0,
+      328.64,
+      268.125,
+      343.64
+    ],
+    "section": "",
+    "label": "Yes No"
+  },
+  {
+    "field_id": "Check Box122",
+    "type": "checkbox",
+    "page": 9,
+    "rect": [
+      65.25,
+      261.14,
+      80.375,
+      276.14
+    ],
+    "section": "",
+    "label": "9 Are any trees on or overhanging the property subject to a tree preservation order (TPO)?"
+  },
+  {
+    "field_id": "Check Box123",
+    "type": "checkbox",
+    "page": 9,
+    "rect": [
+      168.5,
+      260.89,
+      183.625,
+      275.89
+    ],
+    "section": "",
+    "label": "Yes"
+  },
+  {
+    "field_id": "Check Box124",
+    "type": "checkbox",
+    "page": 9,
+    "rect": [
+      253.0,
+      261.14,
+      268.125,
+      276.14
+    ],
+    "section": "",
+    "label": "Yes No"
+  },
+  {
+    "field_id": "Check Box125",
+    "type": "checkbox",
+    "page": 9,
+    "rect": [
+      79.5,
+      213.39,
+      94.625,
+      228.39
+    ],
+    "section": "",
+    "label": "If yes, are you aware of any works carried out on those trees?"
+  },
+  {
+    "field_id": "Check Box126",
+    "type": "checkbox",
+    "page": 9,
+    "rect": [
+      168.5,
+      213.64,
+      183.625,
+      228.64
+    ],
+    "section": "",
+    "label": "Yes"
+  },
+  {
+    "field_id": "Check Box127",
+    "type": "checkbox",
+    "page": 9,
+    "rect": [
+      253.5,
+      213.64,
+      268.625,
+      228.64
+    ],
+    "section": "",
+    "label": "Yes No"
+  },
+  {
+    "field_id": "Check Box128",
+    "type": "checkbox",
+    "page": 9,
+    "rect": [
+      79.75,
+      96.39,
+      94.875,
+      111.39
+    ],
+    "section": "",
+    "label": "If yes, give details and provide a copy of the TPO along with any relevant documents:"
+  },
+  {
+    "field_id": "Check Box129",
+    "type": "checkbox",
+    "page": 9,
+    "rect": [
+      170.25,
+      96.39,
+      185.375,
+      111.39
+    ],
+    "section": "",
+    "label": "Attached"
+  },
+  {
+    "field_id": "5.9",
+    "type": "text",
+    "page": 9,
+    "rect": [
+      83.167,
+      134.203,
+      554.347,
+      178.801
+    ],
+    "section": "",
+    "label": "If yes, give details and provide a copy of the TPO along with any relevant documents:"
+  },
+  {
+    "field_id": "Check Box130",
+    "type": "checkbox",
+    "page": 10,
+    "rect": [
+      341.75,
+      710.89,
+      356.875,
+      725.89
+    ],
+    "section": "6. Guarantees and warranties",
+    "label": "(a)new home warranty (e.g. NHBC or similar)"
+  },
+  {
+    "field_id": "Check Box131",
+    "type": "checkbox",
+    "page": 10,
+    "rect": [
+      442.0,
+      710.64,
+      457.125,
+      725.64
+    ],
+    "section": "6. Guarantees and warranties",
+    "label": "(a)new home warranty (e.g. NHBC or similar) Yes"
+  },
+  {
+    "field_id": "Check Box132",
+    "type": "checkbox",
+    "page": 10,
+    "rect": [
+      342.0,
+      691.14,
+      357.125,
+      706.14
+    ],
+    "section": "6. Guarantees and warranties",
+    "label": "(a)new home warranty (e.g. NHBC or similar) Yes No"
+  },
+  {
+    "field_id": "Check Box133",
+    "type": "checkbox",
+    "page": 10,
+    "rect": [
+      441.25,
+      691.39,
+      456.375,
+      706.39
+    ],
+    "section": "6. Guarantees and warranties",
+    "label": "Attached"
+  },
+  {
+    "field_id": "Check Box134",
+    "type": "checkbox",
+    "page": 10,
+    "rect": [
+      341.25,
+      669.14,
+      356.375,
+      684.14
+    ],
+    "section": "6. Guarantees and warranties",
+    "label": "(b)damp proofing"
+  },
+  {
+    "field_id": "Check Box135",
+    "type": "checkbox",
+    "page": 10,
+    "rect": [
+      441.5,
+      668.89,
+      456.625,
+      683.89
+    ],
+    "section": "6. Guarantees and warranties",
+    "label": "(b)damp proofing Yes"
+  },
+  {
+    "field_id": "Check Box136",
+    "type": "checkbox",
+    "page": 10,
+    "rect": [
+      341.25,
+      649.14,
+      356.375,
+      664.14
+    ],
+    "section": "6. Guarantees and warranties",
+    "label": "(b)damp proofing Yes No"
+  },
+  {
+    "field_id": "Check Box137",
+    "type": "checkbox",
+    "page": 10,
+    "rect": [
+      441.5,
+      648.64,
+      456.625,
+      663.64
+    ],
+    "section": "6. Guarantees and warranties",
+    "label": "Attached"
+  },
+  {
+    "field_id": "Check Box138",
+    "type": "checkbox",
+    "page": 10,
+    "rect": [
+      341.5,
+      627.14,
+      356.625,
+      642.14
+    ],
+    "section": "6. Guarantees and warranties",
+    "label": "(c)timber treatment"
+  },
+  {
+    "field_id": "Check Box139",
+    "type": "checkbox",
+    "page": 10,
+    "rect": [
+      441.5,
+      626.64,
+      456.625,
+      641.64
+    ],
+    "section": "6. Guarantees and warranties",
+    "label": "(c)timber treatment Yes"
+  },
+  {
+    "field_id": "Check Box140",
+    "type": "checkbox",
+    "page": 10,
+    "rect": [
+      342.0,
+      606.14,
+      357.125,
+      621.14
+    ],
+    "section": "6. Guarantees and warranties",
+    "label": "(c)timber treatment Yes No"
+  },
+  {
+    "field_id": "Check Box141",
+    "type": "checkbox",
+    "page": 10,
+    "rect": [
+      441.75,
+      605.39,
+      456.875,
+      620.39
+    ],
+    "section": "6. Guarantees and warranties",
+    "label": "Attached"
+  },
+  {
+    "field_id": "Check Box142",
+    "type": "checkbox",
+    "page": 10,
+    "rect": [
+      341.75,
+      584.14,
+      356.875,
+      599.14
+    ],
+    "section": "6. Guarantees and warranties",
+    "label": "(d)windows, roof lights, roof windows or glazed doors"
+  },
+  {
+    "field_id": "Check Box143",
+    "type": "checkbox",
+    "page": 10,
+    "rect": [
+      441.5,
+      583.89,
+      456.625,
+      598.89
+    ],
+    "section": "6. Guarantees and warranties",
+    "label": "(d)windows, roof lights, roof windows or glazed doors Yes"
+  },
+  {
+    "field_id": "Check Box144",
+    "type": "checkbox",
+    "page": 10,
+    "rect": [
+      341.75,
+      563.64,
+      356.875,
+      578.64
+    ],
+    "section": "6. Guarantees and warranties",
+    "label": "(d)windows, roof lights, roof windows or glazed doors Yes No"
+  },
+  {
+    "field_id": "Check Box145",
+    "type": "checkbox",
+    "page": 10,
+    "rect": [
+      442.25,
+      563.89,
+      457.375,
+      578.89
+    ],
+    "section": "6. Guarantees and warranties",
+    "label": "Attached"
+  },
+  {
+    "field_id": "Check Box146",
+    "type": "checkbox",
+    "page": 10,
+    "rect": [
+      341.75,
+      541.64,
+      356.875,
+      556.64
+    ],
+    "section": "6. Guarantees and warranties",
+    "label": "(e)roofing"
+  },
+  {
+    "field_id": "Check Box147",
+    "type": "checkbox",
+    "page": 10,
+    "rect": [
+      441.5,
+      541.64,
+      456.625,
+      556.64
+    ],
+    "section": "6. Guarantees and warranties",
+    "label": "(e)roofing Yes"
+  },
+  {
+    "field_id": "Check Box148",
+    "type": "checkbox",
+    "page": 10,
+    "rect": [
+      342.0,
+      521.64,
+      357.125,
+      536.64
+    ],
+    "section": "6. Guarantees and warranties",
+    "label": "(e)roofing Yes No"
+  },
+  {
+    "field_id": "Check Box149",
+    "type": "checkbox",
+    "page": 10,
+    "rect": [
+      442.0,
+      521.14,
+      457.125,
+      536.14
+    ],
+    "section": "6. Guarantees and warranties",
+    "label": "Attached"
+  },
+  {
+    "field_id": "Check Box150",
+    "type": "checkbox",
+    "page": 10,
+    "rect": [
+      341.75,
+      500.14,
+      356.875,
+      515.14
+    ],
+    "section": "6. Guarantees and warranties",
+    "label": "(f)boiler or heating systems"
+  },
+  {
+    "field_id": "Check Box151",
+    "type": "checkbox",
+    "page": 10,
+    "rect": [
+      442.25,
+      499.39,
+      457.375,
+      514.39
+    ],
+    "section": "6. Guarantees and warranties",
+    "label": "(f)boiler or heating systems Yes"
+  },
+  {
+    "field_id": "Check Box152",
+    "type": "checkbox",
+    "page": 10,
+    "rect": [
+      342.25,
+      478.89,
+      357.375,
+      493.89
+    ],
+    "section": "6. Guarantees and warranties",
+    "label": "(f)boiler or heating systems Yes No"
+  },
+  {
+    "field_id": "Check Box153",
+    "type": "checkbox",
+    "page": 10,
+    "rect": [
+      442.25,
+      479.14,
+      457.375,
+      494.14
+    ],
+    "section": "6. Guarantees and warranties",
+    "label": "Attached"
+  },
+  {
+    "field_id": "Check Box154",
+    "type": "checkbox",
+    "page": 10,
+    "rect": [
+      341.25,
+      456.89,
+      356.375,
+      471.89
+    ],
+    "section": "6. Guarantees and warranties",
+    "label": "(g)underpinning"
+  },
+  {
+    "field_id": "Check Box155",
+    "type": "checkbox",
+    "page": 10,
+    "rect": [
+      441.75,
+      456.89,
+      456.875,
+      471.89
+    ],
+    "section": "6. Guarantees and warranties",
+    "label": "(g)underpinning Yes"
+  },
+  {
+    "field_id": "Check Box156",
+    "type": "checkbox",
+    "page": 10,
+    "rect": [
+      341.5,
+      436.64,
+      356.625,
+      451.64
+    ],
+    "section": "6. Guarantees and warranties",
+    "label": "(g)underpinning Yes No"
+  },
+  {
+    "field_id": "Check Box157",
+    "type": "checkbox",
+    "page": 10,
+    "rect": [
+      442.0,
+      436.89,
+      457.125,
+      451.89
+    ],
+    "section": "6. Guarantees and warranties",
+    "label": "Attached"
+  },
+  {
+    "field_id": "Check Box158",
+    "type": "checkbox",
+    "page": 10,
+    "rect": [
+      341.75,
+      414.89,
+      356.875,
+      429.89
+    ],
+    "section": "6. Guarantees and warranties",
+    "label": "(h)insulation"
+  },
+  {
+    "field_id": "Check Box159",
+    "type": "checkbox",
+    "page": 10,
+    "rect": [
+      441.75,
+      414.89,
+      456.875,
+      429.89
+    ],
+    "section": "6. Guarantees and warranties",
+    "label": "(h)insulation Yes"
+  },
+  {
+    "field_id": "Check Box160",
+    "type": "checkbox",
+    "page": 10,
+    "rect": [
+      341.5,
+      394.39,
+      356.625,
+      409.39
+    ],
+    "section": "6. Guarantees and warranties",
+    "label": "(h)insulation Yes No"
+  },
+  {
+    "field_id": "Check Box161",
+    "type": "checkbox",
+    "page": 10,
+    "rect": [
+      441.25,
+      394.14,
+      456.375,
+      409.14
+    ],
+    "section": "6. Guarantees and warranties",
+    "label": "Attached"
+  },
+  {
+    "field_id": "Check Box162",
+    "type": "checkbox",
+    "page": 10,
+    "rect": [
+      342.0,
+      372.14,
+      357.125,
+      387.14
+    ],
+    "section": "6. Guarantees and warranties",
+    "label": "(i)other (please state):"
+  },
+  {
+    "field_id": "Check Box163",
+    "type": "checkbox",
+    "page": 10,
+    "rect": [
+      442.0,
+      371.64,
+      457.125,
+      386.64
+    ],
+    "section": "6. Guarantees and warranties",
+    "label": "(i)other (please state): Yes"
+  },
+  {
+    "field_id": "Check Box164",
+    "type": "checkbox",
+    "page": 10,
+    "rect": [
+      342.25,
+      351.64,
+      357.375,
+      366.64
+    ],
+    "section": "6. Guarantees and warranties",
+    "label": "(i)other (please state): Yes No"
+  },
+  {
+    "field_id": "Check Box165",
+    "type": "checkbox",
+    "page": 10,
+    "rect": [
+      440.75,
+      351.64,
+      455.875,
+      366.64
+    ],
+    "section": "6. Guarantees and warranties",
+    "label": "Attached"
+  },
+  {
+    "field_id": "Check Box166",
+    "type": "checkbox",
+    "page": 10,
+    "rect": [
+      64.0,
+      242.14,
+      79.125,
+      257.14
+    ],
+    "section": "6. Guarantees and warranties",
+    "label": "6.2 Are you aware of any claims under any of these guarantees or warranties?"
+  },
+  {
+    "field_id": "Check Box167",
+    "type": "checkbox",
+    "page": 10,
+    "rect": [
+      167.75,
+      242.14,
+      182.875,
+      257.14
+    ],
+    "section": "6. Guarantees and warranties",
+    "label": "Yes"
+  },
+  {
+    "field_id": "Check Box168",
+    "type": "checkbox",
+    "page": 10,
+    "rect": [
+      65.25,
+      126.64,
+      80.375,
+      141.64
+    ],
+    "section": "6. Guarantees and warranties",
+    "label": "nything that may breach the terms and conditions of any of these guarantees or warranties?"
+  },
+  {
+    "field_id": "Check Box169",
+    "type": "checkbox",
+    "page": 10,
+    "rect": [
+      167.5,
+      126.89,
+      182.625,
+      141.89
+    ],
+    "section": "6. Guarantees and warranties",
+    "label": "Yes"
+  },
+  {
+    "field_id": "6.1 i",
+    "type": "text",
+    "page": 10,
+    "rect": [
+      67.0581,
+      289.299,
+      538.238,
+      341.389
+    ],
+    "section": "6. Guarantees and warranties",
+    "label": "Attached To follow"
+  },
+  {
+    "field_id": "6.2",
+    "type": "text",
+    "page": 10,
+    "rect": [
+      68.9312,
+      175.038,
+      540.111,
+      219.636
+    ],
+    "section": "6. Guarantees and warranties",
+    "label": "If yes, please give details:"
+  },
+  {
+    "field_id": "6.3",
+    "type": "text",
+    "page": 10,
+    "rect": [
+      70.0551,
+      58.9036,
+      541.235,
+      103.502
+    ],
+    "section": "6. Guarantees and warranties",
+    "label": "If yes, please give details:"
+  },
+  {
+    "field_id": "Check Box170",
+    "type": "checkbox",
+    "page": 11,
+    "rect": [
+      65.25,
+      723.14,
+      80.375,
+      738.14
+    ],
+    "section": "7. Insurance",
+    "label": "7.1 Do you insure the property?"
+  },
+  {
+    "field_id": "Check Box171",
+    "type": "checkbox",
+    "page": 11,
+    "rect": [
+      167.75,
+      723.14,
+      182.875,
+      738.14
+    ],
+    "section": "7. Insurance",
+    "label": "Yes"
+  },
+  {
+    "field_id": "Check Box172",
+    "type": "checkbox",
+    "page": 11,
+    "rect": [
+      65.25,
+      614.64,
+      80.375,
+      629.64
+    ],
+    "section": "7. Insurance",
+    "label": "of the property insurance ever being difficult to obtain or subject to special conditions?"
+  },
+  {
+    "field_id": "Check Box173",
+    "type": "checkbox",
+    "page": 11,
+    "rect": [
+      167.75,
+      615.14,
+      182.875,
+      630.14
+    ],
+    "section": "7. Insurance",
+    "label": "Yes"
+  },
+  {
+    "field_id": "Check Box174",
+    "type": "checkbox",
+    "page": 11,
+    "rect": [
+      65.25,
+      507.39,
+      80.375,
+      522.39
+    ],
+    "section": "7. Insurance",
+    "label": "7.3 Have you made any buildings insurance claims?"
+  },
+  {
+    "field_id": "Check Box175",
+    "type": "checkbox",
+    "page": 11,
+    "rect": [
+      167.75,
+      507.39,
+      182.875,
+      522.39
+    ],
+    "section": "7. Insurance",
+    "label": "Yes"
+  },
+  {
+    "field_id": "Check Box176",
+    "type": "checkbox",
+    "page": 11,
+    "rect": [
+      364.5,
+      333.64,
+      379.625,
+      348.64
+    ],
+    "section": "7. Insurance",
+    "label": "8.1 Are you aware of the property or any part of it ever being flooded?"
+  },
+  {
+    "field_id": "Check Box177",
+    "type": "checkbox",
+    "page": 11,
+    "rect": [
+      423.0,
+      333.89,
+      438.125,
+      348.89
+    ],
+    "section": "7. Insurance",
+    "label": "8.1 Are you aware of the property or any part of it ever being flooded? Yes"
+  },
+  {
+    "field_id": "Check Box178",
+    "type": "checkbox",
+    "page": 11,
+    "rect": [
+      365.25,
+      290.14,
+      380.375,
+      305.14
+    ],
+    "section": "7. Insurance",
+    "label": "Ground water"
+  },
+  {
+    "field_id": "Check Box179",
+    "type": "checkbox",
+    "page": 11,
+    "rect": [
+      423.25,
+      289.89,
+      438.375,
+      304.89
+    ],
+    "section": "7. Insurance",
+    "label": "Ground water Yes"
+  },
+  {
+    "field_id": "Check Box180",
+    "type": "checkbox",
+    "page": 11,
+    "rect": [
+      364.75,
+      268.64,
+      379.875,
+      283.64
+    ],
+    "section": "7. Insurance",
+    "label": "Sewer flooding"
+  },
+  {
+    "field_id": "Check Box181",
+    "type": "checkbox",
+    "page": 11,
+    "rect": [
+      422.75,
+      268.89,
+      437.875,
+      283.89
+    ],
+    "section": "7. Insurance",
+    "label": "Sewer flooding Yes"
+  },
+  {
+    "field_id": "Check Box182",
+    "type": "checkbox",
+    "page": 11,
+    "rect": [
+      365.25,
+      247.14,
+      380.375,
+      262.14
+    ],
+    "section": "7. Insurance",
+    "label": "Surface water"
+  },
+  {
+    "field_id": "Check Box183",
+    "type": "checkbox",
+    "page": 11,
+    "rect": [
+      423.25,
+      247.39,
+      438.375,
+      262.39
+    ],
+    "section": "7. Insurance",
+    "label": "Surface water Yes"
+  },
+  {
+    "field_id": "Check Box184",
+    "type": "checkbox",
+    "page": 11,
+    "rect": [
+      365.25,
+      226.39,
+      380.375,
+      241.39
+    ],
+    "section": "7. Insurance",
+    "label": "Coastal flooding"
+  },
+  {
+    "field_id": "Check Box185",
+    "type": "checkbox",
+    "page": 11,
+    "rect": [
+      423.75,
+      226.64,
+      438.875,
+      241.64
+    ],
+    "section": "7. Insurance",
+    "label": "Coastal flooding Yes"
+  },
+  {
+    "field_id": "Check Box186",
+    "type": "checkbox",
+    "page": 11,
+    "rect": [
+      365.0,
+      204.89,
+      380.125,
+      219.89
+    ],
+    "section": "7. Insurance",
+    "label": "River flooding"
+  },
+  {
+    "field_id": "Check Box187",
+    "type": "checkbox",
+    "page": 11,
+    "rect": [
+      422.75,
+      205.39,
+      437.875,
+      220.39
+    ],
+    "section": "7. Insurance",
+    "label": "River flooding Yes"
+  },
+  {
+    "field_id": "Check Box188",
+    "type": "checkbox",
+    "page": 11,
+    "rect": [
+      364.75,
+      183.64,
+      379.875,
+      198.64
+    ],
+    "section": "7. Insurance",
+    "label": "Other"
+  },
+  {
+    "field_id": "Check Box189",
+    "type": "checkbox",
+    "page": 11,
+    "rect": [
+      423.25,
+      182.89,
+      438.375,
+      197.89
+    ],
+    "section": "7. Insurance",
+    "label": "Other Yes"
+  },
+  {
+    "field_id": "7.2 Yes",
+    "type": "text",
+    "page": 11,
+    "rect": [
+      67.0847,
+      548.132,
+      538.265,
+      589.358
+    ],
+    "section": "7. Insurance",
+    "label": "If yes, please give details:"
+  },
+  {
+    "field_id": "7.3 yes",
+    "type": "text",
+    "page": 11,
+    "rect": [
+      66.3136,
+      440.951,
+      537.493,
+      482.177
+    ],
+    "section": "7. Insurance",
+    "label": "If yes, give details, including the date(s) of any claim(s) and how they were resolved:"
+  },
+  {
+    "field_id": "7.1",
+    "type": "text",
+    "page": 11,
+    "rect": [
+      69.3059,
+      655.683,
+      540.486,
+      700.281
+    ],
+    "section": "7. Insurance",
+    "label": "If no, who insures the property?"
+  },
+  {
+    "field_id": "8.1",
+    "type": "text",
+    "page": 11,
+    "rect": [
+      80.1932,
+      113.238,
+      551.373,
+      154.464
+    ],
+    "section": "7. Insurance",
+    "label": "Give details about the date(s) any flooding occurred and which parts flooded:"
+  },
+  {
+    "field_id": "Check Box1",
+    "type": "checkbox",
+    "page": 12,
+    "rect": [
+      64.8103,
+      765.451,
+      79.9353,
+      780.451
+    ],
+    "section": "",
+    "label": "8.2 Are you aware of any defences installed at the property to prevent flooding?"
+  },
+  {
+    "field_id": "Check Box2",
+    "type": "checkbox",
+    "page": 12,
+    "rect": [
+      168.937,
+      765.765,
+      184.062,
+      780.765
+    ],
+    "section": "",
+    "label": "Yes"
+  },
+  {
+    "field_id": "Check Box3",
+    "type": "checkbox",
+    "page": 12,
+    "rect": [
+      252.0,
+      765.578,
+      267.125,
+      780.578
+    ],
+    "section": "",
+    "label": "Yes No"
+  },
+  {
+    "field_id": "Check Box5",
+    "type": "checkbox",
+    "page": 12,
+    "rect": [
+      65.185,
+      632.084,
+      80.31,
+      647.084
+    ],
+    "section": "",
+    "label": "8.3 Are you aware of any radon tests that have been carried out on the property?"
+  },
+  {
+    "field_id": "Check Box6",
+    "type": "checkbox",
+    "page": 12,
+    "rect": [
+      168.582,
+      632.084,
+      183.707,
+      647.084
+    ],
+    "section": "",
+    "label": "Yes"
+  },
+  {
+    "field_id": "Check Box7",
+    "type": "checkbox",
+    "page": 12,
+    "rect": [
+      255.495,
+      632.459,
+      270.62,
+      647.459
+    ],
+    "section": "",
+    "label": "Yes No"
+  },
+  {
+    "field_id": "Check Box8",
+    "type": "checkbox",
+    "page": 12,
+    "rect": [
+      372.004,
+      587.129,
+      387.129,
+      602.129
+    ],
+    "section": "",
+    "label": "(a)supply a copy of the report"
+  },
+  {
+    "field_id": "Check Box9",
+    "type": "checkbox",
+    "page": 12,
+    "rect": [
+      454.796,
+      587.504,
+      469.921,
+      602.504
+    ],
+    "section": "",
+    "label": "(a)supply a copy of the report Attached"
+  },
+  {
+    "field_id": "Check Box10",
+    "type": "checkbox",
+    "page": 12,
+    "rect": [
+      372.379,
+      564.277,
+      387.504,
+      579.277
+    ],
+    "section": "",
+    "label": "(b)was the test result below the \u2018recommended action level\u2019?"
+  },
+  {
+    "field_id": "Check Box11",
+    "type": "checkbox",
+    "page": 12,
+    "rect": [
+      455.171,
+      564.652,
+      470.296,
+      579.652
+    ],
+    "section": "",
+    "label": "(b)was the test result below the \u2018recommended action level\u2019? Yes"
+  },
+  {
+    "field_id": "Check Box12",
+    "type": "checkbox",
+    "page": 12,
+    "rect": [
+      65.185,
+      506.584,
+      80.31,
+      521.584
+    ],
+    "section": "",
+    "label": "Measures could have been undertaken during construction or while adding an extension."
+  },
+  {
+    "field_id": "Check Box13",
+    "type": "checkbox",
+    "page": 12,
+    "rect": [
+      169.706,
+      506.584,
+      184.831,
+      521.584
+    ],
+    "section": "",
+    "label": "Yes"
+  },
+  {
+    "field_id": "Check Box14",
+    "type": "checkbox",
+    "page": 12,
+    "rect": [
+      255.121,
+      507.708,
+      270.246,
+      522.708
+    ],
+    "section": "",
+    "label": "Yes No"
+  },
+  {
+    "field_id": "Check Box15",
+    "type": "checkbox",
+    "page": 12,
+    "rect": [
+      65.5596,
+      437.653,
+      80.6846,
+      452.653
+    ],
+    "section": "",
+    "label": "8.5 Have any installations in the property been financed under the Green Deal scheme?"
+  },
+  {
+    "field_id": "Check Box16",
+    "type": "checkbox",
+    "page": 12,
+    "rect": [
+      168.956,
+      437.653,
+      184.081,
+      452.653
+    ],
+    "section": "",
+    "label": "Yes"
+  },
+  {
+    "field_id": "Check Box17",
+    "type": "checkbox",
+    "page": 12,
+    "rect": [
+      64.8103,
+      347.743,
+      79.9353,
+      362.743
+    ],
+    "section": "",
+    "label": "If yes, give details of all installations and supply a copy of your last electricity bill:"
+  },
+  {
+    "field_id": "Check Box18",
+    "type": "checkbox",
+    "page": 12,
+    "rect": [
+      167.833,
+      347.368,
+      182.958,
+      362.368
+    ],
+    "section": "",
+    "label": "Attached"
+  },
+  {
+    "field_id": "Check Box19",
+    "type": "checkbox",
+    "page": 12,
+    "rect": [
+      64.4357,
+      278.437,
+      79.5607,
+      293.437
+    ],
+    "section": "",
+    "label": "8.6 Is the property affected by Japanese knotweed?"
+  },
+  {
+    "field_id": "Check Box20",
+    "type": "checkbox",
+    "page": 12,
+    "rect": [
+      168.582,
+      278.062,
+      183.707,
+      293.062
+    ],
+    "section": "",
+    "label": "Yes"
+  },
+  {
+    "field_id": "Check Box21",
+    "type": "checkbox",
+    "page": 12,
+    "rect": [
+      253.997,
+      278.437,
+      269.122,
+      293.437
+    ],
+    "section": "",
+    "label": "Yes No"
+  },
+  {
+    "field_id": "Check Box22",
+    "type": "checkbox",
+    "page": 12,
+    "rect": [
+      79.4208,
+      233.482,
+      94.5458,
+      248.482
+    ],
+    "section": "",
+    "label": "If yes, is there a Japanese knotweed management and treatment plan in place?"
+  },
+  {
+    "field_id": "Check Box23",
+    "type": "checkbox",
+    "page": 12,
+    "rect": [
+      168.582,
+      233.107,
+      183.707,
+      248.107
+    ],
+    "section": "",
+    "label": "Yes"
+  },
+  {
+    "field_id": "Check Box24",
+    "type": "checkbox",
+    "page": 12,
+    "rect": [
+      253.247,
+      232.733,
+      268.372,
+      247.733
+    ],
+    "section": "",
+    "label": "Yes No"
+  },
+  {
+    "field_id": "Check Box25",
+    "type": "checkbox",
+    "page": 12,
+    "rect": [
+      79.4208,
+      184.781,
+      94.5458,
+      199.781
+    ],
+    "section": "",
+    "label": "If yes, provide a copy of the plan with any insurance cover linked to the plan."
+  },
+  {
+    "field_id": "Check Box26",
+    "type": "checkbox",
+    "page": 12,
+    "rect": [
+      168.207,
+      184.406,
+      183.332,
+      199.406
+    ],
+    "section": "",
+    "label": "Attached"
+  },
+  {
+    "field_id": "Check Box27",
+    "type": "checkbox",
+    "page": 12,
+    "rect": [
+      64.8103,
+      132.707,
+      79.9353,
+      147.707
+    ],
+    "section": "",
+    "label": "8.7 Has a Japanese knotweed survey been carried out in relation to the property?"
+  },
+  {
+    "field_id": "Check Box28",
+    "type": "checkbox",
+    "page": 12,
+    "rect": [
+      168.582,
+      133.082,
+      183.707,
+      148.082
+    ],
+    "section": "",
+    "label": "Yes"
+  },
+  {
+    "field_id": "Check Box29",
+    "type": "checkbox",
+    "page": 12,
+    "rect": [
+      253.997,
+      133.457,
+      269.122,
+      148.457
+    ],
+    "section": "",
+    "label": "Yes No"
+  },
+  {
+    "field_id": "Check Box30",
+    "type": "checkbox",
+    "page": 12,
+    "rect": [
+      79.4208,
+      87.7523,
+      94.5458,
+      102.752
+    ],
+    "section": "",
+    "label": "If yes, provide a copy of the survey."
+  },
+  {
+    "field_id": "Check Box31",
+    "type": "checkbox",
+    "page": 12,
+    "rect": [
+      168.582,
+      87.0031,
+      183.707,
+      102.003
+    ],
+    "section": "",
+    "label": "Attached"
+  },
+  {
+    "field_id": "8.2",
+    "type": "text",
+    "page": 12,
+    "rect": [
+      68.2414,
+      701.965,
+      539.421,
+      743.191
+    ],
+    "section": "",
+    "label": "If yes, please give details:"
+  },
+  {
+    "field_id": "8.5",
+    "type": "text",
+    "page": 12,
+    "rect": [
+      68.6269,
+      371.939,
+      539.807,
+      413.165
+    ],
+    "section": "",
+    "label": "If yes, give details of all installations and supply a copy of your last electricity bill:"
+  },
+  {
+    "field_id": "Check Box32",
+    "type": "checkbox",
+    "page": 13,
+    "rect": [
+      63.6865,
+      708.508,
+      78.8115,
+      723.508
+    ],
+    "section": "9. Rights and informal arrangements",
+    "label": "9.1 Do you exercise any rights or arrangements over any other properties?"
+  },
+  {
+    "field_id": "Check Box33",
+    "type": "checkbox",
+    "page": 13,
+    "rect": [
+      169.331,
+      708.508,
+      184.456,
+      723.508
+    ],
+    "section": "9. Rights and informal arrangements",
+    "label": "Yes"
+  },
+  {
+    "field_id": "Check Box34",
+    "type": "checkbox",
+    "page": 13,
+    "rect": [
+      64.0611,
+      600.616,
+      79.1861,
+      615.616
+    ],
+    "section": "9. Rights and informal arrangements",
+    "label": "9.2 Have you been asked to contribute towards the cost of the jointly used facilities?"
+  },
+  {
+    "field_id": "Check Box35",
+    "type": "checkbox",
+    "page": 13,
+    "rect": [
+      168.582,
+      600.616,
+      183.707,
+      615.616
+    ],
+    "section": "9. Rights and informal arrangements",
+    "label": "Yes"
+  },
+  {
+    "field_id": "Check Box36",
+    "type": "checkbox",
+    "page": 13,
+    "rect": [
+      253.997,
+      600.241,
+      269.122,
+      615.241
+    ],
+    "section": "9. Rights and informal arrangements",
+    "label": "Yes No"
+  },
+  {
+    "field_id": "Check Box37",
+    "type": "checkbox",
+    "page": 13,
+    "rect": [
+      64.8103,
+      492.723,
+      79.9353,
+      507.723
+    ],
+    "section": "9. Rights and informal arrangements",
+    "label": "9.3 Are you aware of any disagreement or complaint about any such right or arrangement?"
+  },
+  {
+    "field_id": "Check Box38",
+    "type": "checkbox",
+    "page": 13,
+    "rect": [
+      168.582,
+      493.098,
+      183.707,
+      508.098
+    ],
+    "section": "9. Rights and informal arrangements",
+    "label": "Yes"
+  },
+  {
+    "field_id": "Check Box39",
+    "type": "checkbox",
+    "page": 13,
+    "rect": [
+      253.997,
+      492.349,
+      269.122,
+      507.349
+    ],
+    "section": "9. Rights and informal arrangements",
+    "label": "Yes No"
+  },
+  {
+    "field_id": "Check Box40",
+    "type": "checkbox",
+    "page": 13,
+    "rect": [
+      64.8103,
+      357.483,
+      79.9353,
+      372.483
+    ],
+    "section": "9. Rights and informal arrangements",
+    "label": " the owners of any other properties exercise any rights or arrangements over the property?"
+  },
+  {
+    "field_id": "Check Box41",
+    "type": "checkbox",
+    "page": 13,
+    "rect": [
+      168.956,
+      357.483,
+      184.081,
+      372.483
+    ],
+    "section": "9. Rights and informal arrangements",
+    "label": "Yes"
+  },
+  {
+    "field_id": "Check Box43",
+    "type": "checkbox",
+    "page": 13,
+    "rect": [
+      64.8103,
+      249.965,
+      79.9353,
+      264.965
+    ],
+    "section": "9. Rights and informal arrangements",
+    "label": "ner of any other properties to contribute towards the cost of the jointly used facilities?"
+  },
+  {
+    "field_id": "Check Box44",
+    "type": "checkbox",
+    "page": 13,
+    "rect": [
+      168.582,
+      250.34,
+      183.707,
+      265.34
+    ],
+    "section": "9. Rights and informal arrangements",
+    "label": "Yes"
+  },
+  {
+    "field_id": "Check Box45",
+    "type": "checkbox",
+    "page": 13,
+    "rect": [
+      254.746,
+      249.591,
+      269.871,
+      264.591
+    ],
+    "section": "9. Rights and informal arrangements",
+    "label": "Yes No"
+  },
+  {
+    "field_id": "Check Box56",
+    "type": "checkbox",
+    "page": 13,
+    "rect": [
+      64.8103,
+      127.463,
+      79.9353,
+      142.463
+    ],
+    "section": "9. Rights and informal arrangements",
+    "label": "9.6 Are you aware of any disagreement or complaint about any such right or arrangement?"
+  },
+  {
+    "field_id": "Check Box57",
+    "type": "checkbox",
+    "page": 13,
+    "rect": [
+      168.582,
+      126.713,
+      183.707,
+      141.713
+    ],
+    "section": "9. Rights and informal arrangements",
+    "label": "Yes"
+  },
+  {
+    "field_id": "Check Box58",
+    "type": "checkbox",
+    "page": 13,
+    "rect": [
+      253.622,
+      126.713,
+      268.747,
+      141.713
+    ],
+    "section": "9. Rights and informal arrangements",
+    "label": "Yes No"
+  },
+  {
+    "field_id": "9.1",
+    "type": "text",
+    "page": 13,
+    "rect": [
+      68.6269,
+      643.747,
+      539.807,
+      684.973
+    ],
+    "section": "9. Rights and informal arrangements",
+    "label": "If yes, please give details:"
+  },
+  {
+    "field_id": "9.2",
+    "type": "text",
+    "page": 13,
+    "rect": [
+      68.6269,
+      534.253,
+      539.807,
+      575.479
+    ],
+    "section": "9. Rights and informal arrangements",
+    "label": "If yes, give details of how much, how often and who you pay:"
+  },
+  {
+    "field_id": "9.3",
+    "type": "text",
+    "page": 13,
+    "rect": [
+      68.6269,
+      428.228,
+      539.807,
+      469.454
+    ],
+    "section": "9. Rights and informal arrangements",
+    "label": "If yes, please give details:"
+  },
+  {
+    "field_id": "9.4",
+    "type": "text",
+    "page": 13,
+    "rect": [
+      70.1691,
+      294.059,
+      541.349,
+      335.285
+    ],
+    "section": "9. Rights and informal arrangements",
+    "label": "If yes, please give details:"
+  },
+  {
+    "field_id": "9.5",
+    "type": "text",
+    "page": 13,
+    "rect": [
+      70.1691,
+      169.913,
+      541.349,
+      211.139
+    ],
+    "section": "9. Rights and informal arrangements",
+    "label": "Include details about how much is paid and how often payments are made:"
+  },
+  {
+    "field_id": "9.6",
+    "type": "text",
+    "page": 13,
+    "rect": [
+      70.9402,
+      61.9609,
+      542.12,
+      103.187
+    ],
+    "section": "9. Rights and informal arrangements",
+    "label": "If yes, please give details:"
+  },
+  {
+    "field_id": "Check Box60",
+    "type": "checkbox",
+    "page": 14,
+    "rect": [
+      65.185,
+      745.221,
+      80.31,
+      760.221
+    ],
+    "section": "10. Parking",
+    "label": "ou aware of any drains, pipes or wires serving the property that cross any other property?"
+  },
+  {
+    "field_id": "Check Box61",
+    "type": "checkbox",
+    "page": 14,
+    "rect": [
+      168.956,
+      745.221,
+      184.081,
+      760.221
+    ],
+    "section": "10. Parking",
+    "label": "Yes"
+  },
+  {
+    "field_id": "Check Box62",
+    "type": "checkbox",
+    "page": 14,
+    "rect": [
+      254.371,
+      744.847,
+      269.496,
+      759.847
+    ],
+    "section": "10. Parking",
+    "label": "Yes No"
+  },
+  {
+    "field_id": "Check Box63",
+    "type": "checkbox",
+    "page": 14,
+    "rect": [
+      64.8103,
+      698.018,
+      79.9353,
+      713.018
+    ],
+    "section": "10. Parking",
+    "label": "aware of any drains, pipes or wires leading to any other property that cross the property?"
+  },
+  {
+    "field_id": "Check Box64",
+    "type": "checkbox",
+    "page": 14,
+    "rect": [
+      168.207,
+      698.018,
+      183.332,
+      713.018
+    ],
+    "section": "10. Parking",
+    "label": "Yes"
+  },
+  {
+    "field_id": "Check Box65",
+    "type": "checkbox",
+    "page": 14,
+    "rect": [
+      253.997,
+      698.393,
+      269.122,
+      713.393
+    ],
+    "section": "10. Parking",
+    "label": "Yes No"
+  },
+  {
+    "field_id": "Check Box66",
+    "type": "checkbox",
+    "page": 14,
+    "rect": [
+      65.9342,
+      649.317,
+      81.0592,
+      664.317
+    ],
+    "section": "10. Parking",
+    "label": "9.9 Is there any agreement or arrangement about drains, pipes or wires?"
+  },
+  {
+    "field_id": "Check Box67",
+    "type": "checkbox",
+    "page": 14,
+    "rect": [
+      169.331,
+      649.692,
+      184.456,
+      664.692
+    ],
+    "section": "10. Parking",
+    "label": "Yes"
+  },
+  {
+    "field_id": "Check Box68",
+    "type": "checkbox",
+    "page": 14,
+    "rect": [
+      252.873,
+      650.066,
+      267.998,
+      665.066
+    ],
+    "section": "10. Parking",
+    "label": "Yes No"
+  },
+  {
+    "field_id": "Check Box69",
+    "type": "checkbox",
+    "page": 14,
+    "rect": [
+      64.4357,
+      561.655,
+      79.5607,
+      576.655
+    ],
+    "section": "10. Parking",
+    "label": "If yes, supply a copy or give details:"
+  },
+  {
+    "field_id": "Check Box70",
+    "type": "checkbox",
+    "page": 14,
+    "rect": [
+      168.956,
+      562.029,
+      184.081,
+      577.029
+    ],
+    "section": "10. Parking",
+    "label": "Attached"
+  },
+  {
+    "field_id": "Check Box71",
+    "type": "checkbox",
+    "page": 14,
+    "rect": [
+      65.185,
+      369.846,
+      80.31,
+      384.846
+    ],
+    "section": "10. Parking",
+    "label": "10.2 Is a permit required for on-road parking?"
+  },
+  {
+    "field_id": "Check Box72",
+    "type": "checkbox",
+    "page": 14,
+    "rect": [
+      168.207,
+      370.221,
+      183.332,
+      385.221
+    ],
+    "section": "10. Parking",
+    "label": "Yes"
+  },
+  {
+    "field_id": "Check Box73",
+    "type": "checkbox",
+    "page": 14,
+    "rect": [
+      65.9342,
+      327.513,
+      81.0592,
+      342.513
+    ],
+    "section": "10. Parking",
+    "label": "10.3 Does the property have an electric vehicle (EV) charging point?"
+  },
+  {
+    "field_id": "Check Box74",
+    "type": "checkbox",
+    "page": 14,
+    "rect": [
+      168.956,
+      328.262,
+      184.081,
+      343.262
+    ],
+    "section": "10. Parking",
+    "label": "Yes"
+  },
+  {
+    "field_id": "Check Box75",
+    "type": "checkbox",
+    "page": 14,
+    "rect": [
+      79.4208,
+      198.267,
+      94.5458,
+      213.267
+    ],
+    "section": "10. Parking",
+    "label": " type of EV charger, connector and its location and provide building regulation approvals:"
+  },
+  {
+    "field_id": "Check Box76",
+    "type": "checkbox",
+    "page": 14,
+    "rect": [
+      168.582,
+      198.642,
+      183.707,
+      213.642
+    ],
+    "section": "10. Parking",
+    "label": "Attached"
+  },
+  {
+    "field_id": "Check Box77",
+    "type": "checkbox",
+    "page": 14,
+    "rect": [
+      79.0461,
+      149.94,
+      94.1711,
+      164.94
+    ],
+    "section": "10. Parking",
+    "label": "(b)does an EV charging cable have to cross the public pavement?"
+  },
+  {
+    "field_id": "Check Box78",
+    "type": "checkbox",
+    "page": 14,
+    "rect": [
+      168.582,
+      151.439,
+      183.707,
+      166.439
+    ],
+    "section": "10. Parking",
+    "label": "Yes"
+  },
+  {
+    "field_id": "9.9",
+    "type": "text",
+    "page": 14,
+    "rect": [
+      67.8558,
+      585.916,
+      539.036,
+      627.142
+    ],
+    "section": "10. Parking",
+    "label": "Yes No Not known"
+  },
+  {
+    "field_id": "10.1",
+    "type": "text",
+    "page": 14,
+    "rect": [
+      70.1691,
+      419.746,
+      541.349,
+      471.767
+    ],
+    "section": "10. Parking",
+    "label": "10.1 What are the parking arrangements at the property?"
+  },
+  {
+    "field_id": "10.3",
+    "type": "text",
+    "page": 14,
+    "rect": [
+      81.3499,
+      227.359,
+      552.53,
+      278.995
+    ],
+    "section": "10. Parking",
+    "label": " type of EV charger, connector and its location and provide building regulation approvals:"
+  },
+  {
+    "field_id": "10.3b",
+    "type": "text",
+    "page": 14,
+    "rect": [
+      81.7354,
+      76.9971,
+      552.915,
+      118.223
+    ],
+    "section": "10. Parking",
+    "label": "If yes, specify any relevant local authority licence or terms and conditions:"
+  },
+  {
+    "field_id": "Check Box79",
+    "type": "checkbox",
+    "page": 15,
+    "rect": [
+      64.4357,
+      710.007,
+      79.5607,
+      725.007
+    ],
+    "section": "11. Services",
+    "label": "11.1 Are you aware of any electrical installation works carried out at the property?"
+  },
+  {
+    "field_id": "Check Box80",
+    "type": "checkbox",
+    "page": 15,
+    "rect": [
+      167.458,
+      710.381,
+      182.583,
+      725.381
+    ],
+    "section": "11. Services",
+    "label": "Yes"
+  },
+  {
+    "field_id": "Check Box81",
+    "type": "checkbox",
+    "page": 15,
+    "rect": [
+      64.0611,
+      600.616,
+      79.1861,
+      615.616
+    ],
+    "section": "11. Services",
+    "label": "11.2 Does the property have any certificates for electrical installation works?"
+  },
+  {
+    "field_id": "Check Box82",
+    "type": "checkbox",
+    "page": 15,
+    "rect": [
+      167.083,
+      601.365,
+      182.208,
+      616.365
+    ],
+    "section": "11. Services",
+    "label": "Yes"
+  },
+  {
+    "field_id": "Check Box83",
+    "type": "checkbox",
+    "page": 15,
+    "rect": [
+      64.8103,
+      557.908,
+      79.9353,
+      572.908
+    ],
+    "section": "11. Services",
+    "label": "If yes, please supply a copy."
+  },
+  {
+    "field_id": "Check Box84",
+    "type": "checkbox",
+    "page": 15,
+    "rect": [
+      167.833,
+      557.908,
+      182.958,
+      572.908
+    ],
+    "section": "11. Services",
+    "label": "Attached"
+  },
+  {
+    "field_id": "Check Box85",
+    "type": "checkbox",
+    "page": 15,
+    "rect": [
+      65.185,
+      517.074,
+      80.31,
+      532.074
+    ],
+    "section": "11. Services",
+    "label": "11.3 Does the property have an Electrical Installation Condition Report (EICR)?"
+  },
+  {
+    "field_id": "Check Box86",
+    "type": "checkbox",
+    "page": 15,
+    "rect": [
+      167.083,
+      515.95,
+      182.208,
+      530.95
+    ],
+    "section": "11. Services",
+    "label": "Yes"
+  },
+  {
+    "field_id": "Check Box87",
+    "type": "checkbox",
+    "page": 15,
+    "rect": [
+      64.8103,
+      473.617,
+      79.9353,
+      488.617
+    ],
+    "section": "11. Services",
+    "label": "If yes, please supply a copy."
+  },
+  {
+    "field_id": "Check Box88",
+    "type": "checkbox",
+    "page": 15,
+    "rect": [
+      167.458,
+      473.243,
+      182.583,
+      488.243
+    ],
+    "section": "11. Services",
+    "label": "Attached"
+  },
+  {
+    "field_id": "Check Box89",
+    "type": "checkbox",
+    "page": 15,
+    "rect": [
+      65.5596,
+      405.81,
+      80.6846,
+      420.81
+    ],
+    "section": "11. Services",
+    "label": "11.4 How is the property heated? Tick all that apply:"
+  },
+  {
+    "field_id": "Check Box90",
+    "type": "checkbox",
+    "page": 15,
+    "rect": [
+      167.833,
+      406.185,
+      182.958,
+      421.185
+    ],
+    "section": "11. Services",
+    "label": "Mains gas"
+  },
+  {
+    "field_id": "Check Box91",
+    "type": "checkbox",
+    "page": 15,
+    "rect": [
+      278.722,
+      406.185,
+      293.847,
+      421.185
+    ],
+    "section": "11. Services",
+    "label": "Mains gas Oil"
+  },
+  {
+    "field_id": "Check Box92",
+    "type": "checkbox",
+    "page": 15,
+    "rect": [
+      65.185,
+      382.958,
+      80.31,
+      397.958
+    ],
+    "section": "11. Services",
+    "label": "Mains gas Oil Heat pumps"
+  },
+  {
+    "field_id": "Check Box93",
+    "type": "checkbox",
+    "page": 15,
+    "rect": [
+      167.458,
+      382.958,
+      182.583,
+      397.958
+    ],
+    "section": "11. Services",
+    "label": "Liquid gas"
+  },
+  {
+    "field_id": "Check Box94",
+    "type": "checkbox",
+    "page": 15,
+    "rect": [
+      278.722,
+      382.583,
+      293.847,
+      397.583
+    ],
+    "section": "11. Services",
+    "label": "Liquid gas Electricity"
+  },
+  {
+    "field_id": "Check Box95",
+    "type": "checkbox",
+    "page": 15,
+    "rect": [
+      64.4357,
+      361.229,
+      79.5607,
+      376.229
+    ],
+    "section": "11. Services",
+    "label": "Liquid gas Electricity Underfloor"
+  },
+  {
+    "field_id": "Check Box96",
+    "type": "checkbox",
+    "page": 15,
+    "rect": [
+      279.846,
+      361.979,
+      294.971,
+      376.979
+    ],
+    "section": "11. Services",
+    "label": "Woodburning / multi-fuel stove"
+  },
+  {
+    "field_id": "Date97_es_:date",
+    "type": "text",
+    "page": 15,
+    "rect": [
+      105.645,
+      252.586,
+      225.425,
+      272.458
+    ],
+    "section": "11. Services",
+    "label": "Date:"
+  },
+  {
+    "field_id": "Check Box98",
+    "type": "checkbox",
+    "page": 15,
+    "rect": [
+      254.371,
+      254.086,
+      269.496,
+      269.086
+    ],
+    "section": "11. Services",
+    "label": "Date:"
+  },
+  {
+    "field_id": "Date99_es_:date",
+    "type": "text",
+    "page": 15,
+    "rect": [
+      104.521,
+      214.374,
+      226.174,
+      231.249
+    ],
+    "section": "11. Services",
+    "label": "Date:"
+  },
+  {
+    "field_id": "Check Box100",
+    "type": "checkbox",
+    "page": 15,
+    "rect": [
+      253.997,
+      212.878,
+      269.122,
+      227.878
+    ],
+    "section": "11. Services",
+    "label": "Date:"
+  },
+  {
+    "field_id": "Check Box101",
+    "type": "checkbox",
+    "page": 15,
+    "rect": [
+      79.4208,
+      172.043,
+      94.5458,
+      187.043
+    ],
+    "section": "11. Services",
+    "label": "Has there been any replacement to the heating system (other than replacement of a boiler)?"
+  },
+  {
+    "field_id": "Check Box102",
+    "type": "checkbox",
+    "page": 15,
+    "rect": [
+      169.331,
+      172.792,
+      184.456,
+      187.792
+    ],
+    "section": "11. Services",
+    "label": "Yes No"
+  },
+  {
+    "field_id": "Check Box190",
+    "type": "checkbox",
+    "page": 15,
+    "rect": [
+      254.371,
+      171.669,
+      269.496,
+      186.669
+    ],
+    "section": "11. Services",
+    "label": "Yes No Not"
+  },
+  {
+    "field_id": "Check Box191",
+    "type": "checkbox",
+    "page": 15,
+    "rect": [
+      80.17,
+      118.472,
+      95.295,
+      133.472
+    ],
+    "section": "11. Services",
+    "label": "(such as a building regulation completion certificate)."
+  },
+  {
+    "field_id": "Check Box192",
+    "type": "checkbox",
+    "page": 15,
+    "rect": [
+      169.706,
+      119.596,
+      184.831,
+      134.596
+    ],
+    "section": "11. Services",
+    "label": "Attached"
+  },
+  {
+    "field_id": "Check Box193",
+    "type": "checkbox",
+    "page": 15,
+    "rect": [
+      253.997,
+      119.97,
+      269.122,
+      134.97
+    ],
+    "section": "11. Services",
+    "label": "Attached To follow"
+  },
+  {
+    "field_id": "Check Box194",
+    "type": "checkbox",
+    "page": 15,
+    "rect": [
+      80.9193,
+      78.012,
+      96.0443,
+      93.012
+    ],
+    "section": "11. Services",
+    "label": "(e)Supply a copy of the latest inspection report."
+  },
+  {
+    "field_id": "Check Box195",
+    "type": "checkbox",
+    "page": 15,
+    "rect": [
+      168.582,
+      78.012,
+      183.707,
+      93.012
+    ],
+    "section": "11. Services",
+    "label": "Attached"
+  },
+  {
+    "field_id": "Check Box196",
+    "type": "checkbox",
+    "page": 15,
+    "rect": [
+      255.121,
+      78.012,
+      270.246,
+      93.012
+    ],
+    "section": "11. Services",
+    "label": "Attached To follow"
+  },
+  {
+    "field_id": "11.1",
+    "type": "text",
+    "page": 15,
+    "rect": [
+      68.2414,
+      643.747,
+      539.421,
+      684.973
+    ],
+    "section": "11. Services",
+    "label": "If yes, give details including when this work took place:"
+  },
+  {
+    "field_id": "Text17",
+    "type": "text",
+    "page": 15,
+    "rect": [
+      68.2414,
+      295.986,
+      539.421,
+      337.212
+    ],
+    "section": "11. Services",
+    "label": "If other, please give details:"
+  },
+  {
+    "field_id": "Check Box197",
+    "type": "checkbox",
+    "page": 16,
+    "rect": [
+      80.9193,
+      767.324,
+      96.0443,
+      782.324
+    ],
+    "section": "",
+    "label": "(f)Is the boiler and heating system working?"
+  },
+  {
+    "field_id": "Check Box198",
+    "type": "checkbox",
+    "page": 16,
+    "rect": [
+      169.706,
+      766.95,
+      184.831,
+      781.95
+    ],
+    "section": "",
+    "label": "Yes"
+  },
+  {
+    "field_id": "Check Box199",
+    "type": "checkbox",
+    "page": 16,
+    "rect": [
+      254.746,
+      767.324,
+      269.871,
+      782.324
+    ],
+    "section": "",
+    "label": "Yes No"
+  },
+  {
+    "field_id": "Date200_es_:date",
+    "type": "text",
+    "page": 16,
+    "rect": [
+      102.648,
+      722.367,
+      224.301,
+      739.242
+    ],
+    "section": "",
+    "label": "Year:"
+  },
+  {
+    "field_id": "Check Box201",
+    "type": "checkbox",
+    "page": 16,
+    "rect": [
+      254.371,
+      720.496,
+      269.496,
+      735.496
+    ],
+    "section": "",
+    "label": "Year:"
+  },
+  {
+    "field_id": "Check Box202",
+    "type": "checkbox",
+    "page": 16,
+    "rect": [
+      79.7954,
+      681.16,
+      94.9204,
+      696.16
+    ],
+    "section": "",
+    "label": "Please supply a copy of any service report."
+  },
+  {
+    "field_id": "Check Box203",
+    "type": "checkbox",
+    "page": 16,
+    "rect": [
+      170.455,
+      681.91,
+      185.58,
+      696.91
+    ],
+    "section": "",
+    "label": "Attached"
+  },
+  {
+    "field_id": "Check Box204",
+    "type": "checkbox",
+    "page": 16,
+    "rect": [
+      80.17,
+      635.081,
+      95.295,
+      650.081
+    ],
+    "section": "",
+    "label": "(h)If there is more than one heating system, attach answers to 11.4(a)\u2013(g) separately."
+  },
+  {
+    "field_id": "Check Box205",
+    "type": "checkbox",
+    "page": 16,
+    "rect": [
+      168.582,
+      635.456,
+      183.707,
+      650.456
+    ],
+    "section": "",
+    "label": "Attached"
+  },
+  {
+    "field_id": "Check Box206",
+    "type": "checkbox",
+    "page": 16,
+    "rect": [
+      80.17,
+      542.549,
+      95.295,
+      557.549
+    ],
+    "section": "",
+    "label": "(a)foul water drainage?"
+  },
+  {
+    "field_id": "Check Box207",
+    "type": "checkbox",
+    "page": 16,
+    "rect": [
+      168.582,
+      541.799,
+      183.707,
+      556.799
+    ],
+    "section": "",
+    "label": "Yes"
+  },
+  {
+    "field_id": "Check Box208",
+    "type": "checkbox",
+    "page": 16,
+    "rect": [
+      253.622,
+      542.549,
+      268.747,
+      557.549
+    ],
+    "section": "",
+    "label": "Yes No"
+  },
+  {
+    "field_id": "Check Box209",
+    "type": "checkbox",
+    "page": 16,
+    "rect": [
+      79.7954,
+      496.095,
+      94.9204,
+      511.095
+    ],
+    "section": "",
+    "label": "(b)surface water drainage?"
+  },
+  {
+    "field_id": "Check Box210",
+    "type": "checkbox",
+    "page": 16,
+    "rect": [
+      168.956,
+      496.095,
+      184.081,
+      511.095
+    ],
+    "section": "",
+    "label": "Yes"
+  },
+  {
+    "field_id": "Check Box211",
+    "type": "checkbox",
+    "page": 16,
+    "rect": [
+      253.997,
+      496.095,
+      269.122,
+      511.095
+    ],
+    "section": "",
+    "label": "Yes No"
+  },
+  {
+    "field_id": "Check Box212",
+    "type": "checkbox",
+    "page": 16,
+    "rect": [
+      79.7954,
+      429.786,
+      94.9204,
+      444.786
+    ],
+    "section": "",
+    "label": "(a)a septic tank?"
+  },
+  {
+    "field_id": "Check Box213",
+    "type": "checkbox",
+    "page": 16,
+    "rect": [
+      168.582,
+      429.411,
+      183.707,
+      444.411
+    ],
+    "section": "",
+    "label": "Yes"
+  },
+  {
+    "field_id": "Check Box214",
+    "type": "checkbox",
+    "page": 16,
+    "rect": [
+      79.4208,
+      384.456,
+      94.5458,
+      399.456
+    ],
+    "section": "",
+    "label": "(b)a sewage treatment plant?"
+  },
+  {
+    "field_id": "Check Box215",
+    "type": "checkbox",
+    "page": 16,
+    "rect": [
+      168.956,
+      384.082,
+      184.081,
+      399.082
+    ],
+    "section": "",
+    "label": "Yes"
+  },
+  {
+    "field_id": "Check Box216",
+    "type": "checkbox",
+    "page": 16,
+    "rect": [
+      79.4208,
+      338.752,
+      94.5458,
+      353.752
+    ],
+    "section": "",
+    "label": "(c)a cesspool?"
+  },
+  {
+    "field_id": "Check Box217",
+    "type": "checkbox",
+    "page": 16,
+    "rect": [
+      168.207,
+      338.752,
+      183.332,
+      353.752
+    ],
+    "section": "",
+    "label": "Yes"
+  },
+  {
+    "field_id": "Check Box219",
+    "type": "checkbox",
+    "page": 16,
+    "rect": [
+      297.453,
+      230.11,
+      312.578,
+      245.11
+    ],
+    "section": "",
+    "label": "Month/Year:"
+  },
+  {
+    "field_id": "Date218_es_:date",
+    "type": "text",
+    "page": 16,
+    "rect": [
+      132.992,
+      229.359,
+      270.755,
+      246.234
+    ],
+    "section": "",
+    "label": "Month/Year:"
+  },
+  {
+    "field_id": "Date220_es_:date",
+    "type": "text",
+    "page": 16,
+    "rect": [
+      133.742,
+      186.277,
+      271.504,
+      203.152
+    ],
+    "section": "",
+    "label": "Month/Year:"
+  },
+  {
+    "field_id": "Date221_es_:date",
+    "type": "text",
+    "page": 16,
+    "rect": [
+      132.992,
+      139.823,
+      270.755,
+      156.698
+    ],
+    "section": "",
+    "label": "Month/Year:"
+  },
+  {
+    "field_id": "Date222_es_:date",
+    "type": "text",
+    "page": 16,
+    "rect": [
+      134.491,
+      92.9948,
+      272.253,
+      109.87
+    ],
+    "section": "",
+    "label": "Month/Year:"
+  },
+  {
+    "field_id": "Date223_es_:date",
+    "type": "text",
+    "page": 17,
+    "rect": [
+      135.24,
+      754.959,
+      273.003,
+      771.835
+    ],
+    "section": "12. Connection to services",
+    "label": "Month/Year:"
+  },
+  {
+    "field_id": "Check Box224",
+    "type": "checkbox",
+    "page": 17,
+    "rect": [
+      78.6715,
+      711.505,
+      93.7965,
+      726.505
+    ],
+    "section": "12. Connection to services",
+    "label": "(f)does the sewerage system discharge to the ground or to surface water?"
+  },
+  {
+    "field_id": "Check Box225",
+    "type": "checkbox",
+    "page": 17,
+    "rect": [
+      167.458,
+      710.756,
+      182.583,
+      725.756
+    ],
+    "section": "12. Connection to services",
+    "label": "Ground"
+  },
+  {
+    "field_id": "Check Box226",
+    "type": "checkbox",
+    "page": 17,
+    "rect": [
+      78.6715,
+      669.172,
+      93.7965,
+      684.172
+    ],
+    "section": "12. Connection to services",
+    "label": "(g)if the sewerage system discharges to the ground, does it have an infiltration system?"
+  },
+  {
+    "field_id": "Check Box227",
+    "type": "checkbox",
+    "page": 17,
+    "rect": [
+      167.833,
+      670.296,
+      182.958,
+      685.296
+    ],
+    "section": "12. Connection to services",
+    "label": "Yes"
+  },
+  {
+    "field_id": "Check Box228",
+    "type": "checkbox",
+    "page": 17,
+    "rect": [
+      78.6715,
+      627.589,
+      93.7965,
+      642.589
+    ],
+    "section": "12. Connection to services",
+    "label": "(h)is the use of the sewerage system shared with other properties?"
+  },
+  {
+    "field_id": "Check Box229",
+    "type": "checkbox",
+    "page": 17,
+    "rect": [
+      167.458,
+      627.963,
+      182.583,
+      642.963
+    ],
+    "section": "12. Connection to services",
+    "label": "Yes"
+  },
+  {
+    "field_id": "Check Box230",
+    "type": "checkbox",
+    "page": 17,
+    "rect": [
+      79.4208,
+      502.464,
+      94.5458,
+      517.464
+    ],
+    "section": "12. Connection to services",
+    "label": "ny part of the sewerage system, or the access to it, outside the boundary of the property?"
+  },
+  {
+    "field_id": "Check Box231",
+    "type": "checkbox",
+    "page": 17,
+    "rect": [
+      168.582,
+      502.838,
+      183.707,
+      517.838
+    ],
+    "section": "12. Connection to services",
+    "label": "Yes"
+  },
+  {
+    "field_id": "Check Box232",
+    "type": "checkbox",
+    "page": 17,
+    "rect": [
+      100.025,
+      461.255,
+      115.15,
+      476.255
+    ],
+    "section": "12. Connection to services",
+    "label": "If yes, supply a plan showing the location of the system and how access is obtained."
+  },
+  {
+    "field_id": "Check Box233",
+    "type": "checkbox",
+    "page": 17,
+    "rect": [
+      185.44,
+      460.131,
+      200.565,
+      475.131
+    ],
+    "section": "12. Connection to services",
+    "label": "Attached"
+  },
+  {
+    "field_id": "Check Box234",
+    "type": "checkbox",
+    "page": 17,
+    "rect": [
+      79.7954,
+      418.173,
+      94.9204,
+      433.173
+    ],
+    "section": "12. Connection to services",
+    "label": "rmit or documents relating to any of your answers to questions 11.7(a)-(i), supply a copy."
+  },
+  {
+    "field_id": "Check Box235",
+    "type": "checkbox",
+    "page": 17,
+    "rect": [
+      167.458,
+      417.798,
+      182.583,
+      432.798
+    ],
+    "section": "12. Connection to services",
+    "label": "Attached"
+  },
+  {
+    "field_id": "Check Box236",
+    "type": "checkbox",
+    "page": 17,
+    "rect": [
+      254.746,
+      417.798,
+      269.871,
+      432.798
+    ],
+    "section": "12. Connection to services",
+    "label": "Attached To follow"
+  },
+  {
+    "field_id": "Check Box237",
+    "type": "checkbox",
+    "page": 17,
+    "rect": [
+      215.035,
+      307.283,
+      230.16,
+      322.283
+    ],
+    "section": "12. Connection to services",
+    "label": "Mains electricity"
+  },
+  {
+    "field_id": "Check Box238",
+    "type": "checkbox",
+    "page": 17,
+    "rect": [
+      293.707,
+      308.033,
+      308.832,
+      323.033
+    ],
+    "section": "12. Connection to services",
+    "label": "Mains electricity Yes"
+  },
+  {
+    "field_id": "Text240",
+    "type": "text",
+    "page": 17,
+    "rect": [
+      188.812,
+      284.429,
+      548.353,
+      301.304
+    ],
+    "section": "12. Connection to services",
+    "label": "Provider\u2019s name:"
+  },
+  {
+    "field_id": "Text242",
+    "type": "text",
+    "page": 17,
+    "rect": [
+      187.688,
+      263.075,
+      547.229,
+      279.951
+    ],
+    "section": "12. Connection to services",
+    "label": "Location of meter:"
+  },
+  {
+    "field_id": "Text243",
+    "type": "text",
+    "page": 17,
+    "rect": [
+      186.939,
+      242.096,
+      546.48,
+      258.971
+    ],
+    "section": "12. Connection to services",
+    "label": "MPAN number:"
+  },
+  {
+    "field_id": "Check Box244",
+    "type": "checkbox",
+    "page": 17,
+    "rect": [
+      215.41,
+      213.252,
+      230.535,
+      228.252
+    ],
+    "section": "12. Connection to services",
+    "label": "Mains gas"
+  },
+  {
+    "field_id": "Check Box245",
+    "type": "checkbox",
+    "page": 17,
+    "rect": [
+      292.583,
+      213.252,
+      307.708,
+      228.252
+    ],
+    "section": "12. Connection to services",
+    "label": "Mains gas Yes"
+  },
+  {
+    "field_id": "Text246",
+    "type": "text",
+    "page": 17,
+    "rect": [
+      188.812,
+      190.398,
+      548.353,
+      207.273
+    ],
+    "section": "12. Connection to services",
+    "label": "Provider\u2019s name:"
+  },
+  {
+    "field_id": "Text247",
+    "type": "text",
+    "page": 17,
+    "rect": [
+      188.062,
+      169.044,
+      547.604,
+      185.919
+    ],
+    "section": "12. Connection to services",
+    "label": "Location of meter:"
+  },
+  {
+    "field_id": "Text248",
+    "type": "text",
+    "page": 17,
+    "rect": [
+      188.437,
+      147.316,
+      547.978,
+      164.191
+    ],
+    "section": "12. Connection to services",
+    "label": "MPRN number:"
+  },
+  {
+    "field_id": "Check Box249",
+    "type": "checkbox",
+    "page": 17,
+    "rect": [
+      215.035,
+      120.719,
+      230.16,
+      135.719
+    ],
+    "section": "12. Connection to services",
+    "label": "Mains water"
+  },
+  {
+    "field_id": "Check Box250",
+    "type": "checkbox",
+    "page": 17,
+    "rect": [
+      294.082,
+      120.345,
+      309.207,
+      135.345
+    ],
+    "section": "12. Connection to services",
+    "label": "Mains water Yes"
+  },
+  {
+    "field_id": "Text251",
+    "type": "text",
+    "page": 17,
+    "rect": [
+      188.062,
+      95.2426,
+      547.604,
+      112.118
+    ],
+    "section": "12. Connection to services",
+    "label": "Provider\u2019s name:"
+  },
+  {
+    "field_id": "Text252",
+    "type": "text",
+    "page": 17,
+    "rect": [
+      188.812,
+      73.5143,
+      548.353,
+      90.3896
+    ],
+    "section": "12. Connection to services",
+    "label": "Location of stopcock:"
+  },
+  {
+    "field_id": "Text253",
+    "type": "text",
+    "page": 17,
+    "rect": [
+      187.688,
+      53.2844,
+      547.229,
+      70.1598
+    ],
+    "section": "12. Connection to services",
+    "label": "Location of meter (if any):"
+  },
+  {
+    "field_id": "11.17h",
+    "type": "text",
+    "page": 17,
+    "rect": [
+      80.5788,
+      544.277,
+      551.759,
+      585.503
+    ],
+    "section": "12. Connection to services",
+    "label": "managing it and how the costs are shared:"
+  },
+  {
+    "field_id": "Check Box254",
+    "type": "checkbox",
+    "page": 18,
+    "rect": [
+      214.661,
+      785.306,
+      229.786,
+      800.306
+    ],
+    "section": "13. Transaction information",
+    "label": "Mains sewerage"
+  },
+  {
+    "field_id": "Check Box255",
+    "type": "checkbox",
+    "page": 18,
+    "rect": [
+      292.583,
+      786.056,
+      307.708,
+      801.056
+    ],
+    "section": "13. Transaction information",
+    "label": "Mains sewerage Yes"
+  },
+  {
+    "field_id": "Text256",
+    "type": "text",
+    "page": 18,
+    "rect": [
+      186.939,
+      761.703,
+      546.48,
+      778.578
+    ],
+    "section": "13. Transaction information",
+    "label": "Provider\u2019s name:"
+  },
+  {
+    "field_id": "Check Box257",
+    "type": "checkbox",
+    "page": 18,
+    "rect": [
+      212.788,
+      735.107,
+      227.913,
+      750.107
+    ],
+    "section": "13. Transaction information",
+    "label": "Small sewage treatment plant"
+  },
+  {
+    "field_id": "Check Box258",
+    "type": "checkbox",
+    "page": 18,
+    "rect": [
+      292.958,
+      735.107,
+      308.083,
+      750.107
+    ],
+    "section": "13. Transaction information",
+    "label": "Small sewage treatment plant Yes"
+  },
+  {
+    "field_id": "Text259",
+    "type": "text",
+    "page": 18,
+    "rect": [
+      186.564,
+      709.255,
+      546.105,
+      726.13
+    ],
+    "section": "13. Transaction information",
+    "label": "Provider\u2019s name:"
+  },
+  {
+    "field_id": "Text260",
+    "type": "text",
+    "page": 18,
+    "rect": [
+      187.313,
+      689.775,
+      546.854,
+      706.65
+    ],
+    "section": "13. Transaction information",
+    "label": "Make/model:"
+  },
+  {
+    "field_id": "Text261",
+    "type": "text",
+    "page": 18,
+    "rect": [
+      185.815,
+      668.795,
+      545.356,
+      685.671
+    ],
+    "section": "13. Transaction information",
+    "label": "Service provider\u2019s name:"
+  },
+  {
+    "field_id": "Check Box262",
+    "type": "checkbox",
+    "page": 18,
+    "rect": [
+      293.332,
+      639.577,
+      308.457,
+      654.577
+    ],
+    "section": "13. Transaction information",
+    "label": "Shared ground / air source heat pumps"
+  },
+  {
+    "field_id": "Check Box263",
+    "type": "checkbox",
+    "page": 18,
+    "rect": [
+      355.895,
+      640.701,
+      371.02,
+      655.701
+    ],
+    "section": "13. Transaction information",
+    "label": "Shared ground / air source heat pumps Yes"
+  },
+  {
+    "field_id": "Text264",
+    "type": "text",
+    "page": 18,
+    "rect": [
+      186.189,
+      616.722,
+      545.731,
+      633.598
+    ],
+    "section": "13. Transaction information",
+    "label": "Provider\u2019s name:"
+  },
+  {
+    "field_id": "Text265",
+    "type": "text",
+    "page": 18,
+    "rect": [
+      185.065,
+      595.369,
+      544.607,
+      612.244
+    ],
+    "section": "13. Transaction information",
+    "label": "Make/model:"
+  },
+  {
+    "field_id": "Text266",
+    "type": "text",
+    "page": 18,
+    "rect": [
+      186.564,
+      576.637,
+      546.105,
+      593.513
+    ],
+    "section": "13. Transaction information",
+    "label": "Service provider\u2019s name:"
+  },
+  {
+    "field_id": "Check Box267",
+    "type": "checkbox",
+    "page": 18,
+    "rect": [
+      215.785,
+      546.295,
+      230.91,
+      561.295
+    ],
+    "section": "13. Transaction information",
+    "label": "Telephone"
+  },
+  {
+    "field_id": "Check Box268",
+    "type": "checkbox",
+    "page": 18,
+    "rect": [
+      292.208,
+      546.295,
+      307.333,
+      561.295
+    ],
+    "section": "13. Transaction information",
+    "label": "Telephone Yes"
+  },
+  {
+    "field_id": "Text269",
+    "type": "text",
+    "page": 18,
+    "rect": [
+      185.815,
+      522.691,
+      545.356,
+      539.567
+    ],
+    "section": "13. Transaction information",
+    "label": "Provider\u2019s name:"
+  },
+  {
+    "field_id": "Check Box270",
+    "type": "checkbox",
+    "page": 18,
+    "rect": [
+      215.41,
+      496.095,
+      230.535,
+      511.095
+    ],
+    "section": "13. Transaction information",
+    "label": "Broadband"
+  },
+  {
+    "field_id": "Check Box271",
+    "type": "checkbox",
+    "page": 18,
+    "rect": [
+      292.583,
+      495.72,
+      307.708,
+      510.72
+    ],
+    "section": "13. Transaction information",
+    "label": "Broadband Yes"
+  },
+  {
+    "field_id": "Text272",
+    "type": "text",
+    "page": 18,
+    "rect": [
+      185.065,
+      473.241,
+      544.607,
+      490.116
+    ],
+    "section": "13. Transaction information",
+    "label": "Provider\u2019s name:"
+  },
+  {
+    "field_id": "Check Box273",
+    "type": "checkbox",
+    "page": 18,
+    "rect": [
+      64.8103,
+      275.065,
+      79.9353,
+      290.065
+    ],
+    "section": "13. Transaction information",
+    "label": " Does this sale depend on you completing the purchase of another property on the same day?"
+  },
+  {
+    "field_id": "Check Box274",
+    "type": "checkbox",
+    "page": 18,
+    "rect": [
+      169.706,
+      275.065,
+      184.831,
+      290.065
+    ],
+    "section": "13. Transaction information",
+    "label": "Yes"
+  },
+  {
+    "field_id": "Check Box275",
+    "type": "checkbox",
+    "page": 18,
+    "rect": [
+      65.185,
+      225.24,
+      80.31,
+      240.24
+    ],
+    "section": "13. Transaction information",
+    "label": "13.2 Do you have any special requirements about a moving date?"
+  },
+  {
+    "field_id": "Check Box276",
+    "type": "checkbox",
+    "page": 18,
+    "rect": [
+      168.956,
+      225.989,
+      184.081,
+      240.989
+    ],
+    "section": "13. Transaction information",
+    "label": "Yes"
+  },
+  {
+    "field_id": "Check Box277",
+    "type": "checkbox",
+    "page": 18,
+    "rect": [
+      64.8103,
+      91.4986,
+      79.9353,
+      106.499
+    ],
+    "section": "13. Transaction information",
+    "label": "13.3 Do you live at the property?"
+  },
+  {
+    "field_id": "Check Box278",
+    "type": "checkbox",
+    "page": 18,
+    "rect": [
+      167.833,
+      92.6224,
+      182.958,
+      107.622
+    ],
+    "section": "13. Transaction information",
+    "label": "Yes"
+  },
+  {
+    "field_id": "Text19",
+    "type": "text",
+    "page": 18,
+    "rect": [
+      66.6992,
+      385.047,
+      537.879,
+      447.478
+    ],
+    "section": "13. Transaction information",
+    "label": "If there are any other services, please give details:"
+  },
+  {
+    "field_id": "13.2",
+    "type": "text",
+    "page": 18,
+    "rect": [
+      67.8558,
+      158.347,
+      539.036,
+      199.573
+    ],
+    "section": "13. Transaction information",
+    "label": "If yes, please give details:"
+  },
+  {
+    "field_id": "Check Box279",
+    "type": "checkbox",
+    "page": 19,
+    "rect": [
+      64.4357,
+      765.077,
+      79.5607,
+      780.077
+    ],
+    "section": "14. Completion",
+    "label": "13.4 Does anyone else, aged 17 or over, live at the property?"
+  },
+  {
+    "field_id": "Check Box280",
+    "type": "checkbox",
+    "page": 19,
+    "rect": [
+      168.956,
+      766.201,
+      184.081,
+      781.201
+    ],
+    "section": "14. Completion",
+    "label": "Yes"
+  },
+  {
+    "field_id": "Check Box281",
+    "type": "checkbox",
+    "page": 19,
+    "rect": [
+      79.7954,
+      614.102,
+      94.9204,
+      629.102
+    ],
+    "section": "14. Completion",
+    "label": "(b)are any of those occupiers who are aged 17 or over your tenants or lodgers?"
+  },
+  {
+    "field_id": "Check Box282",
+    "type": "checkbox",
+    "page": 19,
+    "rect": [
+      168.582,
+      614.852,
+      183.707,
+      629.852
+    ],
+    "section": "14. Completion",
+    "label": "Yes"
+  },
+  {
+    "field_id": "Check Box283",
+    "type": "checkbox",
+    "page": 19,
+    "rect": [
+      64.8103,
+      559.032,
+      79.9353,
+      574.032
+    ],
+    "section": "14. Completion",
+    "label": "not included in the sale)?"
+  },
+  {
+    "field_id": "Check Box284",
+    "type": "checkbox",
+    "page": 19,
+    "rect": [
+      169.331,
+      557.534,
+      184.456,
+      572.534
+    ],
+    "section": "14. Completion",
+    "label": "Yes"
+  },
+  {
+    "field_id": "Check Box285",
+    "type": "checkbox",
+    "page": 19,
+    "rect": [
+      65.9342,
+      497.968,
+      81.0592,
+      512.968
+    ],
+    "section": "14. Completion",
+    "label": "completion?"
+  },
+  {
+    "field_id": "Check Box286",
+    "type": "checkbox",
+    "page": 19,
+    "rect": [
+      169.331,
+      497.968,
+      184.456,
+      512.968
+    ],
+    "section": "14. Completion",
+    "label": "Yes"
+  },
+  {
+    "field_id": "Check Box287",
+    "type": "checkbox",
+    "page": 19,
+    "rect": [
+      64.4357,
+      438.028,
+      79.5607,
+      453.028
+    ],
+    "section": "14. Completion",
+    "label": "their tenancy agreements."
+  },
+  {
+    "field_id": "Check Box288",
+    "type": "checkbox",
+    "page": 19,
+    "rect": [
+      168.956,
+      438.028,
+      184.081,
+      453.028
+    ],
+    "section": "14. Completion",
+    "label": "Attached"
+  },
+  {
+    "field_id": "Check Box289",
+    "type": "checkbox",
+    "page": 19,
+    "rect": [
+      65.9342,
+      329.761,
+      81.0592,
+      344.761
+    ],
+    "section": "14. Completion",
+    "label": " be sufficient to pay off on completion all mortgages and charges secured on the property?"
+  },
+  {
+    "field_id": "Check Box290",
+    "type": "checkbox",
+    "page": 19,
+    "rect": [
+      168.956,
+      330.885,
+      184.081,
+      345.885
+    ],
+    "section": "14. Completion",
+    "label": "Yes"
+  },
+  {
+    "field_id": "Check Box291",
+    "type": "checkbox",
+    "page": 19,
+    "rect": [
+      252.124,
+      330.51,
+      267.249,
+      345.51
+    ],
+    "section": "14. Completion",
+    "label": "Yes No"
+  },
+  {
+    "field_id": "Check Box292",
+    "type": "checkbox",
+    "page": 19,
+    "rect": [
+      78.6715,
+      245.095,
+      93.7965,
+      260.095
+    ],
+    "section": "14. Completion",
+    "label": "sheds) and that the property will be left in a clean and tidy condition?"
+  },
+  {
+    "field_id": "Check Box293",
+    "type": "checkbox",
+    "page": 19,
+    "rect": [
+      168.956,
+      243.971,
+      184.081,
+      258.971
+    ],
+    "section": "14. Completion",
+    "label": "Yes"
+  },
+  {
+    "field_id": "Check Box294",
+    "type": "checkbox",
+    "page": 19,
+    "rect": [
+      79.4208,
+      196.769,
+      94.5458,
+      211.769
+    ],
+    "section": "14. Completion",
+    "label": " are removed, the fittings will be replaced with ceiling rose, flex, bulb holder and bulb?"
+  },
+  {
+    "field_id": "Check Box295",
+    "type": "checkbox",
+    "page": 19,
+    "rect": [
+      167.833,
+      197.143,
+      182.958,
+      212.143
+    ],
+    "section": "14. Completion",
+    "label": "Yes No"
+  },
+  {
+    "field_id": "Check Box296",
+    "type": "checkbox",
+    "page": 19,
+    "rect": [
+      80.5446,
+      148.442,
+      95.6696,
+      163.442
+    ],
+    "section": "14. Completion",
+    "label": "(c)reasonable care will be taken when removing any other fittings or contents?"
+  },
+  {
+    "field_id": "Check Box297",
+    "type": "checkbox",
+    "page": 19,
+    "rect": [
+      167.833,
+      148.067,
+      182.958,
+      163.067
+    ],
+    "section": "14. Completion",
+    "label": "Yes No"
+  },
+  {
+    "field_id": "Check Box298",
+    "type": "checkbox",
+    "page": 19,
+    "rect": [
+      79.0461,
+      86.2538,
+      94.1711,
+      101.254
+    ],
+    "section": "14. Completion",
+    "label": "the property or with the estate agent?"
+  },
+  {
+    "field_id": "Check Box299",
+    "type": "checkbox",
+    "page": 19,
+    "rect": [
+      169.331,
+      87.0031,
+      184.456,
+      102.003
+    ],
+    "section": "14. Completion",
+    "label": "Yes"
+  },
+  {
+    "field_id": "13.4a",
+    "type": "text",
+    "page": 19,
+    "rect": [
+      82.5065,
+      664.862,
+      553.686,
+      716.203
+    ],
+    "section": "14. Completion",
+    "label": "(a)state the full names of any occupiers (other than the sellers) aged 17 or over:"
+  },
+  {
+    "field_id": "Check Box300",
+    "type": "checkbox",
+    "page": 20,
+    "rect": [
+      65.185,
+      707.384,
+      80.31,
+      722.384
+    ],
+    "section": "15. Additional information about your an",
+    "label": "Tick all that apply."
+  },
+  {
+    "field_id": "Check Box301",
+    "type": "checkbox",
+    "page": 20,
+    "rect": [
+      252.873,
+      708.133,
+      267.998,
+      723.133
+    ],
+    "section": "15. Additional information about your an",
+    "label": "Attached"
+  },
+  {
+    "field_id": "Check Box302",
+    "type": "checkbox",
+    "page": 20,
+    "rect": [
+      64.0611,
+      685.281,
+      79.1861,
+      700.281
+    ],
+    "section": "15. Additional information about your an",
+    "label": "Attached To follow"
+  },
+  {
+    "field_id": "Check Box303",
+    "type": "checkbox",
+    "page": 20,
+    "rect": [
+      252.498,
+      684.532,
+      267.623,
+      699.532
+    ],
+    "section": "15. Additional information about your an",
+    "label": "Not applicable"
+  },
+  {
+    "field_id": "Check Box304",
+    "type": "checkbox",
+    "page": 20,
+    "rect": [
+      65.5596,
+      358.232,
+      80.6846,
+      373.232
+    ],
+    "section": "15. Additional information about your an",
+    "label": "supply additional documents."
+  },
+  {
+    "field_id": "Check Box305",
+    "type": "checkbox",
+    "page": 20,
+    "rect": [
+      171.204,
+      358.607,
+      186.329,
+      373.607
+    ],
+    "section": "15. Additional information about your an",
+    "label": "Attached"
+  },
+  {
+    "field_id": "Check Box306",
+    "type": "checkbox",
+    "page": 20,
+    "rect": [
+      252.873,
+      358.982,
+      267.998,
+      373.982
+    ],
+    "section": "15. Additional information about your an",
+    "label": "Attached To follow"
+  },
+  {
+    "field_id": "15.1a",
+    "type": "text",
+    "page": 20,
+    "rect": [
+      69.7835,
+      611.747,
+      540.963,
+      637.937
+    ],
+    "section": "15. Additional information about your an",
+    "label": "Consents attached:"
+  },
+  {
+    "field_id": "15.1a tf",
+    "type": "text",
+    "page": 20,
+    "rect": [
+      69.398,
+      570.108,
+      540.578,
+      597.455
+    ],
+    "section": "15. Additional information about your an",
+    "label": "Consents to follow:"
+  },
+  {
+    "field_id": "15.1b",
+    "type": "text",
+    "page": 20,
+    "rect": [
+      68.2414,
+      484.518,
+      539.421,
+      537.31
+    ],
+    "section": "15. Additional information about your an",
+    "label": "(b)List any consents that are not available:"
+  },
+  {
+    "field_id": "15.2",
+    "type": "text",
+    "page": 20,
+    "rect": [
+      69.0125,
+      385.433,
+      540.192,
+      435.141
+    ],
+    "section": "15. Additional information about your an",
+    "label": "supply additional documents."
+  }
+]

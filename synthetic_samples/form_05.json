@@ -1,0 +1,19 @@
+{
+  "address": "31 Hazel Grove, Westbourne",
+  "postcode": "WB4 2AB",
+  "seller": "Grace Hartley",
+  "property_type": "End-terrace house",
+  "tenure": "Freehold",
+  "works": "Loft conversion carried out before we purchased the property.",
+  "explanation": "Building Regulations completion certificate is enclosed.",
+  "disputes_answer": "Yes",
+  "disputes_details": "",
+  "guarantees": [
+    "Damp-proofing guarantee",
+    "Double-glazing (FENSA) certificate"
+  ],
+  "flooding": "No",
+  "injected_faults": [
+    "missing_detail"
+  ]
+}
