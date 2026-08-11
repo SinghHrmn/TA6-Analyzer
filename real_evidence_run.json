@@ -1,0 +1,74 @@
+{
+  "ta6": "TA6 amended.pdf",
+  "supporting_docs": [
+    "Freehold Report on Title 1 amended.pdf",
+    "Local Authority search 2 amended.pdf",
+    "REPORT ON TITLE 4 amended.pdf",
+    "REPORT ON TITLE 5 amended.pdf",
+    "Report on Title 2 amended.pdf",
+    "Report on Title 3 amended.pdf"
+  ],
+  "results": [
+    {
+      "issue_type": "works_without_support",
+      "description": "Alterations are described ('Loft conversion carried out before I occupied the property.') but no completion certificate or exemption explanation is provided.",
+      "status": "candidate_evidence_found_unconfirmed",
+      "evidence": [
+        {
+          "filename": "Freehold Report on Title 1 amended.pdf",
+          "matched_terms": [
+            "building regulation",
+            "completion certificate",
+            "planning permission",
+            "loft conversion",
+            "loft",
+            "extension",
+            "conversion"
+          ],
+          "snippet": "Building regulations completion certificate re: boiler"
+        },
+        {
+          "filename": "Local Authority search 2 amended.pdf",
+          "matched_terms": [
+            "building regulation",
+            "completion certificate",
+            "planning permission",
+            "consent"
+          ],
+          "snippet": "Planning and Building Regulation Decisions and Pending Applications"
+        },
+        {
+          "filename": "REPORT ON TITLE 4 amended.pdf",
+          "matched_terms": [
+            "building regulation"
+          ],
+          "snippet": "building regulations regularisation certificate for the installation of the downstairs cloakroom"
+        },
+        {
+          "filename": "REPORT ON TITLE 5 amended.pdf",
+          "matched_terms": [
+            "consent"
+          ],
+          "snippet": "Air conditioning, which was installed without the consent of the management"
+        },
+        {
+          "filename": "Report on Title 2 amended.pdf",
+          "matched_terms": [
+            "building regulation"
+          ],
+          "snippet": "There are no Building Control or Building Regulation entries revealed in the search"
+        },
+        {
+          "filename": "Report on Title 3 amended.pdf",
+          "matched_terms": [
+            "building regulation",
+            "consent",
+            "extension"
+          ],
+          "snippet": "There are building regulations entries in respect of the installation of 3 windows in"
+        }
+      ],
+      "enquiry": "The Property Information Form discloses that works have been carried out at the property (Loft conversion carried out before I occupied the property.), but no building regulations completion certificate or explanation of why one was not required has been provided. Please supply the relevant planning permission and building regulations completion certificate, or confirm the basis on which these were not required. (Note for reviewing solicitor: possible related mentions were found in Freehold Report on Title 1 amended.pdf, Local Authority search 2 amended.pdf, REPORT ON TITLE 4 amended.pdf, REPORT ON TITLE 5 amended.pdf, Report on Title 2 amended.pdf, Report on Title 3 amended.pdf during an automated keyword search; these documents are not confirmed to relate to this transaction and the match has not been verified \u2014 please check before treating this as resolved.)"
+    }
+  ]
+}

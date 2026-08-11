@@ -110,4 +110,16 @@ def run(n=30, seed=7):
 
 
 if __name__ == "__main__":
-    run(n=int(sys.argv[1]) if len(sys.argv) > 1 else 30)
+    import argparse
+    ap = argparse.ArgumentParser(description=__doc__)
+    ap.add_argument("--n", type=int, default=30, help="number of forms to generate")
+    ap.add_argument("--seed", type=int, default=7, help="random seed (was silently fixed at 7 "
+                    "regardless of CLI args in earlier versions of this script -- fixed 11 Aug 2026)")
+    # Back-compat: `python eval_ocr_vs_digital.py 30` (positional n, old calling convention)
+    # still works, but --n/--seed are now the real, documented interface.
+    if len(sys.argv) > 1 and not sys.argv[1].startswith("-"):
+        a = ap.parse_args([])
+        a.n = int(sys.argv[1])
+    else:
+        a = ap.parse_args()
+    run(n=a.n, seed=a.seed)

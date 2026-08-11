@@ -68,7 +68,18 @@ def _parse_section4(txt: str, source: str = "") -> Dict:
     m = re.search(r"work undertaken\s*:?\s*\n+\s*([^\n]+)", txt, re.I)
     if m:
         cand = m.group(1).strip()
-        if len(cand) > 8 and not re.match(r"^\(?[b-d]\)|^year|^\[|^yes\b|^no\b|change of use", cand, re.I):
+        # Two different exclusion checks were being run as one, which hid a bug:
+        # the leading-marker patterns ("(b)", "(c)"...) are ANCHORED (only make
+        # sense at position 0), but "change of use" is boilerplate that can occur
+        # anywhere in the line and was wrongly forced through re.match too — so a
+        # single OCR misread of the leading "(b)" (e.g. read as "(o)") silently
+        # defeated the whole exclusion and let the printed instruction line
+        # ("(b) Change of use...") through as if it were the seller's own answer.
+        # Confirmed via scripts/eval_ocr_error_decomposition.py: this was the sole
+        # cause of every blank-works-line misread in a 25-form scanned-route test.
+        leading_marker = re.match(r"^\(?[b-d]\)|^year|^\[|^yes\b|^no\b", cand, re.I)
+        boilerplate_anywhere = re.search(r"change of use", cand, re.I)
+        if len(cand) > 8 and not leading_marker and not boilerplate_anywhere:
             works_text = cand
     if not works_text:
         m2 = re.search(r"([A-Z][^\n]{0,90}?(?:carried out|converted|erected|installed)[^\n]*)", txt)
