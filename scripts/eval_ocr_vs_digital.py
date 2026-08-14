@@ -7,8 +7,12 @@ pipeline on both, and measures detection precision/recall/F1 + extraction
 fidelity per track. This is the meaningful comparison: OCR noise is in the loop,
 so the OCR track degrades — quantifying the cost the layout-aware model addresses.
 
-Uses a 70/15/15 split; thresholds (none needed for the rule detector) would be
-tuned on validation and final numbers reported on the held-out TEST set only.
+The rule detector is deterministic and has no tuned thresholds, so no train/
+validation/test split is required or used here; the NLI evaluation (ta6/nli.py,
+scripts/eval_nli.py) uses an explicit dev/test split instead (dissertation
+audit Goal A2) since that stage's backend is a real, non-deterministic model.
+13 Aug 2026: removed a previous false "70/15/15 split" claim in this docstring
+that never matched the code (dissertation audit Goal C4).
 """
 import os, sys, random, tempfile, glob, subprocess
 from reportlab.pdfgen import canvas
@@ -110,8 +114,24 @@ def run(n=30, seed=7, quiet=False):
         print(f"{'Track':<10}{'P':>7}{'R':>7}{'F1':>7}{'Extract-acc':>13}")
         for track, r_ in results.items():
             print(f"{track:<10}{r_['precision']:>7.2f}{r_['recall']:>7.2f}{r_['f1']:>7.2f}{r_['extract_acc']:>12.0%}")
-        print("\n(Digital ~ceiling; OCR degrades where scan noise corrupts the answer line —")
-        print(" the concrete, measured motivation for a layout-aware extractor in v1.)")
+        # 13 Aug 2026 (dissertation audit Goal C4): this footer used to be a
+        # static claim ("OCR degrades...") printed unconditionally, which
+        # became self-contradicting the moment the parser fix (ta6/pipeline.py
+        # _parse_section4, see section 6.4.2) made the scanned route reach
+        # F1 1.00 -- the message and the number above it disagreed. Made
+        # conditional on what this run actually measured instead.
+        scanned = results.get("scanned")
+        if scanned and scanned["f1"] >= 0.999:
+            print("\n(Digital and scanned both reach F1 1.00 on this run -- the boilerplate-"
+                  "exclusion parser bug that previously degraded the scanned route (section "
+                  "6.4.2) is fixed; remaining OCR character/word error, measured separately in "
+                  "scripts/eval_ocr_error_decomposition.py, no longer propagates to a detection "
+                  "failure on this evaluation set.)")
+        else:
+            print("\n(Digital ~ceiling; the scanned route on this run is below it -- see "
+                  "scripts/eval_ocr_error_decomposition.py to attribute the gap to OCR "
+                  "character error vs. a parsing/rule-logic failure before treating it as an "
+                  "OCR ceiling.)")
     return results
 
 
