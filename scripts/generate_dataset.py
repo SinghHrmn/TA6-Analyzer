@@ -1,4 +1,12 @@
 """
+[SUPERSEDED 11 Aug 2026 -- kept for the record, not the active generator.]
+Use scripts/generate_dataset_v2.py instead: it fixes the name-only coverage
+limit this version documents below (13/147 questions) by recovering question
+structure from geometry (ta6.groups) rather than field names alone, reaching
+143/143 questions and 91% field coverage. This file is retained because the
+before/after comparison is itself part of the dissertation's engineering
+findings (Chapter 5) -- not because it should be run going forward.
+=============================================================================
 Generate a DIVERSE labelled dataset by filling the REAL 6th-edition template.
 =============================================================================
 Discovers every reliably-nameable Yes/No question from the field map, and per
@@ -102,7 +110,10 @@ def main():
     ap.add_argument("--n", type=int, default=100)
     ap.add_argument("--seed", type=int, default=1)
     ap.add_argument("--out", default="dataset")
-    ap.add_argument("--template", default="/sessions/eloquent-sweet-rubin/mnt/uploads/EDITABLE TA6 - 6th Edition 0426.pdf")
+    from pathlib import Path
+    _default = os.environ.get("TA6_TEMPLATE_PATH",
+        str(Path(__file__).resolve().parents[2] / "TA 6 documents" / "EDITABLE TA6 - 6th Edition 0426.pdf"))
+    ap.add_argument("--template", default=_default)
     a = ap.parse_args()
     os.makedirs(a.out, exist_ok=True)
     rng = random.Random(a.seed)

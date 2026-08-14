@@ -21,10 +21,14 @@ as the offline NLI stub).
 Usage:  python scripts/run_real_with_evidence.py
 """
 import os, re, sys, glob, json
+from pathlib import Path
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
 from ta6.pipeline import extract_ta6, run_rule_checks, generate_enquiry, _pdftext
 
-TA6_DIR = "/sessions/jolly-vigilant-archimedes/mnt/Dissertation/TA 6 documents"
+# Relative to this file, with an env-var override -- was a hardcoded
+# session-specific /sessions/... path, fixed 11 Aug 2026 (see evaluate_v2.py).
+REPO_ROOT = Path(__file__).resolve().parents[2]
+TA6_DIR = os.environ.get("TA6_DOCS_DIR", str(REPO_ROOT / "TA 6 documents"))
 REAL_TA6 = os.path.join(TA6_DIR, "TA6 amended.pdf")
 SUPPORTING_GLOB = ["Freehold Report on Title*.pdf", "Report on Title*.pdf",
                     "REPORT ON TITLE*.pdf", "Local Authority search*.pdf"]

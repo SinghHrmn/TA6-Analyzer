@@ -2,6 +2,14 @@
 Demo: fill the REAL 6th-edition template with a controlled ground truth,
 read the fields back into structured data, verify they match, and flag the fault.
 
+FIXED 11 Aug 2026: this script previously wrote using bare field names
+("3 Yes", "4 Text", ...), which fill_template() silently could not match
+against the template's FULLY QUALIFIED field names -- nothing was ever
+actually written, so every round-trip check failed (0/3) and no fault was
+ever flagged. Ground-truth questions below are now keyed by their qualified
+prefix ("2.3", "2.4", "2.5" -- Section 2, disputes/complaints-style Yes/No/
+Text triples), matching what ta6.field_ids actually assigns on this template.
+
 Usage: python scripts/fill_and_read.py "<EDITABLE TA6 6th edition.pdf>" [out.pdf]
 """
 import os, sys, json
@@ -13,9 +21,9 @@ GROUND_TRUTH = {
     "header": {"Property Address": "170 Elm Close, Bramfield", "Postcode": "BR8 5XD",
                "Seller 1": "Daniel Bennett"},
     "answers": {
-        "3": {"answer": "Yes", "details": ""},      # <-- injected fault: Yes but blank details
-        "4": {"answer": "No",  "details": ""},
-        "5": {"answer": "No",  "details": ""},
+        "2.3": {"answer": "Yes", "details": ""},      # <-- injected fault: Yes but blank details
+        "2.4": {"answer": "No",  "details": ""},
+        "2.5": {"answer": "No",  "details": ""},
     },
 }
 

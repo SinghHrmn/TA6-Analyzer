@@ -31,6 +31,50 @@ class Contradiction:
 
 
 # --------------------------------------------------------------------------
+# Shared low-level model call -- ANY prompt in, raw text out. Both this
+# module's contradiction detection AND ta6.pipeline.generate_enquiry_llm()
+# call through this one function, so there is exactly one place that knows
+# how to reach Ollama/Anthropic, not two copies of the same HTTP/client code.
+# 12 Aug 2026: extracted from the two backend functions below (dissertation
+# audit Goal A3) -- behaviour-preserving, re-verified against
+# scripts/eval_nli.py after the refactor (same F1 on the stub backend).
+# --------------------------------------------------------------------------
+def call_model(prompt: str, backend: str = None, max_tokens: int = 400,
+               json_mode: bool = True) -> str:
+    """Call the resolved backend with an arbitrary prompt; return the raw text
+    response. Raises on an unreachable/misconfigured backend rather than
+    silently returning an empty string -- callers decide how to handle that."""
+    be = _resolve(backend)
+    if be == "anthropic":
+        from anthropic import Anthropic
+        client = Anthropic()  # reads ANTHROPIC_API_KEY
+        model = os.getenv("ANTHROPIC_MODEL", "claude-sonnet-4-5")
+        msg = client.messages.create(model=model, max_tokens=max_tokens,
+                                     messages=[{"role": "user", "content": prompt}])
+        return msg.content[0].text
+    if be == "ollama":
+        import urllib.request
+        model = os.getenv("OLLAMA_MODEL", "qwen2.5:7b")
+        body = json.dumps({"model": model, "format": "json" if json_mode else "",
+                           "stream": False, "prompt": prompt}).encode()
+        req = urllib.request.Request("http://localhost:11434/api/generate", data=body,
+                                     headers={"Content-Type": "application/json"})
+        resp = json.loads(urllib.request.urlopen(req, timeout=120).read())
+        return resp["response"]
+    raise ValueError(f"call_model() has no real-model implementation for backend {be!r} "
+                     f"(stub is a deterministic fallback with no generative capability -- "
+                     f"there is nothing for it to call).")
+
+
+def _parse_json_object(raw: str, fallback: dict) -> dict:
+    m = re.search(r"\{.*\}", raw, re.S)
+    try:
+        return json.loads(m.group(0)) if m else dict(fallback)
+    except json.JSONDecodeError:
+        return dict(fallback)
+
+
+# --------------------------------------------------------------------------
 # Backend 1 — Anthropic API
 # --------------------------------------------------------------------------
 _PROMPT = """You are assisting a conveyancing solicitor. Decide the relationship
@@ -48,17 +92,9 @@ Reply with ONLY a JSON object:
 
 
 def _anthropic(claim, doc_name, doc_text):
-    from anthropic import Anthropic
-    client = Anthropic()  # reads ANTHROPIC_API_KEY
-    model = os.getenv("ANTHROPIC_MODEL", "claude-sonnet-4-5")  # set to your model
-    msg = client.messages.create(
-        model=model, max_tokens=300,
-        messages=[{"role": "user",
-                   "content": _PROMPT.format(claim=claim, doc_name=doc_name, doc_text=doc_text[:6000])}],
-    )
-    raw = msg.content[0].text
-    m = re.search(r"\{.*\}", raw, re.S)
-    d = json.loads(m.group(0)) if m else {"label": "neutral", "evidence": "", "confidence": 0.0}
+    raw = call_model(_PROMPT.format(claim=claim, doc_name=doc_name, doc_text=doc_text[:6000]),
+                     backend="anthropic", max_tokens=300)
+    d = _parse_json_object(raw, {"label": "neutral", "evidence": "", "confidence": 0.0})
     return d["label"], d.get("evidence", ""), float(d.get("confidence", 0.5))
 
 
@@ -66,14 +102,9 @@ def _anthropic(claim, doc_name, doc_text):
 # Backend 2 — local Ollama
 # --------------------------------------------------------------------------
 def _ollama(claim, doc_name, doc_text):
-    import urllib.request
-    model = os.getenv("OLLAMA_MODEL", "llama3.1")
-    body = json.dumps({"model": model, "format": "json", "stream": False,
-                       "prompt": _PROMPT.format(claim=claim, doc_name=doc_name, doc_text=doc_text[:6000])}).encode()
-    req = urllib.request.Request("http://localhost:11434/api/generate", data=body,
-                                 headers={"Content-Type": "application/json"})
-    resp = json.loads(urllib.request.urlopen(req, timeout=120).read())
-    d = json.loads(resp["response"])
+    raw = call_model(_PROMPT.format(claim=claim, doc_name=doc_name, doc_text=doc_text[:6000]),
+                     backend="ollama")
+    d = _parse_json_object(raw, {"label": "neutral", "evidence": "", "confidence": 0.0})
     return d["label"], d.get("evidence", ""), float(d.get("confidence", 0.5))
 
 

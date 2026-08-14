@@ -118,7 +118,7 @@ def word_error_rate(reference, hypothesis):
     return levenshtein(ref_w, hyp_w) / len(ref_w)  # levenshtein() also works on lists
 
 
-def run(n=25, seed=7):
+def run(n=25, seed=7, quiet=False):
     rng = random.Random(seed)
     work = tempfile.mkdtemp()
     rows = []
@@ -163,22 +163,25 @@ def run(n=25, seed=7):
                      "extraction_correct": extraction_correct, "detection_correct": detection_correct,
                      "bucket": bucket})
 
-    print(f"OCR error decomposition  (n={n} forms, seed={seed})\n")
-    print(f"{'#':<4}{'works?':<8}{'CER':<7}{'WER':<7}{'extract_ok':<12}{'detect_ok':<11}{'bucket'}")
-    for r in rows:
-        print(f"{r['i']:<4}{str(r['works_present']):<8}{r['cer_works']:<7}{r['wer_works']:<7}"
-              f"{str(r['extraction_correct']):<12}{str(r['detection_correct']):<11}{r['bucket']}")
-
     from collections import Counter
     buckets = Counter(r["bucket"].split(" (")[0] for r in rows)
     mean_cer = sum(r["cer_works"] for r in rows if r["works_present"]) / max(1, sum(1 for r in rows if r["works_present"]))
     mean_wer = sum(r["wer_works"] for r in rows if r["works_present"]) / max(1, sum(1 for r in rows if r["works_present"]))
 
-    print(f"\nMean character error rate on the answer line (works-present forms only): {mean_cer:.1%}")
-    print(f"Mean word error rate on the answer line: {mean_wer:.1%}")
-    print("\nFailure attribution:")
-    for b, c in buckets.most_common():
-        print(f"  {b:<28} {c}/{n}")
+    if not quiet:
+        print(f"OCR error decomposition  (n={n} forms, seed={seed})\n")
+        print(f"{'#':<4}{'works?':<8}{'CER':<7}{'WER':<7}{'extract_ok':<12}{'detect_ok':<11}{'bucket'}")
+        for r in rows:
+            print(f"{r['i']:<4}{str(r['works_present']):<8}{r['cer_works']:<7}{r['wer_works']:<7}"
+                  f"{str(r['extraction_correct']):<12}{str(r['detection_correct']):<11}{r['bucket']}")
+        print(f"\nMean character error rate on the answer line (works-present forms only): {mean_cer:.1%}")
+        print(f"Mean word error rate on the answer line: {mean_wer:.1%}")
+        print("\nFailure attribution:")
+        for b, c in buckets.most_common():
+            print(f"  {b:<28} {c}/{n}")
+
+    return {"rows": rows, "n": n, "seed": seed, "mean_cer": mean_cer, "mean_wer": mean_wer,
+            "buckets": dict(buckets)}
 
 
 if __name__ == "__main__":

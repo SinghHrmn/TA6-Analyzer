@@ -11,5 +11,9 @@ runs.jsonl
 synth_out/
 synth_eval/
 *.tmp
+filled_TA6_sample.pdf
+filled_TA6_sample_ground_truth.json
 # never commit real client data
 data/real/
+# OS
+.DS_Store

@@ -9,16 +9,20 @@ description = "AI-assisted document analysis and enquiry generation for UK resid
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
-    "pypdf>=4.0",
-    "reportlab>=4.0",
-    "img2pdf>=0.5",
-    "pillow>=10.0",
-    "flask>=3.0",
+    # Pinned to the exact versions tested (dissertation audit Goal C3, 13 Aug
+    # 2026) via `pip freeze` in a clean environment -- keep in sync with
+    # requirements.txt, both are generated from the same verified install.
+    "pypdf==6.13.1",
+    "reportlab==4.5.1",
+    "img2pdf==0.6.3",
+    "pillow==12.2.0",
+    "flask==3.1.3",
+    "pdfplumber==0.11.9",
 ]
 
 [project.optional-dependencies]
 # Only needed if you use the Anthropic backend for the NLI stage.
-anthropic = ["anthropic>=0.34"]
+anthropic = ["anthropic==0.122.0"]
 
 [tool.setuptools]
 packages = ["ta6"]

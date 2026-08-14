@@ -68,7 +68,7 @@ def make_scanned(digital_pdf, out_pdf, dpi=110):
         f.write(img2pdf.convert(outs))
 
 
-def run(n=30, seed=7):
+def run(n=30, seed=7, quiet=False):
     rng = random.Random(seed)
     work = tempfile.mkdtemp()
     stats = {"digital": dict(tp=0, fp=0, fn=0, tn=0, ex_ok=0),
@@ -97,16 +97,22 @@ def run(n=30, seed=7):
             works_read = rec["alterations_made"]["answer"] == "Yes"
             if works_read == works_present: s["ex_ok"] += 1
 
-    print(f"Digital vs OCR — extraction in the loop  (n={n} forms, seed={seed})\n")
-    print(f"{'Track':<10}{'P':>7}{'R':>7}{'F1':>7}{'Extract-acc':>13}")
+    results = {}
     for track, s in stats.items():
         p = s["tp"]/(s["tp"]+s["fp"]) if s["tp"]+s["fp"] else 0
         r = s["tp"]/(s["tp"]+s["fn"]) if s["tp"]+s["fn"] else 0
         f1 = 2*p*r/(p+r) if p+r else 0
         exa = s["ex_ok"]/n
-        print(f"{track:<10}{p:>7.2f}{r:>7.2f}{f1:>7.2f}{exa:>12.0%}")
-    print("\n(Digital ~ceiling; OCR degrades where scan noise corrupts the answer line —")
-    print(" the concrete, measured motivation for a layout-aware extractor in v1.)")
+        results[track] = {"precision": p, "recall": r, "f1": f1, "extract_acc": exa, **s}
+
+    if not quiet:
+        print(f"Digital vs OCR — extraction in the loop  (n={n} forms, seed={seed})\n")
+        print(f"{'Track':<10}{'P':>7}{'R':>7}{'F1':>7}{'Extract-acc':>13}")
+        for track, r_ in results.items():
+            print(f"{track:<10}{r_['precision']:>7.2f}{r_['recall']:>7.2f}{r_['f1']:>7.2f}{r_['extract_acc']:>12.0%}")
+        print("\n(Digital ~ceiling; OCR degrades where scan noise corrupts the answer line —")
+        print(" the concrete, measured motivation for a layout-aware extractor in v1.)")
+    return results
 
 
 if __name__ == "__main__":

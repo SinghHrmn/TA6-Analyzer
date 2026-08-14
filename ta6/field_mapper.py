@@ -84,8 +84,11 @@ def build(pdf_path):
 
 
 if __name__ == "__main__":
-    pdf = sys.argv[1] if len(sys.argv) > 1 else \
-        "/sessions/eloquent-sweet-rubin/mnt/uploads/EDITABLE TA6 - 6th Edition 0426.pdf"
+    import os
+    from pathlib import Path
+    _default = os.environ.get("TA6_TEMPLATE_PATH",
+        str(Path(__file__).resolve().parents[2] / "TA 6 documents" / "EDITABLE TA6 - 6th Edition 0426.pdf"))
+    pdf = sys.argv[1] if len(sys.argv) > 1 else _default
     m = build(pdf)
     json.dump(m, open("field_map.json", "w"), indent=2)
     named = [x for x in m if x["label"].strip()]

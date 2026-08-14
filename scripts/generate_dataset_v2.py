@@ -32,12 +32,18 @@ Usage:  python scripts/generate_dataset_v2.py --n 100 --seed 1 --out dataset_v2
 """
 import os, sys, json, random, argparse, re
 from collections import Counter
+from pathlib import Path
 
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
 from ta6 import groups, content
 from ta6.acroform import fill_template, read_acroform
 
-DEFAULT_TEMPLATE = "/sessions/jolly-inspiring-hamilton/mnt/Dissertation/TA 6 documents/EDITABLE TA6 - 6th Edition 0426.pdf"
+# Relative to this file, with an env-var override -- was a hardcoded
+# session-specific /sessions/... path, fixed 11 Aug 2026.
+REPO_ROOT = Path(__file__).resolve().parents[2]
+DEFAULT_TEMPLATE = os.environ.get(
+    "TA6_TEMPLATE_PATH",
+    str(REPO_ROOT / "TA 6 documents" / "EDITABLE TA6 - 6th Edition 0426.pdf"))
 
 
 def pick_radio(q, rng):

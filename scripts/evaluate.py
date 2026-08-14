@@ -9,10 +9,15 @@ import sys, json, glob
 from pathlib import Path
 from ta6.pipeline import analyse
 
-def main(synth_dir):
+def run_eval(synth_dir, quiet=False):
+    """Core evaluation logic, callable from the CLI (main, below) or directly
+    from the results notebook -- both paths run this exact same code, so the
+    numbers reported in the dissertation and the numbers a re-run of the
+    notebook produces cannot silently drift apart. Returns a results dict."""
     files = sorted(glob.glob(str(Path(synth_dir) / "TA6-*.json")))
     if not files:
-        print(f"No records found in {synth_dir}"); return
+        if not quiet: print(f"No records found in {synth_dir}")
+        return None
 
     tp = fp = fn = 0
     n_clean = n_faulted = 0
@@ -37,26 +42,39 @@ def main(synth_dir):
     rec_ = tp / (tp + fn) if tp + fn else 0.0
     f1 = 2 * prec * rec_ / (prec + rec_) if prec + rec_ else 0.0
 
-    print("=" * 62)
-    print(f"DETECTION EVALUATION  ·  {len(files)} synthetic records")
-    print(f"  ({n_faulted} with an injected fault, {n_clean} clean)")
-    print("=" * 62)
-    print(f"  True positives : {tp}")
-    print(f"  False positives: {fp}   (issues flagged on clean/other records)")
-    print(f"  False negatives: {fn}   (injected faults missed)")
-    print("-" * 62)
-    print(f"  Precision : {prec:.3f}")
-    print(f"  Recall    : {rec_:.3f}")
-    print(f"  F1        : {f1:.3f}")
-    print("-" * 62)
-    print("  Per fault type (tp / fp / fn):")
-    for t, (a, b, c) in sorted(per_type.items()):
-        p = a/(a+b) if a+b else 0; r = a/(a+c) if a+c else 0
-        print(f"    {t:<26} tp={a} fp={b} fn={c}   P={p:.2f} R={r:.2f}")
-    print("=" * 62)
-    print("Note: on synthetic data the rule + structured-crosscheck detectors recover")
-    print("the injected faults; this validates the detection LOGIC. Free-text NLI over")
-    print("real documents is the LLM stage, validated separately.")
+    results = {"n_records": len(files), "n_faulted": n_faulted, "n_clean": n_clean,
+               "tp": tp, "fp": fp, "fn": fn, "precision": prec, "recall": rec_, "f1": f1,
+               "per_type": {t: {"tp": a, "fp": b, "fn": c,
+                                 "precision": (a/(a+b) if a+b else 0.0),
+                                 "recall": (a/(a+c) if a+c else 0.0)}
+                            for t, (a, b, c) in per_type.items()}}
+
+    if not quiet:
+        print("=" * 62)
+        print(f"DETECTION EVALUATION  ·  {len(files)} synthetic records")
+        print(f"  ({n_faulted} with an injected fault, {n_clean} clean)")
+        print("=" * 62)
+        print(f"  True positives : {tp}")
+        print(f"  False positives: {fp}   (issues flagged on clean/other records)")
+        print(f"  False negatives: {fn}   (injected faults missed)")
+        print("-" * 62)
+        print(f"  Precision : {prec:.3f}")
+        print(f"  Recall    : {rec_:.3f}")
+        print(f"  F1        : {f1:.3f}")
+        print("-" * 62)
+        print("  Per fault type (tp / fp / fn):")
+        for t, (a, b, c) in sorted(per_type.items()):
+            p = a/(a+b) if a+b else 0; r = a/(a+c) if a+c else 0
+            print(f"    {t:<26} tp={a} fp={b} fn={c}   P={p:.2f} R={r:.2f}")
+        print("=" * 62)
+        print("Note: on synthetic data the rule + structured-crosscheck detectors recover")
+        print("the injected faults; this validates the detection LOGIC. Free-text NLI over")
+        print("real documents is the LLM stage, validated separately.")
+    return results
+
+
+def main(synth_dir):
+    run_eval(synth_dir)
 
 if __name__ == "__main__":
     main(sys.argv[1] if len(sys.argv) > 1 else "synth_eval")

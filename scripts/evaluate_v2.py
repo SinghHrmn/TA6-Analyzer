@@ -29,9 +29,19 @@ import os, sys, argparse, tempfile
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
 
 import random
+from pathlib import Path
 from ta6 import content
 from ta6.acroform import fill_template, read_acroform
 from scripts.generate_dataset_v2 import load_plan, build_form
+
+# Resolved relative to this file, with an env-var override, instead of a
+# session-specific sandbox path -- three earlier scripts in this repo had a
+# hardcoded /sessions/<name>/... path baked in, which only ever worked on the
+# one sandbox that wrote them. Fixed 11 Aug 2026.
+REPO_ROOT = Path(__file__).resolve().parents[2]
+DEFAULT_TEMPLATE = os.environ.get(
+    "TA6_TEMPLATE_PATH",
+    str(REPO_ROOT / "TA 6 documents" / "EDITABLE TA6 - 6th Edition 0426.pdf"))
 
 
 def reconstruct_and_detect(form_id, plan, filled_vals):
@@ -64,29 +74,27 @@ def reconstruct_and_detect(form_id, plan, filled_vals):
     return detected
 
 
-def main():
-    ap = argparse.ArgumentParser()
-    ap.add_argument("--n", type=int, default=101)
-    ap.add_argument("--seed", type=int, default=1)
-    ap.add_argument("--template", default="/sessions/jolly-vigilant-archimedes/mnt/Dissertation/"
-                                           "TA 6 documents/EDITABLE TA6 - 6th Edition 0426.pdf")
-    ap.add_argument("--workdir", default=None)
-    a = ap.parse_args()
+def run_eval_v2(n=101, seed=1, template=None, workdir=None, quiet=False):
+    """Core full-loop evaluation logic, callable from the CLI (main, below) or
+    directly from the results notebook -- both paths run this exact same
+    code. Returns a results dict (same shape as evaluate.py's run_eval)."""
+    template = template or DEFAULT_TEMPLATE
+    if not quiet:
+        print("Discovering question structure from the real template (one-off)...")
+    plan = load_plan(template)
+    if not quiet:
+        print(f"  {plan['n_fields']} fields -> {len(plan['questions'])} questions "
+              f"({len(plan['orphans'])} structural orphans)\n")
 
-    print("Discovering question structure from the real template (one-off)...")
-    plan = load_plan(a.template)
-    print(f"  {plan['n_fields']} fields -> {len(plan['questions'])} questions "
-          f"({len(plan['orphans'])} structural orphans)\n")
-
-    workdir = a.workdir or tempfile.mkdtemp(prefix="ta6_eval_v2_")
-    rng = random.Random(a.seed)
+    workdir = workdir or tempfile.mkdtemp(prefix="ta6_eval_v2_")
+    rng = random.Random(seed)
 
     tp = fp = fn = 0
     per_type = {}
     n_forms_with_fault = 0
     n_pdf_write_issues = 0
 
-    for i in range(a.n):
+    for i in range(n):
         fid = f"form_{i+1:04d}"
         gt, values = build_form(plan, rng, fid)
         gold = {(f["qid"], f["type"]) for f in gt["faults"]}
@@ -94,7 +102,7 @@ def main():
             n_forms_with_fault += 1
 
         out_pdf = os.path.join(workdir, fid + ".pdf")
-        _, unmatched = fill_template(a.template, values, out_pdf)
+        _, unmatched = fill_template(template, values, out_pdf)
         if unmatched:
             n_pdf_write_issues += 1
 
@@ -110,35 +118,57 @@ def main():
         for x in gold - pred:
             fn += 1; per_type[x[1]][2] += 1
 
-        if (i + 1) % 20 == 0:
-            print(f"  ...{i+1}/{a.n} forms processed")
+        if not quiet and (i + 1) % 20 == 0:
+            print(f"  ...{i+1}/{n} forms processed")
 
     prec = tp / (tp + fp) if tp + fp else 0.0
     rec = tp / (tp + fn) if tp + fn else 0.0
     f1 = 2 * prec * rec / (prec + rec) if prec + rec else 0.0
 
-    print("\n" + "=" * 70)
-    print(f"FULL-LOOP DETECTION EVALUATION  ·  System B (realistic, real-template)")
-    print(f"  {a.n} forms  ({n_forms_with_fault} with >=1 labelled fault)")
-    print(f"  pipeline: generate -> fill REAL 442-field PDF -> read AcroForm back")
-    print(f"            -> generalised rule check -> score vs manifest ground truth")
-    print("=" * 70)
-    print(f"  True positives : {tp}")
-    print(f"  False positives: {fp}")
-    print(f"  False negatives: {fn}")
-    print(f"  PDF fields the filler could not match: {n_pdf_write_issues} form(s) affected")
-    print("-" * 70)
-    print(f"  Precision : {prec:.3f}")
-    print(f"  Recall    : {rec:.3f}")
-    print(f"  F1        : {f1:.3f}")
-    print("-" * 70)
-    print("  Per fault type (tp / fp / fn):")
-    for t, (tpx, fpx, fnx) in sorted(per_type.items()):
-        p = tpx / (tpx + fpx) if tpx + fpx else 0
-        r = tpx / (tpx + fnx) if tpx + fnx else 0
-        print(f"    {t:<16} tp={tpx:<4} fp={fpx:<4} fn={fnx:<4}  P={p:.2f} R={r:.2f}")
-    print("=" * 70)
-    print(f"Working files: {workdir}")
+    results = {"n_forms": n, "n_forms_with_fault": n_forms_with_fault,
+               "n_pdf_write_issues": n_pdf_write_issues,
+               "tp": tp, "fp": fp, "fn": fn, "precision": prec, "recall": rec, "f1": f1,
+               "n_fields": plan["n_fields"], "n_questions": len(plan["questions"]),
+               "n_orphans": len(plan["orphans"]), "workdir": workdir,
+               "per_type": {t: {"tp": a, "fp": b, "fn": c,
+                                 "precision": (a/(a+b) if a+b else 0.0),
+                                 "recall": (a/(a+c) if a+c else 0.0)}
+                            for t, (a, b, c) in per_type.items()}}
+
+    if not quiet:
+        print("\n" + "=" * 70)
+        print(f"FULL-LOOP DETECTION EVALUATION  ·  System B (realistic, real-template)")
+        print(f"  {n} forms  ({n_forms_with_fault} with >=1 labelled fault)")
+        print(f"  pipeline: generate -> fill REAL 442-field PDF -> read AcroForm back")
+        print(f"            -> generalised rule check -> score vs manifest ground truth")
+        print("=" * 70)
+        print(f"  True positives : {tp}")
+        print(f"  False positives: {fp}")
+        print(f"  False negatives: {fn}")
+        print(f"  PDF fields the filler could not match: {n_pdf_write_issues} form(s) affected")
+        print("-" * 70)
+        print(f"  Precision : {prec:.3f}")
+        print(f"  Recall    : {rec:.3f}")
+        print(f"  F1        : {f1:.3f}")
+        print("-" * 70)
+        print("  Per fault type (tp / fp / fn):")
+        for t, (tpx, fpx, fnx) in sorted(per_type.items()):
+            p = tpx / (tpx + fpx) if tpx + fpx else 0
+            r = tpx / (tpx + fnx) if tpx + fnx else 0
+            print(f"    {t:<16} tp={tpx:<4} fp={fpx:<4} fn={fnx:<4}  P={p:.2f} R={r:.2f}")
+        print("=" * 70)
+        print(f"Working files: {workdir}")
+    return results
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--n", type=int, default=101)
+    ap.add_argument("--seed", type=int, default=1)
+    ap.add_argument("--template", default=DEFAULT_TEMPLATE)
+    ap.add_argument("--workdir", default=None)
+    a = ap.parse_args()
+    run_eval_v2(n=a.n, seed=a.seed, template=a.template, workdir=a.workdir)
 
 
 if __name__ == "__main__":

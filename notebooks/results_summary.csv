@@ -1,0 +1,14 @@
+Evaluation,Metric,Value,n,Script
+"Field-mapping coverage (System B, real template)",Coverage,91.4%,442,generate_dataset_v2.load_plan
+Structured detection — hand-designed schema (System A),F1,1.000,60,evaluate.py
+Structured detection — hand-designed schema (System A),Precision,1.000,60,evaluate.py
+Structured detection — hand-designed schema (System A),Recall,1.000,60,evaluate.py
+Structured detection — full-loop real template (System B),F1,0.983,101,evaluate_v2.py
+Structured detection — full-loop real template (System B),Precision,0.983,101,evaluate_v2.py
+Structured detection — full-loop real template (System B),Recall,0.983,101,evaluate_v2.py
+Digital route — detection,F1,1.000,25,eval_ocr_vs_digital.py
+Scanned/OCR route — detection,F1,1.000,25,eval_ocr_vs_digital.py
+Digital route — extraction accuracy,Accuracy,100.0%,25,eval_ocr_vs_digital.py
+Scanned/OCR route — extraction accuracy,Accuracy,100.0%,25,eval_ocr_vs_digital.py
+OCR error rate on answer line,Mean CER,9.6%,25,eval_ocr_error_decomposition.py
+OCR error rate on answer line,Mean WER,25.3%,25,eval_ocr_error_decomposition.py

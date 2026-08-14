@@ -82,10 +82,15 @@ def extract_record(pdf_path: str) -> dict:
 
     questions = {}
     for nm, v in vals.items():
-        # match EXACTLY the two naming schemes the form uses; do NOT conflate
-        # '3 Yes' (Q2.3) with the unrelated empty field '3 y'.
-        m = re.match(r"^(\d+) (Yes|No|NK|Text|attached)$", nm) or \
-            re.match(r"^(\d+ [a-z]) (y|n)$", nm)
+        # `nm` is the FULLY QUALIFIED field name (e.g. "2.3 Yes", "5.4 Text"), not
+        # the bare leaf. Matching on the bare leaf alone would re-introduce the
+        # exact collision this module exists to avoid: "4 Text" and "5 Text" are
+        # each reused by TWO unrelated questions on this template ("2.4"/"5.4" and
+        # "2.5"/"5.5" respectively). Capturing everything up to the trailing
+        # option token keeps the qualifying prefix, so "2.4 Text" and "5.4 Text"
+        # are correctly treated as different questions.
+        m = re.match(r"^(.+) (Yes|No|NK|Text|attached)$", nm) or \
+            re.match(r"^(.+ [a-z]) (y|n)$", nm)
         if not m:
             continue
         q = m.group(1)
@@ -93,8 +98,15 @@ def extract_record(pdf_path: str) -> dict:
         questions.setdefault(q, {})[opt] = v
 
     def qsort(q):
-        parts = q.split()
-        return (int(parts[0]), parts[1] if len(parts) > 1 else "")
+        # q is a qualified prefix like "2.3" or "5.4 a" -- sort numerically on
+        # the leading dotted number where possible, falling back to plain
+        # string order for anything that doesn't parse (keeps this robust
+        # rather than crashing on an unexpected field-naming shape).
+        head = q.split()[0]
+        try:
+            return (0, tuple(int(p) for p in head.split(".")), q)
+        except ValueError:
+            return (1, (), q)
 
     records = []
     for q in sorted(questions, key=qsort):

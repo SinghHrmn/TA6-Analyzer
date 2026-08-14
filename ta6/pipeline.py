@@ -287,10 +287,66 @@ def generate_enquiry(issue: Issue, ta6: Dict) -> str:
                     detail=issue.description.split("However,")[-1].strip() or issue.description)
 
 
-def generate_enquiry_llm(issue: Issue, ta6: Dict, context: str = ""):   # LLM-HOOK
-    """Controlled, cited generation in the firm's register, constrained to the
-    detected issue and its source field. Runs locally with an API key."""
-    raise NotImplementedError("Wire an LLM here to run locally (see proposal: Instructor/Outlines).")
+_ENQUIRY_PROMPT = """You are a solicitor's assistant drafting ONE follow-up enquiry about ONE issue
+detected in a seller's TA6 Property Information Form. Write in a professional
+solicitor's register, 1-3 sentences.
+
+DETECTED ISSUE
+Type: {issue_type}
+Source field: {field}
+Description: {description}{context_block}
+
+Rules:
+- Base the enquiry ONLY on the information above. Do not invent facts, dates, documents,
+  or details not stated in the description or context.
+- The enquiry must explicitly reference the source field or the matter named in the
+  description, so a reader can trace the enquiry back to what triggered it.
+
+Reply with ONLY a JSON object:
+{{"enquiry": "<the enquiry text>", "cites_field": "<the exact field or matter you referenced, copied from Source field or Description above>"}}"""
+
+
+def generate_enquiry_llm(issue: Issue, ta6: Dict, context: str = "", backend: str = None) -> str:   # LLM-HOOK
+    """LLM-backed generation in the firm's register, constrained to the detected
+    issue and its source field, via ta6.nli.call_model() -- the same
+    Ollama/Anthropic backend the NLI stage uses, not a second copy of the
+    client/HTTP code.
+
+    Falls back to the deterministic templated generator (generate_enquiry)
+    if the backend is unreachable/misconfigured, the model's JSON response is
+    malformed, or a grounding check fails (the model's own cited field/matter
+    does not match the issue it was actually given) -- so a live call never
+    crashes or silently drifts off-topic; it degrades to the audited baseline
+    instead of failing open.
+
+    12 Aug 2026 (dissertation audit Goal A3): implemented. This function
+    previously `raise NotImplementedError` while section 5.6 described it in
+    the present tense as already working -- do not let text and code drift
+    apart like that again if this is changed."""
+    from ta6 import nli
+    context_block = f"\nAdditional context: {context}" if context else ""
+    prompt = _ENQUIRY_PROMPT.format(issue_type=issue.issue_type, field=issue.field,
+                                    description=issue.description, context_block=context_block)
+    try:
+        raw = nli.call_model(prompt, backend=backend, max_tokens=400)
+    except Exception:
+        return generate_enquiry(issue, ta6)   # backend unreachable/misconfigured
+
+    d = nli._parse_json_object(raw, {})
+    enquiry = str(d.get("enquiry", "")).strip()
+    cites = str(d.get("cites_field", "")).strip()
+
+    # Grounding check: not a guarantee of faithfulness, but catches the cheap
+    # failure mode (empty/missing citation, or a citation unrelated to the
+    # actual field/description passed in) before an ungrounded enquiry reaches
+    # a solicitor. This is the "citation-grounded" claim made concrete, not
+    # just asserted.
+    grounded = bool(enquiry) and bool(cites) and (
+        cites.lower() in issue.field.lower() or issue.field.lower() in cites.lower()
+        or cites.lower() in issue.description.lower())
+    if not grounded:
+        return generate_enquiry(issue, ta6)
+    return enquiry
 
 
 # ============================================================================

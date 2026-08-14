@@ -6,15 +6,15 @@
       "Seller 1": "Daniel Bennett"
     },
     "answers": {
-      "3": {
+      "2.3": {
         "answer": "Yes",
         "details": ""
       },
-      "4": {
+      "2.4": {
         "answer": "No",
         "details": ""
       },
-      "5": {
+      "2.5": {
         "answer": "No",
         "details": ""
       }
@@ -29,33 +29,123 @@
     },
     "answers": [
       {
-        "q": 1,
-        "question": "If yes, give details such as when this took place and who was involved",
+        "q": "2.2",
+        "question": "Plan attached To follow",
         "answer": "blank",
         "details": ""
       },
       {
-        "q": 2,
-        "question": "If yes, please give details:",
-        "answer": "blank",
-        "details": ""
-      },
-      {
-        "q": 3,
+        "q": "2.3",
         "question": "neighbour taking over or building on any part of your property?",
         "answer": "Yes",
         "details": ""
       },
       {
-        "q": 4,
+        "q": "2.4",
         "question": "covered walkways.",
         "answer": "No",
         "details": ""
       },
       {
-        "q": 5,
+        "q": "2.5",
         "question": "shared/party walls or boundaries?",
         "answer": "No",
+        "details": ""
+      },
+      {
+        "q": "3.1",
+        "question": "If yes, give details such as when this took place and who was involved",
+        "answer": "blank",
+        "details": ""
+      },
+      {
+        "q": "5.1 a",
+        "question": "glazed doors since 1 April 2002",
+        "answer": "blank",
+        "details": ""
+      },
+      {
+        "q": "5.1 b",
+        "question": "(b) extension",
+        "answer": "blank",
+        "details": ""
+      },
+      {
+        "q": "5.1 c",
+        "question": "(c) conservatory",
+        "answer": "blank",
+        "details": ""
+      },
+      {
+        "q": "5.1 d",
+        "question": "(d) loft conversion",
+        "answer": "blank",
+        "details": ""
+      },
+      {
+        "q": "5.1 e",
+        "question": "(e) garage conversion",
+        "answer": "blank",
+        "details": ""
+      },
+      {
+        "q": "5.1 f",
+        "question": "(f) removal of internal walls",
+        "answer": "blank",
+        "details": ""
+      },
+      {
+        "q": "5.1 g",
+        "question": "(g) removal of chimney breast",
+        "answer": "blank",
+        "details": ""
+      },
+      {
+        "q": "5.1 h",
+        "question": "(h) insulation",
+        "answer": "blank",
+        "details": ""
+      },
+      {
+        "q": "5.1 i",
+        "question": "(i) other building works or changes to the property",
+        "answer": "blank",
+        "details": ""
+      },
+      {
+        "q": "5.2 b",
+        "question": "(b)has all this work been completed?",
+        "answer": "blank",
+        "details": ""
+      },
+      {
+        "q": "5.2 d i",
+        "question": "person certificates when necessary?",
+        "answer": "blank",
+        "details": ""
+      },
+      {
+        "q": "5.4",
+        "question": "unfinished work or work that does not have all necessary consents?",
+        "answer": "blank",
+        "details": ""
+      },
+      {
+        "q": "5.5",
+        "question": "5.5 Are you aware of any planning or building control issues that need",
+        "answer": "blank",
+        "details": ""
+      },
+      {
+        "q": "5.6 a",
+        "question": "(a) Is the system used only to provide hot water or heating",
+        "answer": "blank",
+        "details": ""
+      },
+      {
+        "q": "7.2",
+        "question": "If yes, please give details:",
+        "answer": "blank",
         "details": ""
       }
     ]
