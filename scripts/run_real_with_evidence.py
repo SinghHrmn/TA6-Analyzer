@@ -23,7 +23,8 @@ Usage:  python scripts/run_real_with_evidence.py
 import os, re, sys, glob, json
 from pathlib import Path
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
-from ta6.pipeline import extract_ta6, run_rule_checks, generate_enquiry, _pdftext
+from ta6.pipeline import (extract_ta6, run_rule_checks, generate_enquiry,
+                          generate_enquiry_llm, _pdftext)
 
 # Relative to this file, with an env-var override -- was a hardcoded
 # session-specific /sessions/... path, fixed 11 Aug 2026 (see evaluate_v2.py).
@@ -110,7 +111,10 @@ def main():
             print(f"  No candidate evidence found in any of the {len(docs)} supporting document(s).")
             status = "unresolved_no_evidence"
 
-        enquiry = generate_enquiry(iss, rec)
+        templated = generate_enquiry(iss, rec)
+        backend = os.getenv("TA6_NLI_BACKEND")
+        enquiry = generate_enquiry_llm(iss, rec) if backend else templated
+        source = "templated" if enquiry == templated else "LLM-drafted"
         if hits:
             filenames = ", ".join(sorted({h["filename"] for h in hits}))
             enquiry += (f" (Note for reviewing solicitor: possible related mentions were found in "
@@ -118,11 +122,12 @@ def main():
                         f"confirmed to relate to this transaction and the match has not been verified "
                         f"— please check before treating this as resolved.)")
 
-        print(f"\n  ENQUIRY (status: {status}):")
+        print(f"\n  ENQUIRY (status: {status}, source: {source}):")
         print(f"  {enquiry}")
 
         results.append({"issue_type": iss.issue_type, "description": iss.description,
-                        "status": status, "evidence": hits, "enquiry": enquiry})
+                        "status": status, "evidence": hits, "enquiry": enquiry,
+                        "enquiry_source": source})
 
     out_path = os.path.join(os.path.dirname(__file__), "..", "real_evidence_run.json")
     json.dump({"ta6": os.path.basename(REAL_TA6), "supporting_docs": [os.path.basename(d) for d in docs],

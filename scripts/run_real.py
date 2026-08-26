@@ -3,9 +3,9 @@ Run the pipeline on the REAL AST TA6 (digital route + text route).
 
 Usage:  python3 run_real.py "<path to TA6 amended.pdf>" ["<editable 6th-ed template.pdf>"]
 """
-import sys
+import os, sys
 from ta6.pipeline import (extract_ta6, extract_acroform,
-                          run_rule_checks, generate_enquiry)
+                          run_rule_checks, generate_enquiry, generate_enquiry_llm)
 
 ROUTE_LABEL = {"text_digital": "digital PDF (text layer)",
                "ocr_scanned": "scanned paper (OCR)",
@@ -40,11 +40,15 @@ def main():
         print(f"  [FLAG] {iss.issue_type}  ({iss.detection_method})")
         print(f"         {iss.description}")
 
+    backend = os.getenv("TA6_NLI_BACKEND")
     print("\n" + "=" * 70)
-    print("STAGE 3 — ENQUIRY GENERATION (templated baseline)")
+    print(f"STAGE 3 — ENQUIRY GENERATION  ·  backend: {backend or 'none set (templated baseline only)'}")
     print("=" * 70)
     for iss in issues:
-        print("  " + generate_enquiry(iss, rec).replace("\n", "\n  "))
+        templated = generate_enquiry(iss, rec)
+        text = generate_enquiry_llm(iss, rec) if backend else templated
+        source = "templated" if text == templated else "LLM-drafted"
+        print(f"  [{source}] " + text.replace("\n", "\n  "))
 
     if template:
         print("\n" + "=" * 70)

@@ -78,7 +78,8 @@ def score(records, use_llm=False):
             false_hits = [f for f in FIELD_KEYWORDS if f != true_field and f not in excluded
                           and any(k in enq_l for k in FIELD_KEYWORDS[f])]
             row = {"record_id": rid, "issue_type": iss.issue_type, "field": true_field,
-                   "recall_hit": hit_true, "precision_clean": len(false_hits) == 0}
+                   "recall_hit": hit_true, "precision_clean": len(false_hits) == 0,
+                   "enquiry_text": enq}
             if iss.issue_type == "cross_doc_contradiction":
                 own_refs = [a["reference"] for a in planning.get("applications", [])] if planning else []
                 other_refs = [r for r in all_refs if r not in own_refs]
@@ -116,10 +117,42 @@ if __name__ == "__main__":
     if a.llm:
         llm_rows = score(records, use_llm=True)
         report(llm_rows, "LLM-backed (generate_enquiry_llm)")
-        templ_texts = {(r["record_id"], r["issue_type"]) for r in templated_rows}
-        # crude fallback check: compare counts only (text identity checked in demo_enquiry_llm.py)
-        if llm_rows == templated_rows:
-            print("\n  WARNING: LLM-scored rows are identical to the templated baseline -- this "
-                  "usually means TA6_NLI_BACKEND is unset or every call fell back to the templated "
-                  "baseline (see generate_enquiry_llm()'s grounding check). Set TA6_NLI_BACKEND to "
-                  "a real backend and re-run to get a genuine LLM-side score.")
+
+        # Real, text-level fallback detection (dissertation audit Part 4.2 --
+        # "report the fallback rate"). The recall/precision/grounding booleans
+        # above are keyword-derived, not text-derived -- a genuinely-different,
+        # well-grounded LLM enquiry will very often reproduce the SAME boolean
+        # outcomes as the templated baseline (both are, by design, grounded),
+        # so comparing those booleans for equality (the previous check here)
+        # false-alarms "fell back to baseline" even when the LLM ran for real.
+        # generate_enquiry_llm() returns generate_enquiry()'s output VERBATIM,
+        # byte-for-byte, on fallback (ta6/pipeline.py) -- so exact text
+        # equality against the matching templated row is the correct signal.
+        templ_by_key = {}
+        for r in templated_rows:
+            templ_by_key.setdefault((r["record_id"], r["issue_type"]), []).append(r["enquiry_text"])
+        seen = {}
+        n_fallback = 0
+        for r in llm_rows:
+            key = (r["record_id"], r["issue_type"])
+            idx = seen.get(key, 0)
+            seen[key] = idx + 1
+            options = templ_by_key.get(key, [])
+            templ_text = options[idx] if idx < len(options) else None
+            if templ_text is not None and r["enquiry_text"] == templ_text:
+                n_fallback += 1
+        n = len(llm_rows)
+        rate = n_fallback / n if n else 0.0
+        print(f"\n  LLM fallback rate (enquiry text byte-identical to templated baseline): "
+              f"{n_fallback}/{n} ({rate:.1%})")
+        if n_fallback == n:
+            print("  WARNING: 100% fallback -- TA6_NLI_BACKEND is likely unset, unreachable, or "
+                  "every call failed the grounding check. Re-check the backend before reporting a "
+                  "result.")
+        elif n_fallback == 0:
+            print("  0% fallback -- every call returned genuine, grounded LLM text distinct from "
+                  "the templated baseline.")
+        else:
+            print(f"  Partial fallback -- {n_fallback} of {n} calls fell back to the templated "
+                  f"generator (backend error, malformed response, or failed grounding check on "
+                  f"those specific issues); the rest returned genuine LLM text.")
